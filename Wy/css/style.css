@@ -1,0 +1,1638 @@
+/*------- Font Family Starts -------*/
+
+@font-face { font-family: "Nunito-Light"; src: url("../fonts/Nunito-Light.ttf"); }
+@font-face { font-family: "Nunito-Regular"; src: url("../fonts/Nunito-Regular.ttf"); }
+@font-face { font-family: "Nunito-Medium"; src: url("../fonts/Nunito-Medium.ttf"); }
+@font-face { font-family: "Nunito-SemiBold"; src: url("../fonts/Nunito-SemiBold.ttf"); }
+@font-face { font-family: "Nunito-Bold"; src: url("../fonts/Nunito-Bold.ttf"); }
+@font-face { font-family: "NunitoSans-Light"; src: url("../fonts/NunitoSans-Light.ttf"); }
+@font-face { font-family: "NunitoSans-Regular"; src: url("../fonts/NunitoSans-Regular.ttf"); }
+@font-face { font-family: "NunitoSans-SemiBold"; src: url("../fonts/NunitoSans-SemiBold.ttf"); }
+@font-face { font-family: "NunitoSans-Bold"; src: url("../fonts/NunitoSans-Bold.ttf"); }
+@font-face { font-family: "NunitoSans-ExtraBold"; src: url("../fonts/NunitoSans-ExtraBold.ttf"); }
+@font-face { font-family: "NunitoSans-Black"; src: url("../fonts/NunitoSans-Black.ttf"); }
+@font-face { font-family: "Poppins-Regular"; src: url("../fonts/Poppins-Regular.otf"); }
+@font-face { font-family: "Poppins-SemiBold"; src: url("../fonts/Poppins-SemiBold.otf"); }
+
+/*------- Font Family Ends -------*/
+
+/*------- Reset CSS Starts -------*/
+
+html { -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+ul,
+h1,
+h2,
+h3,
+h4,
+p { margin: 0; padding: 0; }
+li { list-style: none; }
+a,
+a:hover,
+a:focus { outline: 0; text-decoration: none; transition: 0.5s linear; -webkit-transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; }
+
+/*------- Reset CSS Ends -------*/
+
+/*------- Common CSS Starts -------*/
+
+body.overflow-hidden { overflow: hidden; }
+.flex-align-center { -ms-align-items: center; align-items: center; display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: -o-flex; display: flex; }
+.section-heading > h2 { color: #3b414b; font: 3.6rem/1.42857143 "Poppins-SemiBold"; }
+.img-auto { margin: 0 auto; }
+.no-padding-right { padding-right: 0; }
+.no-padding-left { padding-left: 0; }
+
+/*------- Common CSS Ends -------*/
+
+/*------- Modal Section Starts -------*/
+
+.box-modal { background-color: #000000ba; bottom: 0; left: 0; position: fixed; right: 0; top : 0; transition: 0.5s linear; -webkit-transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; z-index: 99999; }
+.box-modal-1,
+.box-modal-2 { display: none; }
+.box-modal-1:target,
+.box-modal-2:target { display: block; }
+.box-panel-modal { left: 50%; position: absolute; top: 50%; transform: translate(-50%,-50%); -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); width: 500px; }
+.box-panel-modal-body { padding: 0; }
+.btn-grocery-info-modal-close { background-color: #fff; }
+.btn-modal-close > i { color: #ccc; font-size: 2rem; }
+.top-right-close { position: absolute; right: 15px; top: 15px; }
+.form-group-relative-modal { margin-bottom: 15px; }
+	
+	/*------- Sign Up Form CSS Starts -------*/
+
+.bg-contact-form { background-color: #fff; border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; padding: 30px; }
+.img-sign-up-logo { margin: 0 auto 10px; width: 60px; }
+.bg-contact-form > p:nth-child(2),
+.bg-contact-form > p:nth-child(3),
+.or { color: #3b414b; font: 1.6rem/1.42857143 "Nunito-Bold"; margin-bottom: 10px; text-align: center; }
+.bg-contact-form > p:nth-child(2) > span { color: #3da3ae; }
+.bg-contact-form > p:nth-child(3),
+.or { position: relative; }
+.bg-contact-form > p:nth-child(3):before,
+.or:before {
+	background-color: #ccc;
+	content: "";
+	height: 1px;
+	left: 0;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 45%;
+}
+.bg-contact-form > p:nth-child(3):after,
+.or:after {
+	background-color: #ccc;
+	content: "";
+	height: 1px;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 45%;
+}
+.form-group-modal { margin-bottom: 10px; }
+.form-control-modal { border: 1px solid #e0dfe0; border-right: 0; box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none; -ms-box-shadow: none; -o-box-shadow: none; color: #9b9aa1; font: 1.6rem/1.42857143 "Nunito-Medium"; height: 40px; }
+.btn-form-modal { border-color: #e0dfe0; border-left: 0; height: 40px; }
+.btn-form-modal:hover,
+.btn-form-modal:focus,
+.btn-form-modal:active:focus { background-color: transparent; border-color: #e0dfe0; box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none; -ms-box-shadow: none; -o-box-shadow: none; outline: 0; }
+.form-control-modal::placeholder { color: #9b9aa1; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; opacity: 1; }
+.form-control-modal:-ms-input-placeholder { color: #9b9aa1; font: 1.6rem/1.42857143 "Nunito-Medium"; }
+.form-control-modal::-ms-input-placeholder { color: #9b9aa1; font: 1.6rem/1.42857143 "Nunito-Medium"; }
+.form-control-modal:focus { border-color: #e0dfe0; box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none; -ms-box-shadow: none; -o-box-shadow: none; }
+.btn-form-modal > i { color: #9b9aa1; }
+.checked-signup-query > span { color: #39424a; font: 1.6rem/1.42857143 "Nunito-Medium"; }
+.checked-signup-query > span > a { color: #3da3ae; }
+.btn-sign-up-in { background-color: #3da3ae; border: 2px solid #3da3ae; border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; color: #fff; font: 1.6rem/1.42857143 "Nunito-Bold"; padding: 10px 30px; text-align: center; transition: 0.5s linear; -webkit-transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; width: 100%; }
+.btn-sign-up-in:hover { background-color: #fff; color: #3da3ae; }
+.btn-sign-up-in:focus { background-color: #3da3ae; color: #fff; outline: 0; }
+.asking-que-acc > p { border-top: 1px solid #e0dfe0; color: #3b414b; font: 1.6rem/1.42857143 "Nunito-Medium"; margin-top: 15px; padding-top: 15px; }
+.asking-que-acc > p > a { color: #3da3ae; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; }
+.asking-que-acc > p > span { color: #6e99be; }
+.checked-signup-query { margin-bottom: 10px !important; }
+
+	/*------- Sign Up Form CSS Ends -------*/
+
+	/*------- Sign In Form CSS Starts -------*/
+
+.img-sign-in-logo { margin: 0 auto 15px; width: 60px; }
+.sign-in-with-fb-g { margin-bottom: 15px; }
+.sign-in-with-fb-g > a { border: 1px solid #e0dfe0; border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; color: #3b414b; display: block; font: 1.6rem/1.42857143 "NunitoSans-Bold"; padding: 10px 30px; text-align: center; width: 100%; }
+.sign-in-with-fb-g > a > img { margin-right: 10px; width: 24px; }
+.form-group-modal-signin { margin-bottom: 15px; }
+.forgot-pwd-signin-right { text-align: right; }
+.forgot-pwd-signin-right > a { color: #3da3ae; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; }
+
+	/*------- Sign In Form CSS Ends -------*/
+
+/*------- Modal Section Ends -------*/
+
+/*------- Navigationbar Menu Section Starts -------*/
+
+.bg-navigation-menu-home { background-color: #fff; padding: 30px 15px; }
+.bg-navigation-menu-home-desktop { display: block; left: 0; position: fixed; top: 0; width: 100%; z-index: 9999; }
+.bg-navigation-menu-home-mob { display: none; }
+.img-logo { width: 100px; }
+.img-logo-anchor { display: inline-block; }
+.img-logo-anchor > img { display: inline-block; }
+.navigation-menu { position: relative; }
+.header-search-field { opacity: 0; position: absolute; right: 0; top: 50px; transition: 0.5s linear; -webkit-transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; visibility: hidden; width: 50%; z-index: 9999; }
+.header-search-field.active { opacity: 1; visibility: visible; width: 100%; }
+.form-search-control { border: 1px solid #e0dfe0; box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none; -ms-box-shadow: none; -o-box-shadow: none; color: #9b9aa1; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; }
+.form-search-control:focus { border-color: #e0dfe0; box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none; -ms-box-shadow: none; -o-box-shadow: none; }
+.form-search-control::placeholder { color: #9b9aa1; opacity: 1; }
+.form-search-control:-ms-input-placeholder { color: #9b9aa1; }
+.form-search-control::-ms-input-placeholder { color: #9b9aa1; }
+.menu-listing { text-align: center; }
+.menu-listing > li { display: inline-block; margin-right: 15px; }
+.menu-listing > li:last-child { display: none; margin-right: 0; }
+.menu-listing > li > a { color: #3b414b; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; position: relative; }
+.menu-listing > li > a:after,
+.navigation-signup-signin-listing > li:first-child > a:after {
+	background-color: #3da3ae;
+	bottom: -5px;
+	content: "";
+	height: 2px;
+	left: 0;
+	position: absolute;
+	transition: 0.5s linear;
+	-webkit-transition: 0.5s linear;
+	-moz-transition: 0.5s linear;
+	-ms-transition: 0.5s linear;
+	-o-transition: 0.5s linear;
+	width: 0;
+}
+.menu-listing > li > a:hover { color: #3da3ae; }
+.menu-listing > li > a:hover:after,
+.navigation-signup-signin-listing > li:first-child > a:hover:after { width: 100%; }
+.navigation-signup-signin-listing > li { display: inline-block; margin-right: 15px; }
+.navigation-signup-signin-listing > li:last-child { margin-right: 0; }
+.navigation-signup-signin-listing > li > a { background-color: #3da3ae; border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; color: #fff; display: inline-block; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; padding: 8px 20px; }
+.navigation-signup-signin-listing > li:first-child > a { background-color: transparent; color: #3b414b; padding: 0; position: relative; }
+.navigation-signup-signin-listing > li:first-child > a:hover { color: #3da3ae; }
+
+/*------- Navigationbar Menu Section Ends -------*/
+
+/*------- Slider Section Starts -------*/
+
+.bg-slider-home { margin-top: 106px; padding: 0 15px; }
+.home-slider-relative { position: relative; }
+.home-slider-relative > img { width: 100%; }
+.home-slider-content { background-color: #f7a321; height: 100%; left: 0; position: absolute; top: 0; width: 50%; }
+.home-slider-content-details { left: 50%; position: absolute; top: 50%; transform: translate(-50%,-50%); -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); }
+.home-slider-content-details > p:first-child { color: #fff; font: 5rem/1.2 "NunitoSans-Black"; margin-bottom: 30px; width: 200px; }
+.home-slider-content-details > p:nth-child(2) { color: #fff; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; margin-bottom: 40px; }
+.home-slider-content-details > a { border: 2px solid #fff; border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; color: #fff; display: inline-block; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; padding: 10px 35px; text-align: center; }
+.home-slider-content-details > a:hover { background-color: #fff; color: #f7a321; }
+.home-slider-content-details > a:focus { background-color: transparent; color: #fff; outline: 0; }
+
+
+	/*------- Slick Slider CSS Starts -------*/
+
+.home-slider > .slick-prev,
+.home-slider > .slick-next { display: none !important; }
+.home-slider .slick-slide { padding: 0 !important; }
+.home-slider .slick-dots { bottom: 50px; left: 100px; text-align: left; width: auto; }
+.home-slider .slick-dots li {
+	cursor: pointer;
+	display: inline-block;
+	height: auto;
+	margin: 0 5px;
+	padding: 0;
+	position: relative;
+	width: auto;
+}
+.home-slider .slick-dots li button {
+	background-color: #fff;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	height: 12px;
+	line-height: 12px;
+	margin: 0;
+	opacity: 0.5;
+	transition: all 0.4s ease;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	-ms-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	width: 12px;
+}
+.home-slider .slick-dots li.slick-active button {
+	border-radius: 27px;
+	-webkit-border-radius: 27px;
+	-moz-border-radius: 27px;
+	-ms-border-radius: 27px;
+	-o-border-radius: 27px;
+	opacity: 1;
+	width: 27px;
+}
+.home-slider .slick-dots li button::before {
+	content: '';
+}
+
+	/*------- Slick Slider CSS Ends -------*/
+
+/*------- Slider Section Ends -------*/
+
+/*------- Our Story Section Starts -------*/
+
+.bg-our-story-home { padding: 50px 15px; }
+.our-story-heading { display: block; }
+.our-story-heading-mob { display: none; }
+.our-story-heading > h2 { color: #3b414b; font: 3.6rem/1.42857143 "NunitoSans-ExtraBold"; margin-bottom: 30px; }
+.our-story-head-desc { margin-bottom: 30px; padding-left: 15px; position: relative; }
+.our-story-head-desc:before {
+	background-color: #3da3ae;
+	content: "";
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 2px;
+}
+.our-story-head-desc > p { color: #3b414b; font: 2.4rem/1.42857143 "Nunito-Regular"; }
+.our-story-desc > p { color: #3b414b; font: 1.6rem/1.42857143 "Nunito-Medium"; margin-bottom: 30px; }
+.our-story-desc > a { color: #6f98be; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; }
+.our-story-desc > a > i { padding-left: 5px; }
+.our-story-relative,
+.create-gift-set-relative { position: relative; }
+.our-story-relative > img,
+.create-gift-set-relative > img { border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; width: 100%; }
+.our-story-button,
+.gift-set-button { left: 50%; position: absolute; top: 50%; transform: translate(-50%,-50%); -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); }
+.our-story-button-circle,
+.gift-set-button-circle,
+.fig-cate-view-circle { background-color: #f7a321; border-radius: 50%; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; cursor: pointer; height: 70px; opacity: 0.9; position: relative; width: 70px; }
+.our-story-button-circle:before,
+.gift-set-button-circle:before,
+.fig-cate-view-circle:before {
+	animation: storycircle 2s infinite;
+	background-color: #f7a3216b;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	content: "";
+	height: 100px;
+	left: 50%;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%,-50%) scale(0.5);
+	-webkit-transform: translate(-50%,-50%) scale(0.5);
+	-moz-transform: translate(-50%,-50%) scale(0.5);
+	-ms-transform: translate(-50%,-50%) scale(0.5);
+	width: 100px;
+	z-index: -1;
+}
+@keyframes storycircle {
+	0% { transform: translate(-50%,-50%) scale(0.5); }
+	25% { transform: translate(-50%,-50%) scale(0.7); }
+	50% { transform: translate(-50%,-50%) scale(1); }
+	75% { transform: translate(-50%,-50%) scale(0.7); }
+	100% { transform: translate(-50%,-50%) scale(0.5); }
+}
+.our-story-button-circle > i,
+.gift-set-button-circle > i,
+.fig-cate-view-circle > i { color: #fff; display: block; font-size: 2.7rem; line-height: 70px; text-align: center; }
+
+/*------- Our Story Section Ends -------*/
+
+/*------- Inspired By Life Section Starts -------*/
+
+.bg-inspired-by-life-home { padding: 50px 15px; position: relative; }
+.inspired-by-life-desktop { display: block; }
+.inspired-by-life-mob { display: none; }
+.bg-inspired-by-life-home:after {
+	background-color: #3da3ae;
+	bottom: 0;
+	content: "";
+	height: 50%;
+	left: 0;
+	position: absolute;
+	width: 100%;
+	z-index: -1;
+}
+.bg-image-indpired-life { background: url("../images/inspired-by-life.jpg") no-repeat;     background-position: 100% 35%; background-size: 50%; border-radius: 0 10px 10px 0; -webkit-border-radius: 0 10px 10px 0; -moz-border-radius: 0 10px 10px 0; -ms-border-radius: 0 10px 10px 0; -o-border-radius: 0 10px 10px 0; position: relative; }
+.bg-image-inspiration-life { background: url("../images/inspiration-pg-7.jpg") no-repeat;     background-position: 100% 35%; background-size: 50%; border-radius: 0 10px 10px 0; -webkit-border-radius: 0 10px 10px 0; -moz-border-radius: 0 10px 10px 0; -ms-border-radius: 0 10px 10px 0; -o-border-radius: 0 10px 10px 0; position: relative; }
+.box-inspired-by-life { background-color: #faf9ee; border-radius: 10px 0 0 10px; -webkit-border-radius: 10px 0 0 10px; -moz-border-radius: 10px 0 0 10px; -ms-border-radius: 10px 0 0 10px; -o-border-radius: 10px 0 0 10px; padding: 135px 50px; width: 50%; }
+.box-watch-yourself-successful { background-color: #faf9ee; border-radius: 10px 0 0 10px; -webkit-border-radius: 10px 0 0 10px; -moz-border-radius: 10px 0 0 10px; -ms-border-radius: 10px 0 0 10px; -o-border-radius: 10px 0 0 10px; padding: 135px 50px; width: 50%; }
+.box-inspired-by-life > p:first-child { color: #3b414b; font: 2.4rem/1.42857143 "NunitoSans-ExtraBold"; margin: 0 0 5px; }
+.box-inspired-by-life > p:nth-child(2) { color: #3b414b; font: 1.6rem/1.42857143 "NunitoSans-Regular"; margin-bottom: 30px; }
+.box-inspired-by-life > a { border: 2px solid #f7a321; border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; color: #f7a321; display: inline-block; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; padding: 10px 30px; text-align: center; }
+.box-inspired-by-life > a:hover { background-color: #f7a321; color: #fff; }
+.box-inspired-by-life > a:focus { background-color: transparent; color: #f7a321; outline: 0; }
+.img-inspired-by-life { border-radius: 0 10px 10px 0; -webkit-border-radius: 0 10px 10px 0; -moz-border-radius: 0 10px 10px 0; -ms-border-radius: 0 10px 10px 0; -o-border-radius: 0 10px 10px 0; }
+
+/*------- Inspired By Life Section Ends -------*/
+
+/*------- Find Your Wy Section Starts -------*/
+
+.bg-find-your-wy-home { background-color: #3da3ae; padding: 50px 15px; }
+.find-your-wy-heading > h2 { color: #fff; font: 3.6rem/1.42857143 "NunitoSans-ExtraBold"; margin-bottom: 15px; }
+.find-your-wy-heading > p { color: #fff; font: 1.6rem/1.42857143 "Nunito-Medium"; margin-bottom: 30px; }
+.box-choose-isa { background-color: #fff; border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; padding: 30px; }
+.box-choose-isa-num-circle { background-color: #fcfbf3; border-radius: 50%; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; height: 70px; margin: 0 auto 30px; width: 70px; }
+.box-choose-isa-num-circle > p:first-child { color: #3da3ae; font: 2.4rem/1.42857143 "NunitoSans-SemiBold"; line-height: 70px; text-align: center; }
+.box-choose-isa-num-circle + p { color: #3b414b; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; margin-bottom: 30px; text-align: center; }
+.box-choose-isa-num-circle + p + img { margin: 0 auto; width: 100px; }
+.ready-find-wy { text-align: center; }
+.ready-find-wy > p { color: #fff; font: 2.4rem/1.42857143 "NunitoSans-SemiBold"; margin: 0 auto 15px; text-align: left; width: 160px; }
+.ready-find-wy > a { border: 2px solid #fff; border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; color: #fff; display: inline-block; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; padding: 10px 20px; text-align: center; }
+
+/*------- Find Your Wy Section Ends -------*/
+
+/*------- Why Watch Yourself Section Starts -------*/
+
+.bg-why-watch-yourself-home { padding: 50px 15px; }
+.why-watch-yourself-heading-flex { margin-bottom: 50px; }
+.why-watch-yourself-heading > h2 { color: #3b414b; font: 3.6rem/1.42857143 "NunitoSans-ExtraBold"; margin-bottom: 5px; }
+.why-watch-yourself-heading > p { color: #3b414b; font: 1.6rem/1.42857143 "Nunito-Medium"; }
+.why-watch-yourself-explore > a { color: #6e99be; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; }
+.why-watch-yourself-explore > a > i { padding-left: 5px; }
+.box-watch-yourself-anchor { display: block; }
+.box-watch-yourself > img { border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; margin-bottom: 15px; width: 100%; }
+.box-watch-yourself > h4 { color: #3b414b; font: 1.8rem/1.42857143 "NunitoSans-Bold"; margin-bottom: 15px; }
+.box-watch-yourself > p { color: #3b414b; font: 1.6rem/1.42857143 "Nunito-Medium"; margin-bottom: 15px; }
+.video-acce-listing > li { display: inline-block; }
+.video-acce-listing > li > a { color: #6f98be; font: 1.4rem/1.42857143 "NunitoSans-SemiBold"; }
+
+	/*------- Slick Slider CSS -------*/
+
+.slick-initialized .slick-slide { padding: 0 15px; }
+.slick-prev { left: 0; }
+.slick-next { right: 0; }
+.slick-next, 
+.slick-prev { background-color: #fff; border: 2px solid #e4e5df; border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; height: 40px; top: 30%; width: 40px; z-index: 1; }
+.slick-prev:before,
+.slick-next:before {
+	color: #000;
+	content: "\f053";
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+}
+.slick-next:before { content: "\f054"; }
+.slick-next:focus, 
+.slick-next:hover, 
+.slick-prev:focus, 
+.slick-prev:hover { background-color: #fff; }
+
+/*------- Why Watch Yourself Section Ends -------*/
+
+/*------- SUDE Icon Section Starts -------*/
+
+.bg-sude-icon-home { background-color: #3da3ae; padding: 50px 15px; }
+.img-sude-icon { height: 80px; margin: 0 auto 15px; width: 80px; }
+.img-sude-icon + h4 { color: #fff; font: 1.6rem/1.42857143 "NunitoSans-Bold"; margin-bottom: 15px; text-align: center; }
+.img-sude-icon + h4 + p { color: #fff; font: 1.4rem/1.42857143 "Nunito-Medium"; text-align: center; }
+
+/*------- SUDE Icon Section Ends -------*/
+
+/*------- Blog Post Section Starts -------*/
+
+.bg-blog-post-home { padding: 50px 15px; }
+.blog-post-heading > h2 { margin-bottom: 30px; }
+.blog-post-head-desc > p { color: #3b414b; font: 1.8rem/1.42857143 "Nunito-Medium"; margin-bottom: 30px; }
+.blog-post-head-desc-explore-more > a { color: #6e99be; font: 1.8rem/1.42857143 "NunitoSans-SemiBold"; }
+.blog-post-img-head-desc > img { border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; margin-bottom: 15px; width: 100%; }
+.blog-post-img-head-desc > h4 { color: #3b414b; font: 1.5rem/1.42857143 "NunitoSans-Bold"; margin-bottom: 15px; }
+.blog-post-img-head-desc > p { color: #3b414b; font: 1.4rem/1.42857143 "Nunito-Medium"; margin-bottom: 15px; }
+.blog-post-img-head-desc > p > a { color: #6f98be; font: 1.4rem/1.42857143 "NunitoSans-SemiBold"; }
+.blog-post-img-head-desc > p > a > i { padding-left: 5px; }
+.blog-post-watch-explore-mob { display: none; }
+
+/*------- Blog Post Section Ends -------*/
+
+/*------- Gift Sets Section Starts -------*/
+
+.bg-gift-sets-home { padding: 50px 15px; }
+.gift-set-relative { position: relative; }
+.gift-set-relative > img { border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; width: 100%; }
+.gift-set-absolute { left: 50px; position: absolute; top: 50px; }
+.gift-set-absolute > p { color: #fff; font: 2.4rem/1.42857143 "NunitoSans-Light"; margin-bottom: 30px; width: 320px; }
+.gift-set-absolute > a { border: 2px solid #fff; border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; color: #fff; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; padding: 10px 30px; text-align: center; }
+
+/*------- Gift Sets Section Ends -------*/
+
+/*------- Instagram Shop Section Starts -------*/
+
+.bg-instagram-shop-home { padding: 50px 15px; }
+.instagram-shop-relative,
+.instagram-first-shop-relative { margin-bottom: 30px; position: relative; }
+.instagram-first-shop-relative > img { border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; width: 100%; }
+.instagram-shop-relative > img { border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; transition: 0.5s linear; -webkit-transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; width: 100%; }
+.instagram-shop-absolute { left: 50%; opacity: 0; position: absolute; text-align: center; top: 50%; transform: translate(-50%,-50%) scale(0.8); -webkit-transform: translate(-50%,-50%) scale(0.8); -moz-transform: translate(-50%,-50%) scale(0.8); -ms-transform: translate(-50%,-50%) scale(0.8); -o-transform: translate(-50%,-50%) scale(0.8); transition: 0.5s linear; -webkit-transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; width: 100%; }
+.instagram-first-shop-absolute { left: 50px; position: absolute; top: 50px; }
+.instagram-first-shop-absolute > p:first-child { color: #fff; font: 2.4rem/1.42857143 "NunitoSans-ExtraBold"; margin-bottom: 5px; }
+.instagram-first-shop-absolute > p:nth-child(2) { color: #fff; font: 2.4rem/1.42857143 "NunitoSans-Light"; margin-bottom: 15px; width: 310px; }
+.instagram-shop-explore:hover { background-color: #f7a321; }
+.instagram-shop-explore:focus { background-color: transparent; color: #fff; }
+.instagram-shop-absolute > p:first-child { color: #fff; font: 1.6rem/1.42857143 "NunitoSans-Bold"; }
+.instagram-shop-absolute > p:nth-child(2) { color: #fff; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; margin-bottom: 15px; }
+.instagram-shop-view { border: 2px solid #fff; border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; color: #fff; display: inline-block; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; padding: 10px 40px; }
+.instagram-shop-view:hover { color: #fff; }
+.instagram-shop-relative:hover img { filter: brightness(0.7); -webkit-filter: brightness(0.7); }
+.instagram-shop-relative:hover .instagram-shop-absolute { opacity: 1; transform: translate(-50%,-50%) scale(1); -webkit-transform: translate(-50%,-50%) scale(1); -moz-transform: translate(-50%,-50%) scale(1); -ms-transform: translate(-50%,-50%) scale(1); -o-transform: translate(-50%,-50%) scale(1); }
+.instagram-shop-view-more,
+.find-your-wy-spe-info > a:last-child { color: #6e99be; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; }
+.instagram-shop-view-more:hover,
+.find-your-wy-spe-info > a:last-child:hover,
+.instagram-shop-view-more:hover i,
+.find-your-wy-spe-info > a:last-child:hover i { color: #f7a321; }
+.instagram-shop-view-more > i,
+.find-your-wy-spe-info > a:last-child > i { display: block; font-size: 2.4rem; margin-top: 5px; transition: 0.5s linear; -webkit-transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; }
+
+/*------- Instagram Shop Section Ends -------*/
+
+/*------- Footer Section Starts -------*/
+
+.bg-footer-home { border-top: 1px solid #e0dfe0; padding: 50px 15px; }
+.footer-heading > h4 { color: #3b414b; font: 1.8rem/1.42857143 "NunitoSans-Bold"; margin-bottom: 15px; }
+.quick-link-listing > li,
+.our-story-listing > li,
+.help-link-listing > li { display: block; margin-bottom: 10px; }
+.quick-link-listing > li:last-child,
+.our-story-listing > li:last-child,
+.help-link-listing > li:last-child { margin-bottom: 0; }
+.quick-link-listing > li > a,
+.our-story-listing > li > a,
+.help-link-listing > li > a { color: #3b414b; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; }
+.footer-heading > p { color: #3b414b; font: 1.6rem/1.42857143 "Nunito-Regular"; margin-bottom: 15px; }
+.footer-email-listing { -ms-align-items: center; align-items: center; display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: -o-flex; display: flex; margin-bottom: 15px; }
+.footer-email-listing > li { display: inline-block; margin-right: 15px; }
+.footer-email-listing > li:last-child { margin-right: 0; }
+.form-control-foo-email { border: 1px solid #e0dfe0; border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none; -ms-box-shadow: none; -o-box-shadow: none; color: #9b9aa1; font: 1.4rem/21px "Nunito-Medium"; height: 38px; padding-bottom: 8px; width: 250px; }
+.form-control-foo-email::placeholder { color: #9b9aa1; font: 1.8rem/24px "Nunito-Medium"; opacity: 1; }
+.form-control-foo-email:-ms-input-placeholder { color: #9b9aa1; font: 1.8rem/24px "Nunito-Medium"; }
+.form-control-foo-email::-ms-input-placeholder { color: #9b9aa1; font: 1.8rem/24px "Nunito-Medium"; }
+.form-control-foo-email:focus { border-color: #e0dfe0; box-shadow: none; }
+.btn-submit { background-color: #f7a321; border: 0; border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; color: #fff; display: block; font: 1.4rem/1.42857143 "NunitoSans-SemiBold"; letter-spacing: 1px; padding: 10px 30px; text-align: center; }
+.btn-submit:focus,
+.btn-submit:active:focus { outline: 0; }
+.footer-heading > p > a { color: #3b414b; text-decoration: underline; }
+.footer-heading > p > a:hover { color: #3da3ae; }
+
+/*------- Footer Section Ends -------*/
+
+/*------- Copyright Section Starts -------*/
+
+.bg-copyright-home { border-top: 1px solid #e0dfe0; padding: 50px 15px; }
+.copyright-listing > li { display: inline-block; }
+.copyright-listing > li > a { color: #3b414b; font: 1.4rem/1.42857143 "Poppins-Regular"; }
+.copyright-listing > li > a > span { padding: 0 5px; }
+.social-listing { -ms-align-items: center; align-items: center; display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: -o-flex; display: flex; }
+.social-listing > li { display: inline-block; margin-right: 15px; }
+.social-listing > li > a > img { height: 20px; width: 20px; }
+.social-listing > li:nth-last-child(2) { margin-right: 30px; }
+.social-listing > li:last-child { margin-right: 0; }
+.form-control-multi-lang { display: inline-block; width: auto; }
+.form-control-multi-lang,
+.form-control-multi-lang:focus { border: 1px solid #e0dfe0; }
+.form-control-multi-lang:focus { border-color: #e0dfe0; box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none; -ms-box-shadow: none; -o-box-shadow: none; }
+
+/*------- Copyright Section Ends -------*/
+
+/*------- Inspirations Page Starts -------*/
+
+	/*------- Home and Individual Section Header Section Starts -------*/
+
+.bg-home-wgf-pg { background: url("../images/wgf.jpg") no-repeat top/cover; margin-top: 106px; padding: 30px 15px; }
+.home-individual-small-heading > p > a { color: #fff; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; }
+.home-individual-small-heading > p > a:first-child { padding-right: 10px; }
+.home-individual-small-heading > p > i { color: #fff; padding-right: 10px; }
+.home-individual-small-heading > h1 { color: #fff; font: 3.6rem/1.42857143 "NunitoSans-ExtraBold"; text-align: center; }
+
+	/*------- Home and Individual Section Header Section Ends -------*/
+
+	/*------- Watch Yourself Image Section Starts -------*/
+
+.bg-watch-yourself-pg { padding: 50px 15px 20px; }
+.watch-yourself-relative { margin-bottom: 30px; position: relative; }
+.watch-yourself-relative > img { border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; transition: 0.5s linear; -webkit-transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; width: 100%; }
+.add-fav-absolute { left: 15px; opacity: 0; position: absolute; top: 15px; transition: 0.5s linear; -webkit-transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; visibility: hidden; }
+.add-fav-absolute > p { color: #fff; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; }
+.watch-yourself-absolute { bottom: 0; left: 0; padding: 15px; position: absolute; width: 100%; }
+.watch-yourself-absolute > h4 { color: #fff; font: 1.8rem/1.42857143 "NunitoSans-ExtraBold"; margin-bottom: 15px; }
+.watch-yourself-absolute > p:nth-child(2) { color: #fff; font: 1.6rem/1.42857143 "Nunito-Medium"; margin-bottom: 15px; }
+.watch-yourself-absolute > p:last-child > a { color: #f7a321; display: inline-block; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; }
+.watch-yourself-absolute > p:last-child > a:first-child { padding-right: 15px; }
+.watch-yourself-absolute > p:last-child > span { color: #f7a321; padding-right: 15px; }
+.watch-yourself-relative:hover > img { filter: brightness(0.8); -webkit-filter: brightness(0.8); }
+.watch-yourself-relative:hover .add-fav-absolute { opacity: 1; visibility: visible; }
+.box-watch-yourself-successful { background-color: #faf9ee; border-radius: 10px 0 0 10px; -webkit-border-radius: 10px 0 0 10px; -moz-border-radius: 10px 0 0 10px; -ms-border-radius: 10px 0 0 10px; -o-border-radius: 10px 0 0 10px; margin-bottom: 30px; padding: 85px 50px; }
+.wys-featured { margin-bottom: 15px; }
+.wys-featured > a { background-color: #f36f2c; border: 2px solid #f36f2c; border-radius: 24px; -webkit-border-radius: 24px; -moz-border-radius: 24px; -ms-border-radius: 24px; -o-border-radius: 24px; color: #fff; display: inline-block; font: 1.6rem/1.42857143 "NunitoSans-Bold"; padding: 10px 20px; text-align: center; }
+.wys-featured > a:hover { background-color: #fff; color: #f36f2c; }
+.wys-featured > a:focus { background-color: #f36f2c; color: #fff; }
+.box-watch-yourself-successful > p:nth-child(2),
+.box-watch-yourself-successful > p:nth-child(3) { color: #3b414b; font: 3rem/1.42857143 "NunitoSans-ExtraBold"; }
+.box-watch-yourself-successful > p:nth-child(3) { margin-bottom: 15px; }
+.box-watch-yourself-successful > p:nth-child(4) { color: #3b414b; font: 2.4rem/1.42857143 "NunitoSans-Light"; margin-bottom: 15px; }
+.wys-explored > a { background-color: #f7a321; border: 2px solid #f7a321; border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; color: #fff; display: inline-block; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; padding: 10px 30px; text-align: center; }
+.wys-explored > a:hover { background-color: #fff; color: #f7a321; }
+.wys-explored > a:focus { background-color: #f7a321; color: #fff; }
+.img-wys-success { border-radius: 0 10px 10px 0; -webkit-border-radius: 0 10px 10px 0; -moz-border-radius: 0 10px 10px 0; -ms-border-radius: 0 10px 10px 0; -o-border-radius: 0 10px 10px 0; margin-bottom: 30px; }
+.box-fes-desktop { display: block; }
+.box-fes-mob { display: none; }
+
+	/*------- Watch Yourself Image Section Ends -------*/
+
+/*------- Inspirations Page Ends -------*/
+
+/*------- Gift Sets Page Starts -------*/
+
+	/*------- Create a Gift Section Starts -------*/
+
+.bg-create-a-gift { padding: 50px 15px 30px; }
+.box-create-gift-set-relative { position: relative; }
+.box-create-gift-set-relative > img { border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; width: 100%; }
+.box-create-gift-set-info { left: 40%; position: absolute; top: 50%; transform: translate(-50%,-50%); }
+.box-create-gift-set-info > h3 { color: #fff; font: 2.4rem/1.42857143 "NunitoSans-ExtraBold"; margin-bottom: 15px; }
+.box-create-gift-set-info > p { color: #fff; font: 2.4rem/1.42857143 "NunitoSans-Light"; margin-bottom: 15px; width: 350px; }
+.btn-create-gift { border: 2px solid #fff; border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; color: #fff; display: inline-block; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; padding: 10px 30px; text-align: center; }
+.btn-create-gift:hover { background-color: #fff; color: #f7a321; }
+.btn-create-gift:focus { background-color: transparent; color: #fff; }
+
+	/*------- Create a Gift Section Ends -------*/
+
+	/*------- Gift Sets Collection Section Starts -------*/
+
+.bg-gift-sets-collections { padding: 0 15px 50px; }
+.gift-set-colle-heading > h3 { color: #3b414b; font: 2.4rem/1.42857143 "NunitoSans-ExtraBold"; margin-bottom: 30px; }
+.img-gift-colle { margin-bottom: 15px; width: 100%; }
+.gift-set-colle-info > h4 { color: #3b414b; font: 1.8rem/1.42857143 "NunitoSans-Bold"; margin-bottom: 5px; }
+.gift-set-colle-info > p { color: #3b414b; font: 1.6rem/1.42857143 "Nunito-Medium"; }
+
+	/*------- Gift Sets Collection Section Ends -------*/
+
+/*------- Gift Sets Page Ends -------*/
+
+/*------- Find Your Wy Page Starts -------*/
+
+	/*------- Find Your Wy Tab Section Starts -------*/
+
+.bg-find-your-wy-tabs { padding: 50px 15px; }
+.ise-tabs-listing { margin-bottom: 50px; text-align: center; }
+.ise-tabs-listing > li { display: inline-block; margin-right: 15px; }
+.ise-tabs-listing > li:last-child { margin-right: 0; }
+.ise-tabs-listing > li > a { color: #3b414b; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; }
+.ise-tabs-listing > li.active > a { color: #3da3ae; }
+.find-your-wy-pg-slick-slider .slick-prev { left: 25px; }
+.find-your-wy-pg-slick-slider .slick-next { right: 25px; }
+.find-your-wy-pg-slick-slider .slick-prev,
+.find-your-wy-pg-slick-slider .slick-next { background-color: #E7E6DD; border: 0; top: 50%; }
+.find-your-wy-pg-slick-slider .slick-prev:hover,
+.find-your-wy-pg-slick-slider .slick-next:hover { background-color: #3da3ae; opacity: 0.5; }
+.find-your-wy-pg-slick-slider .slick-prev:before,
+.find-your-wy-pg-slick-slider .slick-next:before { color: #fff; }
+.find-your-wy-pg-slick-slider { background-color: #faf9ee; border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; padding: 50px; }
+.find-your-wy-pg-slick-slider .slick-slide img { opacity: 0.5; width: 70px; }
+.find-your-wy-pg-slick-slider .slick-slide.slick-center img { opacity: 1; }
+.find-your-wy-spe-info { margin-top: 50px; }
+.find-your-wy-spe-info > a:first-child { background-color: #f7a321; border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; color: #fff; display: inline-block; font: 1.6rem/.42857143 "NunitoSans-SemiBold"; margin-bottom: 15px; padding: 20px 40px; text-align: center; }
+.find-your-wy-spe-info > p { color: #3b414b; font: 3rem/1.42857143 "NunitoSans-ExtraBold"; margin-bottom: 15px; }
+
+	/*------- Find Your Wy Tab Section Ends -------*/
+
+/*------- Find Your Wy Page Starts -------*/
+
+/*------- Contact Us Page Starts -------*/
+
+	/*------- Banner Section Starts -------*/
+
+.bg-banner-seven-pg { background: url("../images/banner.jpg") no-repeat 100% 100%/cover; margin-top: 106px; padding: 30px 15px; position: relative; }
+.bg-banner-seven-pg.yellow:before {
+	background-color: #f7a321;
+	content: "";
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 400px;
+}
+.banner-seven-info > p:first-child { margin-bottom: 15px; }
+.banner-seven-info > p:first-child > a { color: #fff; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; }
+.banner-seven-info > p:first-child > i { color: #fff; padding: 0 10px; }
+.banner-seven-info > p:last-child { color: #fff; font: 3.6rem/1.42857143 "NunitoSans-ExtraBold"; }
+
+	/*------- Banner Section Ends -------*/
+
+	/*------- Contact Us Information Section Starts -------*/
+
+.bg-contact-info-pg { padding: 50px 15px; }
+.box-chat-call { background-color: #fff; border: 2px solid #e0dfe0; border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; margin-bottom: 30px; padding: 65px 30px; }
+.box-chat-call-left { padding-right: 50px; }
+.box-chat-call-circle { background-color: #ebf3f4; border-radius: 50%; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; height: 150px; position: relative; width: 150px; }
+.box-chat-call-circle > img { height: 60px; left: 50%; position: absolute; top: 50%; transform: translate(-50%,-50%); -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); }
+.box-chat-call-heading { color: #3b414b; font: 1.8rem/1.42857143 "NunitoSans-Bold"; margin-bottom: 15px; }
+.box-chat-call-body > p,
+.box-chat-call-body > p > a { color: #3b414b; font: 1.6rem/1.42857143 "Nunito-Medium"; }
+.box-chat-call-body > p:last-of-type { margin-bottom: 30px; }
+.box-chat-call-body > a { background-color: #3da3ae; border: 2px solid #3da3ae; border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; color: #fff; display: inline-block; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; padding: 10px 30px; text-align: center; }
+.box-chat-call-body > a:hover { background-color: #fff; color: #3b414b; }
+.contact-email-request > h4 { color: #3b414b; font: 1.8rem/1.42857143 "NunitoSans-Bold"; margin-bottom: 15px; }
+.contact-email-request > p { color: #3b414b; font: 1.6rem/1.42857143 "Nunito-Regular"; margin-bottom: 15px; }
+.form-contact-group > label { color: #3b414b; font: 1.6rem/1.42857143 "Nunito-Regular"; margin-bottom: 10px; }
+.form-control-contact-es { background-color: #fdfdf8; border: 1px solid #e0dfe0; box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none; -ms-box-shadow: none; -o-box-shadow: none; color: #9b9aa1; height: 40px; font-family: "Nunito-Medium"; font-size: 1.6rem; }
+.form-control-contact-es::placeholder { color: #9b9aa1; font: 1.6rem/1.42857143 "Nunito-Medium"; opacity: 1; }
+.form-control-contact-es:-ms-input-placeholder { color: #9b9aa1; font: 1.6rem/1.42857143 "Nunito-Medium"; }
+.form-control-contact-es::-ms-input-placeholder { color: #9b9aa1; font: 1.6rem/1.42857143 "Nunito-Medium"; }
+.form-control-contact-es:focus { border-color: #e0dfe0; box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none; -ms-box-shadow: none; -o-box-shadow: none; outline: 0; }
+.form-control-contact-es > option { line-height: 20px; }
+textarea.form-control-contact-es { height: 100px; resize: none; }
+	
+	/*------- Custom Checkbox CSS Starts -------*/
+
+.checked-submit-query {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    font: 1.6rem/1.42857143 "Nunito-SemiBold";
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.checked-submit-query > a { color: #6e99be; }
+.checked-submit-query input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+.checked-submit-query-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    border: 1px solid #e0dfe0;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+.checked-submit-query:hover input ~ .checked-submit-query-text {
+    background-color: #ccc;
+}
+.checked-submit-query input:checked ~ .checked-submit-query-text {
+    background-color: #6e99be;
+    border-color: #6e99be;
+}
+.checked-submit-query-text:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.checked-submit-query input:checked ~ .checked-submit-query-text:after {
+    display: block;
+}
+.checked-submit-query .checked-submit-query-text:after {
+	left: 8px;
+	top: 4px;
+	width: 7px;
+	height: 12px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+	/*------- Custom Checkbox CSS Ends -------*/
+
+.btn-submit-query { background-color: #f7a321; border: 2px solid #f7a321; border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; color: #fff; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; padding: 10px 30px; text-align: center; transition: 0.5s linear; -webkit-transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; }
+.btn-submit-query:hover { background-color: #fff; color: #f7a321; }
+.btn-submit-query:focus { outline: 0; }
+
+	/*------- Contact Us Information Section Ends -------*/
+
+	/*------- More Information/ Help Center Section Starts -------*/
+
+.bg-more-info-help-center { padding: 50px 15px 20px; }
+.bg-more-info-help-center-bt { position: relative; }
+.bg-more-info-help-center-bt:before {
+	background-color: #e0dfe0;
+	height: 2px;
+	left: 50%;
+	position: absolute;
+	top: -50px;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	width: 98%;
+}
+.more-info-help-center > h3 { color: #3b414b; font: 2.4rem/1.42857143 "NunitoSans-ExtraBold"; margin-bottom: 30px; }
+.box-mihc { background-color: #fdfdf8; border: 2px solid #e0dfe0; border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; margin-bottom: 30px; padding: 30px; }
+.box-mihc-circle { background-color: #f7a321; border-radius: 50%; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; display: block; height: 150px; margin: 0 auto 15px; position: relative; transition: 0.3s linear; -webkit-transition: 0.3s linear; -moz-transition: 0.3s linear; -ms-transition: 0.3s linear; -o-transition: 0.3s linear; width: 150px; }
+.box-mihc-circle:hover { background-color: #3da3ae; }
+.box-mihc-circle.muzli { background-color: #3da3ae; }
+.box-mihc-circle > img { height: 60px; left: 50%; position: absolute; top: 50%; transform: translate(-50%,-50%); -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); }
+.box-mihc-circle + p { color: #3b414b; font: 1.8rem/1.42857143 "NunitoSans-Bold"; text-align: center; }
+
+	/*------- More Information/ Help Center Section Ends -------*/
+
+/*------- Contact Us Page Ends -------*/
+
+/*------- Delivery, Sizing Page Starts -------*/
+
+.bg-everything-about-delivery { padding: 50px 15px; }
+.bg-banner-seven-pg.muzli:before {
+	background-color: #3da3af;
+	content: "";
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 600px;
+}
+.everything-about-delivery-info > h3 { color: #3b414b; font: 2.4rem/1.42857143 "NunitoSans-Bold"; margin-bottom: 15px; }
+.everything-about-delivery-info > p { color: #3b414b; font: 1.6rem/1.42857143 "Nunito-Regular"; margin-bottom: 15px; }
+.everything-about-delivery-info > p:last-child { margin-bottom: 0; }
+.img-sizing-pg { width: 100% }
+
+/*------- Delivery, Sizing Page Ends -------*/
+
+/*------- FAQ Page Starts -------*/
+
+.bg-faq-info-parts { padding: 50px 15px; }
+.faq-que-heading-desc { margin-bottom: 50px; }
+.faq-que-desc { height: 254px; margin-bottom: 15px; }
+.faq-que-desc > h4 { color: #3b414b; font: 1.8rem/1.42857143 "NunitoSans-Bold"; margin-bottom: 15px; }
+.faq-que-desc > p { color: #3b414b; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; margin-bottom: 15px; }
+.faq-que-heading-desc > a { color: #6e99be; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; margin-top: 15px; }
+.faq-que-heading-desc > a > i { padding-left: 5px; }
+.box-official-store-faq { background-color: #fdfdf8; border: 2px solid #e0dfe0; border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; padding: 30px; }
+.box-official-store-faq > h4 { color: #3b414b; font: 1.8rem/1.42857143 "NunitoSans-Bold"; margin-bottom: 15px; }
+.box-official-store-faq > p { color: #3b414b; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; margin-bottom: 15px; }
+.box-official-store-faq > p:last-child { margin-bottom: 0; }
+.banner-seven-info-mob { display: none; }
+
+/*------- FAQ Page Ends -------*/
+
+/*------- Category View Page Starts -------*/
+
+	/*------- Category View Listing Section Starts -------*/
+
+.bg-category-view-listing { border-top: 2px solid #e0dfe0; margin-top: 106px; padding: 30px 15px 0; }
+.category-view-listing { margin-bottom: 30px; }
+.category-view-listing > a { color: #6f98be; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; }
+.category-view-listing > i { color: #6f98be; padding: 0 10px; }
+.fig-cate-view-relative { position: relative; }
+.fig-cate-view-relative > img { width: 100%; }
+.fig-cate-view-absolute { left: 50%; position: absolute; top: 50%; transform: translate(-50%,-50%); -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); }
+.fig-cate-view-circle { background-color: #4da5ae; }
+.fig-cate-view-circle:before { background-color: #4da5ae7a; }
+
+	/*------- Category View Listing Section Ends -------*/
+
+	/*------- Category View Tab Section Starts -------*/
+
+.bg-category-view-tab { padding: 50px 15px; }
+.bg-category-view-tab-border-bottom { position: relative; }
+.bg-category-view-tab-border-bottom:after {
+	background-color: #ccc;
+	bottom: 0;
+	content: "";
+	height: 2px;
+	left: 50%;
+	position: absolute;
+	width: 97.5%;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+}
+.category-view-tab-listing > li { cursor: pointer; display: inline-block; margin-right: 30px; padding: 30px 0; }
+.category-view-tab-listing > li:last-child { padding-right: 0; }
+.category-view-tab-listing > li { color: #3b414b; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; position: relative; }
+.category-view-tab-listing > li:after {
+	background-color: #3da3ae;
+	bottom: 0;
+	content: "";
+	height: 4px;
+	left: 0;
+	position: absolute;
+	transition: 0.5s linear;
+	-webkit-transition: 0.5s linear;
+	-moz-transition: 0.5s linear;
+	-ms-transition: 0.5s linear;
+	-o-transition: 0.5s linear;
+	width: 0;
+	z-index: 999;
+}
+.category-view-tab-listing > li:hover:after,
+.category-view-tab-listing > li.active:after { width: 100%; }
+.add-fav-star-listing { text-align: right; }
+.add-fav-star-listing > li > a { color: #6f98be; display: block; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; padding: 30px 0; }
+.add-fav-star-listing > li > a > i { padding-right: 5px; }
+.category-view-content,
+.cart-view-content { margin-top: 50px; }
+
+		/*------- Hide and Show Tabs CSS Starts -------*/
+
+/*.hides { display: none; }
+.active { display: block; }*/
+
+		/*------- Hide and Show Tabs CSS Ends -------*/
+
+.category-view-intro-info > p { color: #3b414b; font: 1.6rem/1.42857143 "Nunito-Medium"; margin-bottom: 15px; }
+.category-view-intro-info > p:nth-child(2) { margin-bottom: 0; }
+.wyb-info { margin-bottom: 30px; padding-left: 30px; position: relative; }
+.wyb-info:before { background-color: #f7a321; content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 4px; }
+.wyb-info > p { color: #3b414b; font: 2.4rem/1.42857143 "Nunito-Regular"; width: 260px; }
+.img-ipcc-one { margin-bottom: 30px; width: 100%; }
+.img-ipcc-two { width: 100%; }
+.figure-category-view-product-relative { margin-bottom: 30px; }
+.figure-category-view-product-relative > img { margin-bottom: 15px; width: 100%; }
+.figure-category-view-product-absolute > h4 { color: #3b414b; font: 1.8rem/1.42857143 "NunitoSans-ExtraBold"; margin-bottom: 5px; }
+.figure-category-view-product-absolute > p { color: #3b414b; font: 1.6rem/1.42857143 "Nunito-Medium"; }
+.form-group-comment { margin-bottom: 30px; }
+textarea.form-control-cv-cmnt { border: 2px solid #e0dfe0; box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none; -ms-box-shadow: none; -o-box-shadow: none; color: #9b9aa1; font: 1.6rem/1.42857143 "Nunito-Medium"; height: 100px; resize: none; }
+.form-control-cv-cmnt::placeholder { color: #9b9aa1; font: 1.6rem/1.42857143 "Nunito-Medium"; opacity: 1; }
+.form-control-cv-cmnt:-ms-input-placeholder { color: #9b9aa1; font: 1.6rem/1.42857143 "Nunito-Medium"; }
+.form-control-cv-cmnt::-ms-input-placeholder { color: #9b9aa1; font: 1.6rem/1.42857143 "Nunito-Medium"; }
+.form-control-cv-cmnt:focus { border-color: #e0dfe0; box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none; -ms-box-shadow: none; -o-box-shadow: none; outline: 0; }
+.heart-submit-listing,
+.heart-submit-os-listing { -ms-align-items: center; align-items: center; display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: -o-flex; display: flex; }
+.heart-submit-listing > li,
+.heart-submit-os-listing > li { display: inline-block; margin-right: 15px; }
+.heart-submit-listing > li:last-child,
+.heart-submit-os-listing > li:last-child { margin-right: 0; }
+.heart-submit-listing > li:first-child > a,
+.heart-submit-os-listing > li:first-child > a { border: 2px solid #f7a321; border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; display: block; height: 46px; width: 50px; position: relative; }
+.heart-submit-listing > li:first-child > a:before,
+.heart-submit-os-listing > li:first-child > a:before {
+	color: #f7a321;
+	content: "\f004";
+	font-family: "Font Awesome 5 Free";
+	font-size: 1.6rem;
+	left: 50%;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	-o-transform: translate(-50%,-50%);
+	transition: 0.5s linear;
+	-webkit-transition: 0.5s linear;
+	-moz-transition: 0.5s linear;
+	-ms-transition: 0.5s linear;
+	-o-transition: 0.5s linear;
+}
+.heart-submit-listing > li:last-child > a,
+.heart-submit-os-listing > li:nth-child(2) > a { border: 2px solid #f7a321; border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; color: #f7a321; display: block; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; padding: 10px 30px; text-align: center; }
+.heart-submit-listing > li:first-child > a:hover:before,
+.heart-submit-os-listing > li:first-child > a:hover:before { color: #fff; }
+.heart-submit-listing > li > a:hover,
+.heart-submit-os-listing > li:first-child > a:hover,
+.heart-submit-os-listing > li:nth-child(2) > a:hover { background-color: #f7a321; color: #fff; }
+.category-view-social-comment-listing { text-align: right; }
+.category-view-social-comment-listing > li { display: inline-block; margin-right: 10px; }
+.category-view-social-comment-listing > li:last-child { margin-right: 0; }
+.category-view-social-comment-listing > li > p { color: #3b414b; font: 1.6rem/1.42857143 "Nunito-Medium"; position: relative; top: -4px; }
+.category-view-social-comment-listing > li > a > img { height: 20px; width: 20px; }
+.social-paltform-submit-bb { border-bottom: 2px solid #e0dfe0; padding-bottom: 30px; }
+.category-view-comment-listing { margin-top: 30px; }
+.category-view-media-left > img {  }
+.category-view-media-body > h4 { color: #3b414b; font: 1.8rem/1.42857143 "NunitoSans-Regular"; }
+.category-view-media-body > p { color: #9a9a9f; font: 1.6rem/1.42857143 "NunitoSans-Light"; }
+.category-view-media-body + p { color: #3b414b; font: 1.6rem/1.42857143 "Nunito-Medium"; margin: 10px 0 20px; }
+#category-view-tab-one-content-box, 
+#category-view-tab-two-content-box,
+#category-view-tab-three-content-box,
+#category-view-tab-four-content-box,
+#product-view-tab-one-content-box, 
+#product-view-tab-two-content-box,
+#product-view-tab-three-content-box,
+#product-view-tab-four-content-box {
+	display: block!important;
+	height:0;
+	overflow: hidden!important;
+}
+#category-view-tab-one-content-box.active, 
+#category-view-tab-two-content-box.active,
+#category-view-tab-three-content-box.active,
+#category-view-tab-four-content-box.active,
+#product-view-tab-one-content-box.active, 
+#product-view-tab-two-content-box.active,
+#product-view-tab-three-content-box.active,
+#product-view-tab-four-content-box.active {
+	height: auto!important;
+}
+
+	/*------- Category View Tab Section Ends -------*/
+
+	/*------- Other Categories Section Starts -------*/
+
+.bg-other-cate-explore-bb { border-top: 2px solid #e0dfe0; padding: 50px 15px 20px; }
+.other-cate-explore-heading > h3 { color: #3b414b; font: 2.4rem/1.42857143 "NunitoSans-ExtraBold"; margin-bottom: 30px; }
+.other-cate-explore-link { margin-bottom: 30px; }
+.other-cate-explore-link > a { color: #6e99be; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; }
+.other-cate-explore-link > a > i { padding-left: 5px; }
+
+	/*------- Other Categories Section Ends -------*/
+
+/*------- Category View Page Ends -------*/
+
+/*------- Product View Page Starts -------*/
+
+	/*------- Product View Listing Section Starts -------*/
+
+.bg-product-view-brclisting { border-top: 2px solid #e0dfe0; margin-top: 106px; padding: 30px 15px; }
+.product-view-listing > a { color: #6f98be; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; }
+.product-view-listing > i { color: #6f98be; padding: 0 10px; }
+
+	/*------- Product View Listing Section Ends -------*/
+
+	/*------- Video and Image Section Starts -------*/
+
+.bg-video-image-pv { padding: 0 15px 50px; }
+.img-pv-one,
+.img-pv-two,
+.img-pv-three { width: 100%; }
+.img-pv-two { margin-bottom: 30px; }
+
+	/*------- Video and Image Section Ends -------*/
+
+	/*------- Wristwatch Section Starts -------*/
+
+.bg-wristwatch-pv { padding: 0 15px 30px; }
+.wrist-watch-heading > p { color: #3b414b; font: 2.4rem/1.42857143 "NunitoSans-ExtraBold"; }
+
+	/*------- Wristwatch Section Ends -------*/
+
+	/*------- Mobile View Section Starts -------*/
+
+.bg-social-add-to-cart-mob { display: none; }
+
+	/*------- Mobile View Section Ends -------*/
+
+	/*------- Product View Tab Section Starts -------*/
+
+.bg-product-view-tab-listing { padding: 0 15px 50px; }
+.product-view-tab-listing > li { cursor: pointer; display: inline-block; margin-right: 30px; padding: 30px 0; }
+.product-view-tab-listing > li:last-child { padding-right: 0; }
+.product-view-tab-listing > li { color: #3b414b; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; position: relative; }
+.product-view-tab-listing > li:after {
+	background-color: #3da3ae;
+	bottom: 0;
+	content: "";
+	height: 4px;
+	left: 0;
+	position: absolute;
+	transition: 0.5s linear;
+	-webkit-transition: 0.5s linear;
+	-moz-transition: 0.5s linear;
+	-ms-transition: 0.5s linear;
+	-o-transition: 0.5s linear;
+	width: 0;
+	z-index: 9999;
+}
+.product-view-tab-listing > li:hover:after,
+.product-view-tab-listing > li.active:after { width: 100%; }
+.add-to-cart-linking { text-align: right; }
+.add-to-cart-linking > li > a { background-color: #f7a321; border: 2px solid #f7a321; border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; color: #fff; display: inline-block; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; padding: 10px 30px; text-align: center; }
+
+	/*------- Product View Tab Section Ends -------*/
+
+	/*------- Similar Products Section Starts -------*/
+
+.bg-similar-product-bt { border-top: 2px solid #e0dfe0; padding: 50px 15px; }
+.similar-product-pv-heading > h3 { color: #3b414b; font: 2.4rem/1.42857143 "NunitoSans-ExtraBold"; margin-bottom: 50px; }
+.figure-category-view-product-absolute > a { color: #6e99be; display: block; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; margin-top: 15px; }
+.figure-category-view-product-absolute > a > i { padding-left: 5px; }
+
+	/*------- Similar Products Section Ends -------*/
+
+/*------- Product View Page Ends -------*/
+
+/*------- My Account Overview Page Starts -------*/
+
+	/*------- Navigationbar Menu Section Starts -------*/
+
+.navigation-account-cart-listing > li { display: inline-block; margin-right: 15px; }
+.navigation-account-cart-listing > li:last-child { margin-right: 0; }
+.navigation-account-cart-listing > li > a { color: #3b414b; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; }
+.navigation-account-cart-listing > li > a > i { padding-right: 5px; }
+.navigation-account-cart-listing > li > a:hover { color: #3da3ae; }
+
+	/*------- Navigationbar Menu Section Ends -------*/
+
+	/*------- My Account Breadcrumb Section Starts -------*/
+
+.bg-my-acc-breadcrumb-listing,
+.bg-our-story-breadcrumb-listing,
+.bg-cart-breadcrumb-listing { border-top: 2px solid #e0dfe0; margin-top: 106px; padding: 30px 15px; }
+.account-view-listing > a,
+.our-story-view-listing > a,
+.cart-view-listing > a { color: #6f98be; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; }
+.account-view-listing > i,
+.our-story-view-listing > i,
+.cart-view-listing > i { color: #6f98be; padding: 0 10px; }
+
+	/*------- My Account Breadcrumb Section Ends -------*/
+
+	/*------- Account Section Starts -------*/
+
+.bg-account-pgs,
+.bg-our-story-pgs { padding: 0 15px 30px; }
+.account-pro-ne { margin-bottom: 30px; }
+.account-pro-ne-left { padding-right: 15px; }
+.account-pro-ne-body > h4,
+.account-pro-ne-body > p { color: #f7ab35; font: 1.6rem/1.42857143 "NunitoSans-Regular"; }
+.account-pro-ne-body > p { color: #3b414b; }
+.sidebar-account-pg-listing > li { display: block; margin-bottom: 10px; }
+.sidebar-account-pg-listing > li > a { color: #3b414b; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; }
+.sidebar-account-pg-listing > li:first-child,
+.sidebar-account-pg-listing > li:nth-child(4),
+.sidebar-account-pg-listing > li:nth-child(7) { margin-bottom: 30px; }
+.sidebar-account-pg-listing > li > a:hover,
+.sidebar-account-pg-listing > li.active > a { color: #3da3ae; }
+.sidebar-account-pg-listing > li:last-child > a { border: 2px solid #f7a321; border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; color: #f7a321; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; display: inline-block; padding: 8px 20px; text-align: center; }
+.sidebar-account-pg-listing > li:last-child > a:hover { background-color: #f7a321; color: #fff; }
+.sidebar-account-pg-listing > li:last-child > a:focus { outline: 0; }
+.add-account-pg-bl { border-left: 2px solid #e0dfe0; padding-left: 50px; }
+.box-name-gmail-edit { background: url("../images/overview-1.png") no-repeat top/cover; border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; margin-bottom: 30px; padding: 30px; }
+.box-name-gmail-edit-media-left { padding-right: 15px; }
+.box-name-gmail-edit-media-body > h4 { color: #fff; font: 1.8rem/1.42857143 "NunitoSans-SemiBold"; }
+.box-name-gmail-edit-media-body > p:nth-child(2),
+.box-name-gmail-edit-media-body > p:nth-child(3) { color: #fff; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; margin-bottom: 30px; }
+.box-name-gmail-edit-media-body > p:nth-child(3) { margin-bottom: 0; }
+.box-name-gmail-edit-go-right > a { border: 2px solid #fff; border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; color: #fff; display: inline-block; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; padding: 10px 30px; text-align: center; }
+.box-name-gmail-edit-go-right > a:hover { background: #fff; color: #3da3ae; }
+.box-name-gmail-edit-go-right > a:focus { outline: 0; }
+
+	/*------- Account Section Ends -------*/
+
+/*------- My Account Overview Page Ends -------*/
+
+/*------- Profile Details Page Starts -------*/
+
+	/*------- Profile heading and Description Section Starts -------*/
+
+.profile-details-heading > h3,
+.edit-profile-details-heading > h3 { color: #3b414b; font: 1.8rem/1.42857143 "NunitoSans-Bold"; margin-bottom: 15px; }
+.table-profile { margin-bottom: 30px; }
+.table-profile > tbody > tr > td { border-top: 0; color: #3b414b; font: 1.6rem/1.42857143 "Nunito-Medium"; padding: 8px 0; }
+.btn-edit-profile { background-color: #3da3ae; border: 2px solid #3da3ae; border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; color: #fff; display: inline-block; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; padding: 10px 30px; text-align: center; }
+.btn-edit-profile:hover { background-color: transparent; color: #3da3ae; }
+.btn-edit-profile:focus { background-color: #3da3ae; color: #fff; outline: 0; }
+
+	/*------- Profile heading and Description Section Ends -------*/
+
+	/*------- Edit Profile Section Starts -------*/
+
+.edit-profile-details-heading { display: none; }
+.account-view-listing > i:nth-child(6),
+.account-view-listing > a:nth-child(7) { display: none; }
+.form-group-edit-profile > label { color: #3b414b; font: 1.8rem/1.42857143 "Nunito-Regular"; margin-bottom: 10px; }
+.form-control-edit-profile { background-color: #fdfdf8; border: 1px solid #e0dfe0; box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none; -ms-box-shadow: none; -o-box-shadow: none; color: #39424a; height: 40px; font: 1.6rem/1.42857143 "Nunito-Medium"; }
+.form-control-edit-profile::placeholder { color: #39424a; font: 1.6rem/1.42857143 "Nunito-Medium"; opacity: 1; }
+.form-control-edit-profile:-ms-input-placeholder { color: #39424a; font: 1.6rem/1.42857143 "Nunito-Medium"; }
+.form-control-edit-profile::-ms-input-placeholder { color: #39424a; font: 1.6rem/1.42857143 "Nunito-Medium"; }
+.form-control-edit-profile:focus { border-color: #e0dfe0; box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none; -ms-box-shadow: none; -o-box-shadow: none; outline: 0; }
+.change-password { border-bottom: 1px solid #e0dfe0; margin-bottom: 15px; padding-bottom: 15px; }
+.change-password > a { color: #6e99be; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; }
+.change-password > a > i { padding-left: 5px; }
+.form-control-edit-profile-datepicker { border-right: 0; }
+.input-group-addon-edit-profile { background-color: #fdfdf8; border: 1px solid #e0dfe0; color: #39424a; }
+.input-group-addon-edit-profile > i { color: #ccc; font-size: 1.8rem; }
+
+	/*------- Custom Radio Button CSS Starts -------*/
+
+.label-radio { font: 1.6rem/1 "Nunito-Medium"; margin-bottom: 0; padding-left: 25px; position: relative; }
+input[class="input-radio"] { display: none; }
+input[class="input-radio"] + span {
+	background-color: #fff;
+	border: 1px solid #e0dfe0;
+	border-radius: 50%;
+	height: 20px;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 20px;
+}
+input[class="input-radio"] + span:after {
+	background-color: transparent;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	content: "";
+	height: 12px;
+	left: 50%;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	-o-transform: translate(-50%,-50%);
+	width: 12px;
+}
+input[class="input-radio"]:checked + span {
+	border: 1px solid #6e99be;
+}
+input[class="input-radio"]:checked + span:after { background-color: #6e99be; }
+
+	/*------- Custom Radio Button CSS Ends -------*/
+
+.edit-profile-gender-listing > li { display: inline-block; margin-right: 15px; }
+.edit-profile-gender-listing > li:last-child { margin-right: 0; }
+.edit-profile-cs > li,
+.edit-add-new-card-cs > li,
+.edit-add-new-address-cs > li { display: inline-block; margin-right: 15px; }
+.edit-profile-cs > li:last-child,
+.edit-add-new-card-cs > li:last-child,
+.edit-add-new-address-cs > li:last-child { margin-right: 0; }
+.edit-profile-cs > li:first-child > a,
+.edit-add-new-card-cs > li:first-child > a,
+.edit-add-new-address-cs > li:first-child > a { border: 2px solid #3da3ae; border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; color: #3da3ae; display: inline-block; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; padding: 10px 30px; text-align: center; }
+.edit-profile-cs > li:first-child > a:hover,
+.edit-add-new-card-cs > li:first-child > a:hover,
+.edit-add-new-address-cs > li:first-child > a:hover { background-color: #3da3ae; color: #fff; }
+.edit-profile-cs > li:last-child > a,
+.edit-add-new-card-cs > li:last-child > a,
+.edit-add-new-address-cs > li:last-child > a { background-color: #3da3ae; border: 2px solid #3da3ae; border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; color: #fff; display: inline-block; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; padding: 10px 30px; text-align: center; }
+.edit-profile-cs > li:last-child > a:hover,
+.edit-add-new-card-cs > li:last-child > a:hover,
+.edit-add-new-address-cs > li:last-child > a:hover { background-color: #fff; color: #3da3ae; }
+.form-group-edit-profile-gender { margin-bottom: 60px; }
+
+	/*------- Edit Profile Section Ends -------*/
+
+/*------- Profile Details Page Ends -------*/
+
+/*------- Orders and Returns Page Starts -------*/
+
+	/*------- Orders and Returns Tab Section Starts -------*/
+
+.content-orders-returns,
+.content-favourites { margin-top: 30px; }
+.orders-returns-view-tab-listing,
+.favourites-view-tab-listing { position: relative; }
+.orders-returns-view-tab-listing:after,
+.favourites-view-tab-listing:after {
+	background-color: #e0dfe0;
+	bottom: 0;
+	content: "";
+	height: 1px;
+	left: 0;
+	position: absolute;
+	width: 100%;
+}
+.orders-returns-view-tab-listing > li,
+.favourites-view-tab-listing > li { color: #3b414b; cursor: pointer; display: inline-block; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; margin-right: 15px; padding: 0 0 30px; position: relative; }
+.orders-returns-view-tab-listing > li:last-child,
+.favourites-view-tab-listing > li:last-child { margin-right: 0; }
+.orders-returns-view-tab-listing > li:after,
+.favourites-view-tab-listing > li:after {
+	background-color: #3da3ae;
+	bottom: 0;
+	content: "";
+	height: 4px;
+	left: 0;
+	position: absolute;
+	transition: 0.5s linear;
+	width: 0;
+}
+.orders-returns-view-tab-listing > li.active,
+.favourites-view-tab-listing > li.active { font: 1.6rem/1.42857143 "NunitoSans-Bold"; }
+.orders-returns-view-tab-listing > li.active:after,
+.orders-returns-view-tab-listing > li:hover:after,
+.favourites-view-tab-listing > li.active:after,
+.favourites-view-tab-listing > li:hover:after { width: 100%; }
+.order-number-or,
+.order-details-or { margin-bottom: 15px; }
+.order-details-or { text-align: right; }
+.order-number-or > p { color: #3b414b; font: 1.6rem/1.42857143 "NunitoSans-Bold"; }
+.order-details-or > p > a { color: #6e99be; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; }
+.order-details-or > p > a > i { padding-left: 5px; }
+.img-order-returns { margin-bottom: 30px; width: 100%; }
+.order-returns-info > h4 { color: #3b414b; font: 1.8rem/1.42857143 "NunitoSans-Bold"; margin-bottom: 5px; }
+.order-returns-info > p:nth-child(2),
+.order-returns-info > p:nth-child(3),
+.order-returns-info > p:nth-child(5) { color: #3b414b; font: 1.6rem/1.42857143 "Nunito-Medium"; margin-bottom: 10px; }
+.order-returns-info > p:nth-child(3) { margin-bottom: 15px; }
+.order-returns-info > p:nth-child(4) { color: #3b414b; font: 1.8rem/1.42857143 "NunitoSans-Bold"; margin-bottom: 10px; }
+.order-returns-info > p:nth-child(5) { margin-bottom: 30px; }
+.order-returns-info-ca { margin-bottom: 30px; }
+.order-returns-info-ca > a { border: 2px solid #f7a321; border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; color: #f7a321; display: inline-block; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; padding: 10px 30px; text-align: center; }
+.order-returns-info-ca > a:hover { background-color: #f7a321; color: #fff; }
+.order-returns-info > p:nth-child(5).order-placed > span { color: #3da3ae; }
+.track-order-info-ca > a { background-color: #f7a321; color: #fff; }
+.track-order-info-ca > a:hover { background-color: #fff; color: #f7a321; }
+
+	/*------- Orders and Returns Tab Section Ends -------*/
+
+/*------- Orders and Returns Page Ends -------*/
+
+/*------- Wishlist Page Starts -------*/
+
+	/*------- Wish List Section Starts -------*/
+
+.img-wishlist { margin-bottom: 30px; width: 100%; }
+.wishlist-items-heading > h4 { color: #3b414b; font: 1.8rem/1.42857143 "NunitoSans-Bold"; margin-bottom: 30px; }
+.wishlist-info > h4 { color: #3b414b; font: 1.8rem/1.42857143 "NunitoSans-Bold"; margin-bottom: 15px; }
+.wishlist-info > p:nth-child(2) { color: #3b414b; font: 1.6rem/1.42857143 "Nunito-Medium"; margin-bottom: 15px; }
+.wishlist-info > p:nth-child(3) { color: #3b414b; font: 1.8rem/1.42857143 "NunitoSans-Bold"; margin-bottom: 15px; }
+.wishlist-info-ca { margin-bottom: 30px; }
+.wishlist-info-ca > li { display: inline-block; margin-right: 15px; }
+.wishlist-info-ca > li:last-child { margin-right: 0; }
+.wishlist-info-ca > li:first-child > a { background-color: #f7a321; border: 2px solid #f7a321; border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; color: #fff; display: inline-block; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; padding: 10px 30px; text-align: center; }
+.wishlist-info-ca > li:first-child > a > i { padding-right: 5px; }
+.wishlist-info-ca > li:first-child > a:hover { background-color: transparent; color: #f7a321; }
+.wishlist-info-ca > li:last-child > a { color: #6e99be; display: inline-block; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; text-align: center; }
+.wishlist-info-ca > li:last-child > a > i { padding-left: 5px; }
+
+	/*------- Wish List Section Ends -------*/
+
+/*------- Wishlist Page Ends -------*/
+
+/*------- Favourite Page Starts -------*/
+
+	/*------- Favourite Tab Section Starts -------*/
+
+.box-inspirations-tab,
+.box-blog-post-tab { margin-bottom: 30px; }
+.box-inspirations-tab > img,
+.box-blog-post-tab > img { margin-bottom: 15px; width: 100%; }
+.box-inspirations-tab > h4,
+.box-blog-post-tab > h4 { color: #3b414b; font: 1.8rem/1.42857143 "NunitoSans-Bold"; margin-bottom: 5px; }
+.box-inspirations-tab > p:nth-child(3),
+.box-blog-post-tab > p:nth-child(3) { color: #3b414b; font: 1.6rem/1.42857143 "Nunito-Medium"; margin-bottom: 15px; }
+.favourites-va-listing > li,
+.favourites-blog-post-listing > li { display: inline-block; }
+.favourites-va-listing > li > a { color: #6e99be; display: inline-block; font: 1.4rem/1.42857143 "NunitoSans-SemiBold"; }
+.favourites-va-listing > li > span { color: #6e99be; }
+.favourites-re-listing > li { display: inline-block; }
+.favourites-re-listing > li > a { color: #f36f2c; display: inline-block; font: 1.4rem/1.42857143 "NunitoSans-SemiBold"; }
+.favourites-blog-post-listing > li > a { color: #6e99be; display: inline-block; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; }
+.favourites-blog-post-listing > li > a > i { padding-left: 5px; }
+.favourites-blog-post-re-listing > li > a { color: #f36f2c; display: inline-block; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; }
+
+	/*------- Favourite Tab Section Ends -------*/
+
+/*------- Favourite Page Starts -------*/
+
+/*------- Saved Cards Page Starts -------*/
+
+	/*------- Saved Card Heading and Description Section Starts -------*/
+
+.saved-cards-heading > h4,
+.add-new-cards-heading > h4,
+.saved-addresses-heading > h4,
+.add-new-addresses-heading > h4 { color: #3b414b; font: 1.8rem/1.42857143 "NunitoSans-Bold"; margin-bottom: 30px; }
+.box-saved-cards,
+.box-saved-addresses { background-color: #f8f9fa; border: 1px solid #e0dfe0; border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; margin-bottom: 40px; padding: 15px; }
+.box-saved-cards-media { margin-bottom: 5px; }
+.box-saved-cards-left { padding-right: 15px; }
+.box-saved-cards-body > h4 { color: #3b414b; font: 1.6rem/1.42857143 "Nunito-Medium"; margin-bottom: 5px; }
+.box-saved-cards-body > p { color: #3b414b; font: 1.4rem/1.42857143 "Nunito-Medium"; margin-bottom: 15px; }
+.box-saved-cards-expiry-listing > li > a { color: #3b414b; display: block; font: 1.6rem/1.42857143 "Nunito-Medium"; position: relative; }
+.box-saved-cards-expiry-listing > li > a:after {
+	color: #3b414b;
+	content: "\f078";
+	font-family: "Font Awesome 5 Free";
+	font-size: 1.6rem;
+    font-weight: 900;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+.box-add-new-card-button > a,
+.box-add-new-address-button > a { background-color: #59aab4; border: 2px solid #59aab4; border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; color: #fff; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; display: inline-block; padding: 10px 30px; text-align: center; }
+.box-add-new-card-button > a:hover,
+.box-add-new-address-button > a:hover { background-color: transparent; color: #59aab4; }
+.form-group-add-card > label,
+.form-group-add-address > label { color: #39424a; font: 1.6rem/1.42857143 "Nunito-Regular"; margin-bottom: 10px; }
+.form-control-add-card,
+.form-control-add-address { background-color: #fdfdf8; border: 1px solid #e0dfe0; color: #9b9aa1; font: 1.6rem/1.42857143 "Nunito-Medium"; }
+.form-control-add-card::placeholder,
+.form-control-add-address::placeholder { color: #9b9aa1; font: 1.6rem/1.42857143 "Nunito-Medium"; opacity: 1; }
+.form-control-add-card:-ms-input-placeholder,
+.form-control-add-address:-ms-input-placeholder { color: #9b9aa1; font: 1.6rem/1.42857143 "Nunito-Medium"; }
+.form-control-add-card::-ms-input-placeholder,
+.form-control-add-address::-ms-input-placeholder { color: #9b9aa1; font: 1.6rem/1.42857143 "Nunito-Medium"; }
+.form-control-add-card:focus,
+.form-control-add-address:focus { border-color: #e0dfe0; box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none; -ms-box-shadow: none; -o-box-shadow: none; outline: 0; }
+.form-group-add-card-date-picker { margin-bottom: 60px; }
+.form-control-add-card-expiry-date { border-right: 0; }
+.box-add-card-form,
+.box-add-address-form { display: none; }
+
+	/*------- Saved Card Heading and Description Section Ends -------*/
+
+/*------- Saved Cards Page Ends -------*/
+
+/*------- Saved Addresses Page Starts -------*/
+
+	/*------- Save Addresses Section Starts -------*/
+
+.box-saved-addresses { height: 175px; }
+.box-saved-addresses > h4,
+.box-saved-addresses > p { color: #3b414b; font: 1.6rem/1.42857143 "Nunito-Medium"; }
+.box-saved-addresses > p:last-of-type { margin-bottom: 15px; }
+.saved-addresses-ed { height: 40px; line-height: 40px; }
+.saved-addresses-ed > li { display: inline-block; margin-right: 15px; }
+.saved-addresses-ed > li:last-child { margin-right: 0; }
+.saved-addresses-ed > li > a { color: #6e99be; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; }
+.save-addressess-default { text-align: right; }
+.save-addressess-default > li > a { background-color: #6e99be; border: 2px solid #6e99be; border-radius: 24px; -webkit-border-radius: 24px; -moz-border-radius: 24px; -ms-border-radius: 24px; -o-border-radius: 24px; color: #fff; display: inline-block; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; padding: 7px 20px; text-align: center; }
+.form-group-add-address-country { margin-bottom: 40px; }
+
+	/*------- Save Addresses Section Ends -------*/
+
+/*------- Saved Addresses Page Ends -------*/
+
+/*------- Straps Page Starts -------*/
+
+	/*------- Straps Header Banner Section Starts -------*/
+
+.bg-straps-header-banner { background: url("../images/strap-banner.jpg") no-repeat top/cover; margin-top: 106px; padding: 30px 15px; }
+.straps-heading > p > a { color: #fff; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; }
+.straps-heading > p > a:first-child { padding-right: 10px; }
+.straps-heading > p > i { color: #fff; padding-right: 10px; }
+.straps-heading > h1 { color: #fff; font: 3.6rem/1.42857143 "NunitoSans-ExtraBold"; text-align: center; }
+
+	/*------- Straps Header Banner Section Ends -------*/
+
+	/*------- Strap Finder Section Starts -------*/
+
+.bg-strap-finder { padding: 50px 15px; }
+.strap-finder-relative { position: relative; }
+.img-strap-one { width: 100%; }
+.guide-change-absolute { bottom: 0; left: 0; padding: 20px; position: absolute; width: 100%; }
+.guide-change-absolute > p { color: #fff; font: 1.6rem/1.42857143 "NunitoSans-Bold"; padding-left: 10px; position: relative; }
+.guide-change-absolute > p:before { background-color: #f7a321; content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 2px; }
+.box-strap-finder { border: 1px solid #e0dfe0; border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; padding: 105px 90px; }
+.box-strap-finder-content > h3 { color: #3b414b; font: 2.4rem/1.42857143 "NunitoSans-Bold"; margin-bottom: 15px; text-align: left; }
+.box-strap-finder-content > p { color: #3b414b; font: 2.4rem/1.42857143 "NunitoSans-Light"; margin-bottom: 15px; text-align: left; width: 350px; }
+.form-control-watch-type { background-color: #fdfdf8; border: 1px solid #e0dfe0; box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none; -ms-box-shadow: none; -o-box-shadow: none; color: #39424a; height: 40px; font: 1.6rem/1.42857143 "Nunito-Medium"; }
+.form-control-watch-type::placeholder { color: #39424a; font: 1.6rem/1.42857143 "Nunito-Medium"; opacity: 1; }
+.form-control-watch-type:-ms-input-placeholder { color: #39424a; font: 1.6rem/1.42857143 "Nunito-Medium"; }
+.form-control-watch-type::-ms-input-placeholder { color: #39424a; font: 1.6rem/1.42857143 "Nunito-Medium"; }
+.form-control-watch-type:focus { border-color: #e0dfe0; box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none; -ms-box-shadow: none; -o-box-shadow: none; outline: 0; }
+.watch-type-listing { -ms-align-items: center; align-items: center; display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: -o-flex; display: flex; }
+.watch-type-listing > li { display: inline-block; margin-right: 15px; }
+.watch-type-listing > li:last-child { margin-right: 0; }
+.watch-type-listing > li:last-child > a { background-color: #f7a321; border: 2px solid #f7a321; border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; color: #fff; display: inline-block; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; padding: 8px 30px; text-align: center; }
+
+	/*------- Strap Finder Section Ends -------*/
+
+	/*------- Available Strap Section Starts -------*/
+
+.bg-available-strap { padding: 0 15px 50px; }
+.available-strap-heading > h4 { color: #3b414b; font: 1.8rem/1.42857143 "NunitoSans-ExtraBold"; margin-bottom: 30px; }
+.wy-strap-relative { position: relative; }
+.wy-strap-absolute { bottom: 0; left: 0; padding: 30px; position: absolute; width: 100%; }
+.wy-strap-absolute > h2 { color: #fff; font: 3rem/1.42857143 "NunitoSans-ExtraBold"; margin-bottom: 15px; }
+.wy-strap-absolute > p { color: #fff; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; margin-bottom: 15px; width: 350px; }
+.available-strap-listing > li { display: inline-block; }
+.available-strap-listing > li > a { color: #f7a321; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; }
+.available-strap-listing > li > span { color: #f7a321; padding: 0 5px; }
+.img-strap-three,
+.img-strap-four { margin-bottom: 30px; }
+.img-strap-three,
+.img-strap-four,
+.img-strap-five,
+.img-strap-six,
+.img-strap-provider { width: 100%; }
+
+	/*------- Available Strap Section Ends -------*/
+
+	/*------- Straps Provider Section Starts -------*/
+
+.bg-straps-provider { padding: 0 15px 50px; }
+.box-straps-provider { border: 1px solid #e0dfe0; border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; padding: 83px 50px; }
+.box-straps-provider-content > h3 { color: #3b414b; font: 2.4rem/1.42857143 "NunitoSans-Bold"; margin-bottom: 15px; }
+.box-straps-provider-content > p:nth-child(2) { color: #3b414b; font: 2.4rem/1.42857143 "NunitoSans-Light"; margin-bottom: 15px; width: 350px; }
+.box-straps-provider-content > p:nth-child(3) { color: #3b414b; font: 1.6rem/1.42857143 "Nunito-Medium"; }
+
+	/*------- Straps Provider Section Ends -------*/
+
+	/*------- Mobile Available Strap Section Starts -------*/
+
+.bg-available-strap-mobile-one,
+.bg-available-strap-mobile-two,
+.bg-available-strap-mobile-three { display: none; }
+.slick-available-slider-first .slick-prev,
+.slick-available-slider-first .slick-next,
+.slick-available-slider-two .slick-prev,
+.slick-available-slider-two .slick-next,
+.slick-available-slider-three .slick-prev,
+.slick-available-slider-three .slick-next { display: none !important; }
+
+	/*------- Mobile Available Strap Section Ends -------*/
+
+/*------- Straps Page Ends -------*/
+
+/*------- Our Story Page Starts -------*/
+
+	/*------- Our Story Sidebar Section Starts -------*/
+
+.sidebar-our-story-pg-listing > li { display: block; margin-bottom: 10px; }
+.sidebar-our-story-pg-listing > li:last-child { margin-bottom: 0; }
+.sidebar-our-story-pg-listing > li > a { color: #3b414b; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; }
+.sidebar-our-story-pg-listing > li > a:hover,
+.sidebar-our-story-pg-listing > li.active > a { color: #3da3ae; }
+
+	/*------- Our Story Sidebar Section Ends -------*/
+
+	/*------- About Us Section Starts -------*/
+
+.about-us-banner-relative { position: relative; }
+.img-about-us { margin-bottom: 30px; width: 100%; }
+.about-us-heading-desc > h3,
+.wy-blog-heading > h3 { color: #3b414b; font: 2.4rem/1.42857143 "NunitoSans-ExtraBold"; margin-bottom: 30px; }
+.about-us-heading-desc > p { color: #3b414b; font: 1.6rem/1.42857143 "Nunito-Medium"; margin-bottom: 30px; }
+.img-wy-gallery { margin-bottom: 30px; width: 100%; }
+.about-us-heading-desc > h4 { color: #3b414b; font: 1.8rem/1.42857143 "NunitoSans-Bold"; margin-bottom: 30px; }
+.img-our-mission { margin-bottom: 30px; width: 100%; }
+.img-our-mission + p { color: #3b414b; font: 2.4rem/1.42857143 "Nunito-Regular"; margin-bottom: 30px; padding-left: 20px; position: relative; width: 280px; }
+.img-our-mission + p:before { background-color: #f7a321; content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 2px; }
+.about-us-heading-desc > p:last-child { margin-bottom: 0; }
+.img-our-story-blog-post,
+.img-wy-blog { margin-bottom: 30px; width: 100%; }
+.our-story-blog-post-banner > h3,
+.our-story-blog-post-similar-post-heading > h3 { color: #3b414b; font: 2.4rem/1.42857143 "NunitoSans-ExtraBold"; margin-bottom: 30px; }
+.our-story-blog-post-banner > p { color: #3b414b; font: 1.6rem/1.42857143 "Nunito-Medium"; margin-bottom: 30px; }
+.our-story-blog-post-banner > p:nth-child(5) { color: #3b414b; font: 2.4rem/1.42857143 "Nunito-Regular"; margin-bottom: 30px; padding-left: 20px; position: relative; width: 280px; }
+.our-story-blog-post-banner > p:nth-child(5):before { background-color: #f7a321; content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 2px; }
+.heart-submit-os-listing > li:last-child > a { color: #6f98be; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; }
+.our-story-blog-post-comment-views { margin-bottom: 30px; }
+.our-story-blog-post-similar-post-heading > h3 { margin-bottom: 0; }
+.our-story-blog-post-similar-post-explore-more { margin-bottom: 30px; }
+.our-story-blog-post-similar-post-e > a { color: #6f98be; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; }
+.our-story-blog-post-similar-post-e > a > i { padding-left: 5px; }
+.wy-blog-information > h3 { color: #3b414b; font: 2.4rem/1.42857143 "NunitoSans-ExtraBold"; margin-bottom: 15px; width: 290px; }
+.wy-blog-information > p:nth-child(2) { color: #9a9a9f; font: 1.6rem/1.42857143 "NunitoSans-Regular"; margin-bottom: 15px; }
+.wy-blog-information > p:nth-child(3) { color: #3b414b; font: 1.6rem/1.42857143 "Nunito-Medium"; margin-bottom: 15px; }
+.wy-blog-listing { margin-bottom: 30px; }
+.wy-blog-listing > li { display: inline-block; margin-right: 15px; }
+.wy-blog-listing > li:first-child > a { border: 2px solid #f7a321; border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; color: #f7a321; display: inline-block; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; padding: 10px 30px; text-align: center; }
+.wy-blog-listing > li:first-child > a:hover { background-color: #f7a321; color: #fff; }
+.wy-blog-listing > li:last-child > a { color: #6f98be; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; }
+	
+		/*------- Custom Pagination CSS Starts -------*/
+
+#page-navi li a { border: 1px solid #e0dfe0; border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; color: #3b414b; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; height: 40px; line-height: 40px; padding: 0; text-align: center; width: 40px; }
+#page-navi li a.current, 
+#page-navi li a.disable, 
+#page-navi li a:hover { border: 1px solid #337ab7; background-color: #337ab7; }
+
+		/*------- Custom Pagination CSS Ends -------*/
+
+	/*------- About Us Section Ends -------*/
+
+/*------- Our Story Page Ends -------*/
+
+/*------- Cart Page Starts -------*/
+
+	/*------- Cart Tab Section Starts -------*/
+
+.bg-cart-tab { padding: 0 15px 50px; }
+.cart-tab-listing { -ms-align-items: center; align-items: center; background-color: #eee; border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: -o-flex; display: flex; padding: 15px; width: 100%; }
+.cart-tab-listing > li { cursor: pointer; display: inline-block; position: relative; text-align: center; width: 33.33%; }
+.cart-tab-listing > li:after {
+	color: #ccc;
+	content: "\f054";
+    font-family: "Font Awesome 5 Free";
+    font-size: 2rem;
+    font-weight: 900;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+.cart-tab-listing > li:last-child:after { content: ""; }
+.cart-tab-listing > li { color: #3b414b; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; }
+.cart-tab-listing > li > i { background-color: #fff; border-radius: 50%; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; display: inline-block; height: 40px; line-height: 40px; margin-right: 10px; transition: 0.5s linear; -webkit-transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; width: 40px; }
+.cart-tab-listing > li:last-child > i { margin-right: 0; }
+.cart-tab-listing > li:hover i,
+.cart-tab-listing > li.active > i { background-color: #3da3ae; color: #fff; }
+.cart-tab-listing > li:hover,
+.cart-tab-listing > li.active { color: #3da3ae; }
+.cart-pg-br { border-right: 1px solid #e0dfe0; }
+.img-cart { margin-bottom: 30px; width: 100%; }
+.cart-wristwatch-info > h4 { color: #3b414b; font: 1.8rem/1.42857143 "NunitoSans-Bold"; margin-bottom: 10px; }
+.cart-wristwatch-info > p:nth-child(2) { color: #3b414b; font: 1.6rem/1.42857143 "Nunito-Medium"; margin-bottom: 15px; }
+.cart-wristwatch-info > p:nth-child(3) { color: #3b414b; font: 2.4rem/1.42857143 "NunitoSans-Bold"; margin-bottom: 10px; }
+.cart-wristwatch-info > p:nth-child(4) { color: #3b414b; font: 1.6rem/1.42857143 "Nunito-Regular"; margin-bottom: 15px; }
+.form-control-quantity { background-color: #fdfdf8; border: 1px solid #e0dfe0; color: #3b414b; font: 1.6rem/1.42857143 "Nunito-SemiBold"; width: 25%; }
+.form-control-quantity::placeholder { color: #3b414b; font: 1.6rem/1.42857143 "Nunito-SemiBold"; opacity: 1; }
+.form-control-quantity:-ms-input-placeholder { color: #3b414b; font: 1.6rem/1.42857143 "Nunito-SemiBold"; }
+.form-control-quantity::-ms-input-placeholder { color: #3b414b; font: 1.6rem/1.42857143 "Nunito-SemiBold"; }
+.form-control-quantity:focus { border-color: #e0dfe0; box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none; -ms-box-shadow: none; -o-box-shadow: none; outline: 0; }
+.cart-wristwatch-line { border-top: 1px solid #e0dfe0; margin: 15px 0; }
+.cart-wristwatch-listing { margin-bottom: 30px; }
+.cart-wristwatch-listing > li { display: inline-block; margin-right: 15px; }
+.cart-wristwatch-listing > li:last-child { margin-right: 0; }
+.cart-wristwatch-listing > li:first-child > a { color: #f36f2c; display: block; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; }
+.cart-wristwatch-listing > li > span { color: #e0dfe0; }
+.cart-wristwatch-listing > li:last-child > a { color: #6e99be; display: block; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; }
+.gift-personalization-heading > h4 { color: #3b414b; font: 1.8rem/1.42857143 "NunitoSans-Bold"; margin-bottom: 15px; }
+.figure-cart-gp-relative { margin-bottom: 30px; position: relative; }
+.img-cart-gp { width: 100%; }
+.figcaption-cart-gp-absolute { left: 15px; position: absolute; top: 15px; }
+.figcaption-cart-gp-absolute > p:first-child { color: #fff; font: 1.6rem/1.42857143 "NunitoSans-Bold"; margin-bottom: 5px; }
+.figcaption-cart-gp-absolute > p:nth-child(2) { color: #fff; font: 1.6rem/1.42857143 "Nunito-Medium"; margin-bottom: 15px; }
+.create-gift > a { border: 2px solid #fff; border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; color: #fff; display: inline-block; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; padding: 10px 30px; text-align: center; }
+.create-gift > a:hover { background-color: #fff; color: #f3702c; }
+.price-details-heading > h4 { color: #3b414b; font: 1.8rem/1.42857143 "NunitoSans-Bold"; margin-bottom: 15px; }
+.table-price-details { margin-bottom: 0; }
+.table-price-details > tbody > tr:nth-last-child(2) > td { padding-bottom: 50px; }
+.table-price-details > tbody > tr > td { border-top: 0; color: #3b414b; font: 1.6rem/1.42857143 "Nunito-Medium"; padding: 5px 0; }
+.table-price-details > tbody > tr > td:last-child { text-align: right; }
+.table-price-details > tbody > tr:last-child > td { border-top: 1px solid #e0dfe0; font: 1.6rem/1.42857143 "NunitoSans-Bold"; padding: 15px 0 30px; }
+.btn-place-order-continue { background-color: #59aab4; border: 2px solid #59aab4; border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; color: #fff; display: inline-block; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; padding: 10px 30px; text-align: center; transition: 0.5s linear; -webkit-transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; width: 100%; }
+.btn-place-order-continue:hover { background-color: #fff; color: #59aab4; }
+.btn-place-order-continue:focus { background-color: #59aab4; color: #fff; outline: 0; }
+.select-delivery-address-heading > h4 { color: #3b414b; font: 1.8rem/1.42857143 "NunitoSans-Bold"; margin-bottom: 30px; }
+.box-cart-addresses { background-color: #fff; border: 2px solid #e0dfe0; }
+.box-cart-addresses.active { border: 2px solid #6e99be; }
+.add-new-cart-address > a { color: #6e99be; display: inline-block; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; }
+.add-new-cart-address > a > i { padding-left: 5px; }
+.choose-delivery-speed-heading > h4 { color: #3b414b; font: 1.8rem/1.42857143 "NunitoSans-Bold"; margin-bottom: 15px; }
+.box-std-delivery { background-color: #fff; border: 2px solid #e0dfe0; border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; margin-bottom: 30px; padding: 15px; }
+.box-std-delivery-info { padding-left: 40px; position: relative; }
+.box-std-delivery-info > p { color: #3b414b; font: 1.6rem/1.42857143 "Nunito-Medium"; }
+.box-std-delivery-info:before {
+	background-color: #6e99be;
+	border: 2px solid #6e99be;
+	border-radius: 50%;
+	box-shadow: inset 0 0 0 4px #fff;
+	content: "";
+	height: 30px;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 30px;
+}
+.box-std-deliver-bb { border-top: 1px solid #e0dfe0; }
+.choose-payment-method-heading { margin-bottom: 30px; }
+.choose-payment-method-heading > h4 { color: #3b414b; font: 1.8rem/1.42857143 "NunitoSans-Bold"; margin-bottom: 15px; }
+
+		/*------- Custom Radio Button of Payment Method CSS Starts -------*/
+
+.label-payment-method { display: block; margin-bottom: 15px; padding-left: 30px; }
+
+		/*------- Custom Radio Button of Payment Method CSS Ends -------*/
+
+.choose-payment-method-line { border-top: 1px solid #e0dfe0; }
+.select-payment-card-listing { margin-bottom: 30px; }
+.select-payment-card-listing > li { display: inline-block; padding-right: 30px; position: relative; }
+.select-payment-card-listing > li:after {
+	background-color: #3b414b;
+	content: "";
+	height: 100%;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	width: 2px;
+}
+.select-payment-card-listing > li:last-child:after { display: none; }
+.select-payment-card-listing > li:last-child { padding-left: 30px; }
+.select-payment-card-listing > li { color: #3b414b; cursor: pointer; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; }
+.select-payment-card-listing > li:hover,
+.select-payment-card-listing > li.active { color: #6e99be; }
+.box-cart-payment-cards { margin-bottom: 20px; }
+.btn-pay-now { margin-bottom: 30px; padding: 10px 90px; width: auto; }
+.safe-secure { -ms-align-items: center; align-items: center; display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: -o-flex; display: flex; color: #3b414b; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; }
+.safe-secure > img { padding-right: 10px; }
+.deliver-to-heading > h4 { color: #3b414b; font: 1.6rem/1.42857143 "NunitoSans-Bold"; margin-bottom: 10px; }
+.deliver-to-heading >  p,
+.deliver-to-heading > p > a { color: #3b414b; font: 1.6rem/1.42857143 "Nunito-Medium"; }
+.deliver-to-heading > p > a { color: #6e99be; }
+.deliver-to-heading > p > a > i { padding-left: 5px; }
+.deliver-to-heading >  p:nth-child(4) { margin-bottom: 15px; }
+
+	/*------- Cart Tab Section Ends -------*/
+
+/*------- Cart Page Ends -------*/
