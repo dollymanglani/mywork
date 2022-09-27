@@ -1,0 +1,307 @@
+@media only screen and (max-width: 767px) {
+
+  /*------- Common CSS Starts -------*/
+
+  .d-block { display: block; }
+  .d-block-mob { display: block; }
+  .w-4-per,
+  .w-48-per { width: 100%; }
+  .text-left-mob { text-align: left; }
+  .mb-0-mob { margin-bottom: 0; }
+  .mb-10-mob { margin-bottom: 10px; }
+  .mb-15-mob { margin-bottom: 15px; }
+  .mb-30-mob { margin-bottom: 30px; }
+  .px-0-mob { padding-left: 0; padding-right: 0; }
+  .px-15-mob { padding: 0 15px; }
+
+  /*------- Common CSS Ends -------*/
+
+  /*------- Home Page Starts -------*/
+
+  .header-logo > a > img { width: 220px; }
+  .info-with-form {
+    width: 90%;
+  }
+  .info-with-form > h2 { font-size: 7rem; }
+  .info-with-form > a { font-size: 3rem; }
+  input[class="light-dark-switch-input"] + span {
+    height: 30px;
+    width: 80px;
+  }
+  input[class="light-dark-switch-input"] + span::before {
+   content: url('../images/light-switch-mobile.png');
+   top: 55%;
+ }
+ input[class="light-dark-switch-input"]:checked + span:before {
+  content: url('../images/dark-switch-mobile.png');
+  top: 55%;
+}
+
+/*------- Home Page Ends -------*/
+
+/*------- Tab Page Starts -------*/
+
+.wrapper { padding: 0; }
+.tab-listing { margin-bottom: 30px; }
+.tab-listing > li { margin-right: 15px; }
+.tab-listing > li > a { font-size: 1.4rem; }
+.form-heading > h4 { display: inline-block; text-align: center; }
+.bg-card-tab { padding: 20px; }
+.form-group-tab-acc-cou { margin-bottom: 30px; }
+.custom-select-size-settings-1,
+.custom-select-size-settings-2 { float: left; width: 110px; }
+.media-left-user > img { width: 70px; }
+.media-body-user > h4 { font-size: 2.4rem; }
+.media-body-user > p,
+.media-body-user > p > i { font-size: 1.8rem; }
+.sie-listing { margin: 15px 0; }
+.hmde-listing,
+.sete-listing { justify-content: flex-start; margin-top: 0; }
+.card-with-btn { top: 0; margin-top: 0;}
+.hmde-listing { justify-content: center; }
+.hmde-listing-acc { justify-content: flex-start; }
+.disc-web {
+  margin: 15px 0 0;
+  padding: 0;
+  top: 0;
+}
+.custom-select-profile-tab,
+.custom-select-settings-tab { width: 110px; }
+.custom-select-profile-tab { float: right; }
+.cards-image,
+.sie-listing-hmde-profiles { position: static; }
+.form-control-tab-3 { width: 100%; }
+.card-figure { margin: 0 auto; position: relative; top: 0; width: 300px; }
+.card-figure > img { margin: 0 auto; width: 300px; }
+.card-number {
+  font-size: 1.4rem;
+  left: 56%;
+  top: 110px;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+.card-date {
+  font-size: 1.4rem;
+  left: 77%;
+  top: 133px;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+.card-cvv {
+  font-size: 1.4rem;
+  left: 40px;
+  top: 87px;
+}
+.label-info-dweb { margin-bottom: 10px; }
+
+/*------- Tab Page Ends -------*/
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+  /*------- Common CSS Starts -------*/
+
+  .d-block { display: block; }
+  .w-4-per,
+  .w-48-per { width: 100%; }
+  .w-4-per-tab-1 { width: 4%; }
+  .w-48-per-tab-1 { width: 48%; }
+  .text-left-mob { text-align: left; }
+  .mb-10-mob { margin-bottom: 10px; }
+  .mb-15-mob { margin-bottom: 15px; }
+  .px-15-mob { padding: 0 15px; }
+  .mb-10-tab { margin-bottom: 10px; }
+  .mb-30-tab { margin-bottom: 30px; }
+
+  /*------- Common CSS Ends -------*/
+
+  /*------- Home Page Starts -------*/
+
+  .fixed-logo {
+    margin: 0 auto;
+    padding-top: 15px;
+    position: static;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none;
+    width: 300px;
+  }
+  .light-dark-switch {
+    margin-top: 30px;
+    position: static;
+    text-align: center;
+  }
+
+  /*------- Home Page Ends -------*/
+
+  /*------- Tab Page Starts -------*/
+
+  .wrapper { padding: 0; }
+  .tab-listing { margin-bottom: 30px; }
+  .tab-listing > li { margin-right: 15px; }
+  .tab-listing > li > a { font-size: 1.8rem; }
+  .bg-card-tab { padding: 20px; }
+  .media-left-user > img { width: 70px; }
+  .media-body-user > h4 { font-size: 2.4rem; }
+  .media-body-user > p,
+  .media-body-user > p > i { font-size: 1.8rem; }
+  .sie-listing { margin: 15px 0; }
+  .sete-listing { justify-content: flex-end; }
+  .hmde-listing { justify-content: flex-start; }
+  .disc-web { margin: 0; }
+  .custom-select-profile-tab,
+  .custom-select-settings-tab,
+  .custom-select-size-settings-1,
+  .custom-select-size-settings-2 { float: left; width: 120px; }
+  .cards-image,
+  .sie-listing-hmde-profiles { position: static; }
+  .form-control-tab-3 { width: 100%; }
+  .form-heading > h4 { display: inline-block; text-align: center; }
+  .text-left-tab { text-align: left; }
+  .card-with-btn { top: 0; margin-top: 0;}
+  .hmde-listing { justify-content: center; }
+  .card-figure { margin: 0 auto; width: 340px; }
+  .card-figure-right { float: right; }
+  .card-figure-left { float: left; }
+  .card-figure > img { margin: 0 auto; width: 340px; }
+  .card-number {
+    color: #ffffff;
+    font: 2rem/1 "Gotham-Book";
+    left: 117px;
+    letter-spacing: 1.5px;
+    position: absolute;
+    top: 120px;
+  }
+  .card-date {
+    color: #ffffff;
+    font: 1.6rem/1 "Gotham-Book";
+    left: 235px;
+    letter-spacing: 3px;
+    position: absolute;
+    top: 151px;
+  }
+  .card-cvv {
+    color: #000000;
+    font: 1.8rem/1 "Gotham-Medium";
+    left: 45px;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 97px;
+  }
+
+  /*------- Tab Page Ends -------*/
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+  /*------- Common CSS Starts -------*/
+
+  .d-block-tab { display: block; }
+  .w-4-per,
+  .w-48-per { width: 100%; }
+  .w-4-per-tab-2 { width: 4%; }
+  .w-48-per-tab-2 { width: 48%; }
+  .text-left-mob { text-align: left; }
+  .mb-10-mob { margin-bottom: 10px; }
+  .mb-15-mob { margin-bottom: 15px; }
+  .px-15-mob { padding: 0 15px; }
+  .mb-10-tab { margin-bottom: 10px; }
+  .mb-30-tab { margin-bottom: 30px; }
+
+  /*------- Common CSS Ends -------*/
+
+  /*------- Home Page Starts -------*/
+
+  .fixed-logo {
+    margin: 0 auto;
+    padding-top: 15px;
+    position: static;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none;
+    width: 300px;
+  }
+  .light-dark-switch {
+    margin-top: 30px;
+    position: static;
+    text-align: center;
+  }
+
+  /*------- Home Page Ends -------*/
+
+  /*------- Tab Page Starts -------*/
+
+  .wrapper { padding: 0; }
+  .tab-listing { margin-bottom: 30px; }
+  .tab-listing > li { margin-right: 15px; }
+  .tab-listing > li > a { font-size: 1.8rem; }
+  .bg-card-tab { padding: 20px; }
+  .media-left-user > img { width: 70px; }
+  .media-body-user > h4 { font-size: 2.4rem; }
+  .media-body-user > p,
+  .media-body-user > p > i { font-size: 1.8rem; }
+  .sie-listing { margin: 15px 0; }
+  .sete-listing { justify-content: flex-end; }
+  .hmde-listing { justify-content: flex-start; }
+  .disc-web { margin: 0; }
+  .custom-select-profile-tab,
+  .custom-select-settings-tab,
+  .custom-select-size-settings-1,
+  .custom-select-size-settings-2 { float: left; width: 120px; }
+  .cards-image,
+  .sie-listing-hmde-profiles { position: static; }
+  .form-control-tab-3 { width: 100%; }
+  .form-heading > h4 { display: inline-block; text-align: center; }
+  .text-left-tab { text-align: left; }
+  .card-with-btn { top: 0; margin-top: 0; }
+  .hmde-listing { justify-content: center; }
+  .card-figure { margin: 0 auto; width: 340px; }
+  .card-figure-right { float: right; }
+  .card-figure-left { float: left; }
+  .card-figure > img { margin: 0 auto; width: 340px; }
+  .card-number {
+    color: #ffffff;
+    font: 2rem/1 "Gotham-Book";
+    left: 117px;
+    letter-spacing: 1.5px;
+    position: absolute;
+    top: 120px;
+  }
+  .card-date {
+    color: #ffffff;
+    font: 1.6rem/1 "Gotham-Book";
+    left: 235px;
+    letter-spacing: 3px;
+    position: absolute;
+    top: 151px;
+  }
+  .card-cvv {
+    color: #000000;
+    font: 1.8rem/1 "Gotham-Medium";
+    left: 45px;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 97px;
+  }
+
+  /*------- Tab Page Ends -------*/
+
+}
+
+@media only screen and (min-width: 1199px) {
+  .card-figure-right { float: right; }
+  .card-figure-left { float: left; }
+
+}

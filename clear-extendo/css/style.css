@@ -1,0 +1,538 @@
+/*------- Font Family Starts -------*/
+
+@font-face { font-family: "Gotham-Light-Italic"; src: url("../fonts/Gotham-Light-Italic.ttf"); }
+@font-face { font-family: "Gotham-Book"; src: url("../fonts/Gotham-Book.ttf"); }
+@font-face { font-family: "Gotham-Medium"; src: url("../fonts/Gotham-Medium.ttf"); }
+@font-face { font-family: "Gotham-Bold"; src: url("../fonts/Gotham-Bold.ttf"); }
+
+/*------- Font Family Ends -------*/
+
+/*------- Reset CSS Starts -------*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+label { margin: 0; padding: 0; }
+li { list-style: none; }
+a,
+a:hover,
+a:focus { outline: 0; text-decoration: none; -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; }
+
+/*------- Reset CSS Ends -------*/
+
+/*------- Common CSS Starts -------*/
+
+body {
+  background: -webkit-linear-gradient(to right, #cc9ffb, #cccffb);
+  background: -moz-linear-gradient(to right, #cc9ffb, #cccffb);
+  background: -ms-linear-gradient(to right, #cc9ffb, #cccffb);
+  background: -o-linear-gradient(to right, #cc9ffb, #cccffb);
+  background: linear-gradient(to right, #cc9ffb, #cccffb);
+  height: 100vh;
+}
+body.active {
+  background: -webkit-linear-gradient(to right, #241f49, #7d3fa3);
+  background: -moz-linear-gradient(to right, #241f49, #7d3fa3);
+  background: -ms-linear-gradient(to right, #241f49, #7d3fa3);
+  background: -o-linear-gradient(to right, #241f49, #7d3fa3);
+  background: linear-gradient(to right, #241f49, #7d3fa3);
+  height: 100vh;
+}
+.d-flex { display: -webkit-flex; display: -webkit-box; display: -ms-flexbox; display: flex; }
+.flex-wrap { flex-wrap: wrap; }
+.align-items-center { -webkit-align-items: center; align-items: center; }
+.justify-content-center { justify-content: center; }
+.justify-content-end { justify-content: flex-end; }
+.w-4-per { width: 4%; }
+.w-48-per { width: 48%; }
+.pr-0 { padding-right: 0; }
+.px-0 { padding-left: 0; padding-right: 0; }
+.mb-10 { margin-bottom: 10px; }
+.mb-15 { margin-bottom: 15px; }
+.mb-30 { margin-bottom: 30px; }
+.mb-50 { margin-bottom: 50px; }
+
+/*------- Common CSS Ends -------*/
+
+/*------- Home Page Starts -------*/
+
+.bg-header {
+  padding: 15px;
+}
+.header-logo > a { display: block; }
+.header-logo > img {
+  margin: 0 auto;
+  width: 50%;
+}
+.info-with-form {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  -o-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  z-index: 10;
+}
+.info-with-form > h2 {
+  color: #ffffff;
+  font: 15rem/1 "Gotham-Bold";
+  margin-bottom: 30px;
+  text-shadow: 7px 7px 7px #0000001c;
+}
+.form-control-iyk {
+  background-color: #af89c8;
+  border: 5px solid #884caf;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  -ms-border-radius: 24px;
+  -o-border-radius: 24px;
+  border-radius: 24px;
+  color: #ffffff;
+  font-family: "Gotham-Book";
+  margin-bottom: 30px;
+}
+.form-control-iyk:focus {
+  border-color: #884caf;
+}
+.info-with-form > a {
+  color: #ffffff;
+  display: inline-block;
+  font: 4rem/1 "Gotham-Bold";
+  padding-bottom: 10px;
+  position: relative;
+  text-shadow: 7px 7px 7px #0000001c;
+  z-index: 1;
+}
+
+  /*------- Custom Progressbar CSS Starts -------*/
+
+#progress {
+  height: 7px;
+  width: 100%;
+  margin-top: 0;
+}
+#progress-bar {
+  width: 0%;
+  height: 100%;
+  transition: width 500ms linear;
+}
+.progress-bar-danger {
+  background: #ffffff;
+}
+.progress-bar-warning {
+  background: #ffffff;
+}
+.progress-bar-success {
+  background: #ffffff;
+}
+
+  /*------- Custom Progressbar CSS Ends -------*/
+
+  /*------- Custom Checkbox Switch CSS Starts -------*/ 
+
+.light-dark-switch-label { position: relative; }
+input[class="light-dark-switch-input"] { display: none; }
+input[class="light-dark-switch-input"] + span {
+	background-color: #daddf8;
+	border-radius: 24px;
+	-webkit-border-radius: 24px;
+	-moz-border-radius: 24px;
+	-ms-border-radius: 24px;
+	-o-border-radius: 24px;
+	cursor: pointer;
+	display: block;
+	height: 50px;
+	position: relative;
+	transition: 0.5s linear;
+	-webkit-transition: 0.5s linear;
+	-moz-transition: 0.5s linear;
+	-ms-transition: 0.5s linear;
+	-o-transition: 0.5s linear;
+	width: 100px;
+}
+input[class="light-dark-switch-input"] + span::before {
+	content: url('../images/light-switch.png');
+	left: 52px;
+	position: absolute;
+	top: 54%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transition: 0.5s linear;
+	-webkit-transition: 0.5s linear;
+	-moz-transition: 0.5s linear;
+	-ms-transition: 0.5s linear;
+	-o-transition: 0.5s linear;
+}
+input[class="light-dark-switch-input"]:checked + span {
+	background-color: #a881c0;
+}
+input[class="light-dark-switch-input"]:checked + span:before {
+  content: url('../images/dark-switch.png');
+	left: 5px;
+}
+
+		/*------- Custom Checkbox Switch CSS Ends -------*/
+
+/*------- Home Page Ends -------*/
+
+/*------- Tabs Page Starts -------*/
+
+.tab-listing { margin-bottom: 50px; }
+.tab-listing > li { display: inline-block; margin-right: 30px; }
+.tab-listing > li > a { border-bottom: 5px solid transparent; color: #ffffff; font: 2.4rem/1 "Gotham-Book"; text-shadow: 3px 3px 7px #00000030; text-transform: uppercase; }
+.tab-listing > li > a:hover,
+.tab-listing > li.active > a { border-bottom: 5px solid #ffffff; font-family: "Gotham-Medium"; }
+.bg-card-tab {
+  background: -webkit-linear-gradient(to bottom, #cc9ffc, #490069);
+  background: -moz-linear-gradient(to bottom, #cc9ffc, #490069);
+  background: -ms-linear-gradient(to bottom, #cc9ffc, #490069);
+  background: -o-linear-gradient(to bottom, #cc9ffc, #490069);
+  background: linear-gradient(to bottom, #cc9ffc, #490069);
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  -ms-border-radius: 24px;
+  -o-border-radius: 24px;
+  border-radius: 24px;
+  padding: 30px;
+}
+.bg-card-tab-profiles { padding-bottom: 0; }
+.form-heading > h4 {
+  background-color: #ffffff;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  -ms-border-radius: 24px;
+  -o-border-radius: 24px;
+  border-radius: 24px;
+  -webkit-box-shadow: 0px 4px 7px 0px #00000027;
+  -moz-box-shadow: 0px 4px 7px 0px #00000027;
+  -ms-box-shadow: 0px 4px 7px 0px #00000027;
+  -o-box-shadow: 0px 4px 7px 0px #00000027;
+  box-shadow: 0px 4px 7px 0px #00000027;
+  color: #664594;
+  font: 2rem/1 "Gotham-Bold";
+  padding: 5px 20px;
+}
+.form-group-tab { margin-bottom: 30px; }
+.label-info-tab {
+  color: #ffffff;
+  font: 1.5rem/1 "Gotham-Bold";
+}
+.form-control-tab {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px solid #ffffff47;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -ms-box-shadow: none;
+  -o-box-shadow: none;
+  box-shadow: none;
+  color: #ffffff;
+  font-family: "Gotham-Book";
+  padding: 6px 0;
+}
+.form-control-tab:focus {
+  border-color: #ffffff;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -ms-box-shadow: none;
+  -o-box-shadow: none;
+  box-shadow: none;
+}
+.sie-listing {
+  margin: 15px 15px 50px;
+}
+.custom-select-size-settings-1,
+.custom-select-size-settings-2 { float: right; }
+.sie-listing > li { margin-right: 15px; }
+.sie-listing > li:last-child { margin-right: 0; }
+.sie-listing > li > a {
+  background-color: transparent;
+  border: 2px solid #f0dbfe;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  border-radius: 7px;
+  color: #f0dbfe;
+  font: 1.6rem/1 "Gotham-Book";
+  display: inline-block;
+  padding: 5px 15px;
+  text-align: center;
+}
+.sie-listing > li > a:hover {
+  background-color: #ffffff;
+  color: #4c046d;
+}
+.card-figure { position: relative; }
+.card-with-btn { position: relative; margin-top: -200px; }
+.hmde-listing {
+  margin: -15px 50px 0px 0;
+}
+.hmde-listing-acc {
+    margin: 15px 0 50px;
+}
+.card-figure > img { width: 420px; }
+/*.card-number {
+  color: #ffffff;
+  font: 2.4rem/1 "Gotham-Book";
+  left: 145px;
+  letter-spacing: 2px;
+  position: absolute;
+  top: 150px;
+}*/
+.card-number {
+    color: #ffffff;
+    font: 2.1rem/1 "Gotham-Book";
+    left: 120px;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 128px;
+}
+/*.card-date {
+  color: #ffffff;
+  font: 1.6rem/1 "Gotham-Book";
+  left: 296px;
+  letter-spacing: 3px;
+  position: absolute;
+  top: 190px;
+}*/
+
+.card-date {
+    color: #ffffff;
+    font: 1.6rem/1 "Gotham-Book";
+    left: 251px;
+    letter-spacing: 3px;
+    position: absolute;
+    top: 162px;
+}
+.card-cvv {
+  color: #000000;
+  font: 1.8rem/1 "Gotham-Medium";
+  left: 55px;
+  letter-spacing: 1px;
+  position: absolute;
+/*  top: 121px;*/
+  top: 104px;
+}
+.media-left-user {
+  padding-right: 0;
+}
+.media-left-user > img {
+  width: 70px;
+}
+.media-body-user > h4 {
+  color: #ffffff;
+  font: 2.4rem/1 "Gotham-Book";
+}
+.media-body-user > p {
+  color: #ffffff;
+  font: 1.8rem/1 "Gotham-Light-Italic";
+}
+.media-body-user > p > i {
+  color: #37d316;
+  font-size: 2.4rem;
+}
+.form-group-tab-acc { margin-bottom: 10px; }
+.form-group-tab-acc-pwd { margin-bottom: 30px; }
+.vertical-line-tab {
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+.vertical-line-tab::after {
+  background-color: #f0dbfe;
+  content: "";
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  top: 0;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: 1px;
+  z-index: -1;
+}
+
+  /*------- Custom Checkbox Switch CSS Starts -------*/ 
+
+.sett-switch-label { position: relative; }
+input[class="sett-switch-input"] { display: none; }
+input[class="sett-switch-input"] + span {
+	background-color: rgb(255 255 255 / 37%);
+	border-radius: 24px;
+	-webkit-border-radius: 24px;
+	-moz-border-radius: 24px;
+	-ms-border-radius: 24px;
+	-o-border-radius: 24px;
+	cursor: pointer;
+	display: block;
+	height: 30px;
+	position: relative;
+	transition: 0.5s linear;
+	-webkit-transition: 0.5s linear;
+	-moz-transition: 0.5s linear;
+	-ms-transition: 0.5s linear;
+	-o-transition: 0.5s linear;
+	width: 60px;
+}
+input[class="sett-switch-input"] + span:before {
+	background-color: #ffffff;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	content: "";
+	height: 20px;
+	left: 5px;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transition: 0.5s linear;
+	-webkit-transition: 0.5s linear;
+	-moz-transition: 0.5s linear;
+	-ms-transition: 0.5s linear;
+	-o-transition: 0.5s linear;
+	width: 20px;
+}
+input[class="sett-switch-input"]:checked + span {
+	background-color: #fff;
+}
+input[class="sett-switch-input"]:checked + span:before {
+	background-color: #cc9ffb;
+	left: 35px;
+}
+
+		/*------- Custom Checkbox Switch CSS Ends -------*/
+
+.form-control-tab-2 {
+  background-color: rgb(255 255 255 / 37%);
+  border: 0;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  -ms-border-radius: 24px;
+  -o-border-radius: 24px;
+  border-radius: 24px;
+  color: #ffffff;
+  font-family: "Gotham-Book";
+  height: 30px;
+}
+.disc-web {
+  padding: 0 30px;
+  position: relative;
+  top: -20px;
+}
+.form-control-tab-3 {
+  background-color: #af89c8;
+  border: 5px solid #4c046d;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  -ms-border-radius: 24px;
+  -o-border-radius: 24px;
+  border-radius: 24px;
+  color: #ffffff;
+  font-family: "Gotham-Book";
+}
+.form-control-tab-3:focus {
+  border-color: #4c046d;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -ms-box-shadow: none;
+  -o-box-shadow: none;
+  box-shadow: none;
+}
+
+    /*------- Custom Dropdown CSS Starts -------*/
+
+.custom-select {
+  position: relative;
+  width: 100%;
+}
+.custom-select-profile-tab { width: 60%; }
+.custom-select-settings-tab { width: 60%; }
+.custom-select select {
+  display: none;
+}
+.select-selected {
+  background-color: #d8bbf6;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  -ms-border-radius: 24px;
+  -o-border-radius: 24px;
+  border-radius: 24px;
+}
+.select-selected:after {
+  color: #ffffff;
+  content: "\f078";
+  font-family: "Font Awesome 5 Pro";
+  font-size: 1.4rem;
+  font-weight: 900;
+  position: absolute;
+  top: 55%;
+  transform: translateY(-50%);
+  right: 10px;
+}
+.select-selected.active:after { content: "\f077"; }
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #fff transparent;
+  top: 55%;
+  transform: translateY(-50%);
+}
+.select-items div,
+.select-selected {
+  color: #ffffff;
+  cursor: pointer;
+  font-family: "Gotham-Medium";
+  font-size: 1.4rem;
+  padding: 5px 15px;
+  user-select: none;
+}
+.select-items {
+	background-color: #fff;
+	border: 1px solid #e8e8e8;
+  box-shadow: 0 10px 11px rgba(0,0,0,.21);
+  position: absolute;
+  background-color: #fff;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+.select-items div {
+  background-color: #d8bbf6;
+	font-family: "Gotham-Medium";
+  font-size: 1.4rem;
+	padding: 5px 15px;
+}
+.select-hide {
+  display: none;
+}
+.select-items div:hover, .same-as-selected {
+  background-color: #cc9ffc;
+  color: #fff;
+}
+
+	/*------- Custom Dropdown CSS Ends -------*/
+
+/*------- Tabs Page Ends -------*/
