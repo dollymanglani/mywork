@@ -1,0 +1,1290 @@
+@media only screen and (min-width: 1200px) {
+
+	/*------- Navigationbar Menu Section Starts -------*/
+
+.navigation-menu { display: block !important; }
+
+	/*------- Navigationbar Menu Section Ends -------*/
+
+	/*------- Favourite Page Starts -------*/
+
+		/*------- Favourite Tab Section Starts -------*/
+
+.favourites-va-listing > li > a,
+.favourites-re-listing > li > a { font-size: 1.2rem; }
+
+		/*------- Favourite Tab Section Ends -------*/
+
+	/*------- Favourite Page Ends -------*/
+
+}
+
+@media only screen and (min-width: 1300px) {
+
+	/*------- Grid CSS Starts -------*/
+
+.container { width: 1270px; }
+
+	/*------- Grid CSS Ends -------*/
+
+	/*------- Favourite Page Starts -------*/
+
+		/*------- Favourite Tab Section Starts -------*/
+
+.favourites-va-listing > li > a,
+.favourites-re-listing > li > a { font-size: 1.4rem; }
+
+		/*------- Favourite Tab Section Ends -------*/
+
+	/*------- Favourite Page Ends -------*/
+
+}
+
+@media only screen and (min-width: 1400px) {
+
+	/*------- Grid CSS Starts -------*/
+
+.container { width: 1370px; }
+
+	/*------- Grid CSS Ends -------*/
+
+	/*------- Favourite Page Starts -------*/
+
+		/*------- Favourite Tab Section Starts -------*/
+
+.favourites-va-listing > li > a,
+.favourites-re-listing > li > a { font-size: 1.5rem; }
+
+		/*------- Favourite Tab Section Ends -------*/
+
+	/*------- Favourite Page Ends -------*/
+
+}
+
+@media only screen and (min-width: 1500px) {
+
+	/*------- Grid CSS Starts -------*/
+
+.container { width: 1470px; }
+
+	/*------- Grid CSS Ends -------*/
+
+	/*------- Favourite Page Starts -------*/
+
+		/*------- Favourite Tab Section Starts -------*/
+
+.favourites-va-listing > li > a,
+.favourites-re-listing > li > a { font-size: 1.6rem; }
+
+		/*------- Favourite Tab Section Ends -------*/
+
+	/*------- Favourite Page Ends -------*/
+
+}
+
+@media only screen and (min-width: 1600px) {
+
+	/*------- Grid CSS Starts -------*/
+
+.container { width: 1570px; }
+
+	/*------- Grid CSS Ends -------*/
+
+}
+
+@media only screen and (min-width: 1900px) and (max-width: 2099px) {
+
+	/*------- Strap Page CSS Starts -------*/
+
+.box-strap-finder { padding: 155px 90px; }
+.box-straps-provider { padding: 142px 50px; }
+
+	/*------- Strap Page CSS Ends -------*/
+
+}
+
+@media only screen and (min-width: 1800px) and (max-width: 1899px) {
+
+	/*------- Strap Page CSS Starts -------*/
+
+.box-strap-finder { padding: 154px 90px; }
+.box-straps-provider { padding: 142px 50px; }
+
+	/*------- Strap Page CSS Ends -------*/
+
+}
+
+@media only screen and (min-width: 1700px) and (max-width: 1799px) {
+
+	/*------- Home Page Starts -------*/
+
+.box-inspired-by-life { padding: 215px 50px; }
+
+	/*------- Home Page Ends -------*/
+
+	/*------- Strap Page CSS Starts -------*/
+
+.box-strap-finder { padding: 154px 90px; }
+.box-straps-provider { padding: 142px 50px; }
+
+	/*------- Strap Page CSS Ends -------*/
+
+}
+
+@media only screen and (min-width: 1600px) and (max-width: 1699px) {
+
+	/*------- Home Page Starts -------*/
+
+.box-inspired-by-life { padding: 190px 50px; }
+
+	/*------- Home Page Ends -------*/
+
+	/*------- Strap Page CSS Starts -------*/
+
+.box-strap-finder { padding: 171px 90px; }
+.box-straps-provider { padding: 142px 50px; }
+
+	/*------- Strap Page CSS Ends -------*/
+
+}
+
+@media only screen and (min-width: 1500px) and (max-width: 1599px) {
+
+	/*------- Home Page Starts -------*/
+
+.box-inspired-by-life { padding: 186px 50px; }
+
+	/*------- Home Page Ends -------*/
+
+	/*------- Strap Page CSS Starts -------*/
+
+.box-strap-finder { padding: 139px 90px; }
+.box-straps-provider { padding: 126px 50px; }
+
+	/*------- Strap Page CSS Ends -------*/
+
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1499px) {
+
+	/*------- Home Page Starts -------*/
+
+.box-inspired-by-life { padding: 215px 50px; }
+
+	/*------- Home Page Ends -------*/
+
+	/*------- Strap Page CSS Starts -------*/
+
+.box-strap-finder { padding: 122px 90px; }
+.box-straps-provider { padding: 110px 50px; }
+
+	/*------- Strap Page CSS Ends -------*/
+
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1299px) {
+
+	/*------- Strap Page CSS Starts -------*/
+
+.box-strap-finder { padding: 90px; }
+.box-straps-provider { padding: 67px 50px; }
+
+	/*------- Strap Page CSS Ends -------*/
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+	/*------- Navigationbar Menu Section Starts -------*/
+
+.navigation-menu { display: block !important; }
+.navigation-signup-signin-listing > li > a { padding: 10px 20px; }
+.menu-listing > li { margin-right: 10px; }
+.sub-menu-listing { display: none; }
+
+	/*------- Navigationbar Menu Section Ends -------*/
+
+	/*------- Slider Section Starts -------*/
+
+.home-slider-content-details { top: 45%; }
+.home-slider-content-details > p:first-child { font-size: 4rem; }
+.home-slider .slick-dots { bottom: 30px; }
+
+	/*------- Slider Section Ends -------*/
+
+	/*------- Inspired By Life Section Starts -------*/
+
+.box-inspired-by-life { padding: 90px 50px; }
+
+	/*------- Inspired By Life Section Ends -------*/
+
+	/*------- Instagram Shop Section Starts -------*/
+
+.instagram-first-shop-absolute { top: 10px; }
+
+	/*------- Instagram Shop Section Ends -------*/
+
+	/*------- Inspirations Page Starts -------*/
+
+.box-watch-yourself-successful { padding: 45px 50px; }
+
+	/*------- Inspirations Page Ends -------*/
+
+	/*------- Gift Sets Page Starts -------*/
+
+.box-create-gift-set-info { left: 50%; padding: 30px; width: 100%; }
+
+	/*------- Gift Sets Page Ends -------*/
+
+	/*------- FAQ Page Starts -------*/
+
+.faq-que-desc { height: 320px; }
+
+	/*------- FAQ Page Ends -------*/
+
+	/*------- My Account Overview Page Starts -------*/
+
+	/*------- Account Section Starts -------*/
+
+.account-pro-ne-body > p { font-size: 1.5rem; }
+.box-accihc { padding: 20px; }
+
+	/*------- Account Section Ends -------*/
+
+	/*------- My Account Overview Page Ends -------*/
+
+	/*------- Favourite Page Starts -------*/
+
+		/*------- Favourite Tab Section Starts -------*/
+
+.favourites-va-listing > li > a,
+.favourites-re-listing > li > a { font-size: 1.6rem; }
+
+		/*------- Favourite Tab Section Ends -------*/
+
+	/*------- Favourite Page Ends -------*/
+
+	/*------- Strap Page CSS Starts -------*/
+
+.box-strap-finder { padding: 41px 90px; }
+.box-strap-finder-content > p,
+.box-straps-provider-content > p:nth-child(2) { width: auto; }
+.box-straps-provider { padding: 23px 50px; }
+
+	/*------- Strap Page CSS Ends -------*/
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+	/*------- Body and Blur Section CSS Starts -------*/
+
+body.overflow-hidden { overflow-y: hidden; }
+.bg-blur { background-color: #000000a7; bottom: 0; display: none; height: 100%; left: 0; right: 0; position: fixed; top: 0; width: 100%; z-index: 1; }
+.bg-blur.active { display: block; }
+
+	/*------- Body and Blur Section CSS Ends -------*/
+
+	/*------- Navigationbar Menu Section Starts -------*/
+
+.bg-navigation-menu-home { padding: 10px 15px; position: relative; z-index: 2; }
+.bg-navigation-menu-home-desktop { display: none; }
+.bg-navigation-menu-home-mob { display: block; left: 0; position: fixed; top: 0; width: 100%; z-index: 9999; }
+.img-logo { margin: 0 auto; }
+.header-logo { text-align: center; }
+	
+	/*------- Hamburger Menu CSS Starts -------*/
+
+.burger-menu { background-color: transparent; cursor: pointer; height: 40px; width: 40px; position: relative; }
+.burger-menu span { position: absolute; height: 2px; width: 25px; background-color: #3b414b; top: 50%; left: 50%; transform: translate(-50%,-50%); -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); }
+.burger-menu span:before,
+.burger-menu span:after { content: ""; background-color: #3b414b; height: 2px; width: 25px; position: absolute; top: 10px; transition: 0.5s linear; -webkit-transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; }
+.burger-menu span:before { top: -10px; }
+.burger-menu.active span { background-color: transparent; }
+.burger-menu.active span:before { top: 0; transform: rotate(-45deg); }
+.burger-menu.active span:after { top: 0; transform: rotate(45deg); }
+
+	/*------- Hamburger Menu CSS Ends -------*/
+
+.navigation-menu { background-color: #fff; border-top: 1px solid #eee; display: none; height: 100%; left: 0; position: fixed; top: 62px; width: 100%; z-index: 9999; }
+.menu-listing { text-align: left; }
+.menu-listing > li { display: block; margin: 0 0 10px 0; position: relative; }
+.menu-listing > li:first-child { margin-top: 10px; }
+.menu-listing > li:nth-last-child(2) { margin-bottom: 30px; }
+.menu-listing > li:last-child { border-top: 1px solid #eee; display: block; padding: 30px 0; }
+.menu-listing > li > a { display: block; padding: 0 15px; }
+.navigation-signup-signin-listing > li:last-child { display: none; }
+.navigation-signup-signin-listing > li:first-child > a { padding: 10px 12px; }
+.menu-listing > li:nth-child(5) > a:before {
+	content: "\f078";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+.menu-listing.active > li:nth-child(5) > a:before { content: "\f077"; }
+.menu-listing-mob > li > a:hover { color: #3b414b; }
+.menu-listing-mob > li > a:hover:after { width: 0; }
+.sub-menu-listing > li { display: block; }
+.sub-menu-listing > li > a { color: #3b414b; display: block; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; padding: 10px 30px 0; }
+.header-search-field-mob { margin-top: 35px; padding: 0 15px; top: 0; }
+
+	/*------- Navigationbar Menu Section Ends -------*/
+
+	/*------- Slider Section Starts -------*/
+
+.bg-slider-home { margin-top: 62px; }
+.home-slider-content-details { top: 45%; }
+.home-slider-content-details > p:first-child { font-size: 3rem; margin-bottom: 15px; }
+.home-slider-content-details > p:nth-child(2) { margin-bottom: 30px; }
+.home-slider .slick-dots { bottom: 30px; left: 60px; }
+
+	/*------- Slider Section Ends -------*/
+
+	/*------- Inspired By Life Section Starts -------*/
+
+.box-inspired-by-life { padding: 40px 50px; }
+.box-inspired-by-life > p:first-child { margin: 0 0 5px; }
+
+	/*------- Inspired By Life Section Ends -------*/
+
+	/*------- Instagram Shop Section Starts -------*/
+
+.instagram-first-shop-absolute { left: 15px; top: 15px; }
+.instagram-first-shop-absolute > p:nth-child(2) { font-size: 1.6rem; width: 300px; }
+
+	/*------- Instagram Shop Section Ends -------*/
+	
+	/*------- Footer Section Starts -------*/
+
+.footer-email-listing,
+.footer-email-listing > li { display: block; }
+.footer-email-listing > li { margin: 0 0 15px 0; }
+.footer-email-listing > li:last-child > input { width: 100%; }
+.form-control-foo-email { width: 100%; }
+
+	/*------- Footer Section Ends -------*/
+
+/*------- Inspirations Page Starts -------*/
+
+.home-individual-small-heading > h1 { font-size: 3rem; }
+.home-individual-small-heading > p { margin-bottom: 5px; }
+.img-wys-success { border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; }
+.box-watch-yourself-successful { padding: 20px; }
+.watch-yourself-absolute > p:nth-child(2),
+.watch-yourself-absolute > p:last-child > a { font-size: 1.4rem; }
+.watch-yourself-absolute > p:last-child > a:first-child,
+.watch-yourself-absolute > p:last-child > span { padding-right: 7px; }
+.box-watch-yourself-successful > p:nth-child(2), 
+.box-watch-yourself-successful > p:nth-child(3) { font-size: 2.4rem; }
+.wys-featured,
+.box-watch-yourself-successful > p:nth-child(3),
+.box-watch-yourself-successful > p:nth-child(4) { margin-bottom: 10px; }
+.box-watch-yourself-successful > p:nth-child(4) { font-size: 2rem; }
+
+/*------- Inspirations Page Ends -------*/
+
+/*------- Gift Sets Page Starts -------*/
+
+.box-create-gift-set-info { left: 50%; padding: 30px; width: 100%; }
+.box-create-gift-set-info > p { font-size: 1.8rem; width: auto; }
+
+/*------- Gift Sets Page Ends -------*/
+
+/*------- Contact Us Information Section Starts -------*/
+
+.bg-banner-seven-pg { margin-top: 62px; }
+.banner-seven-info > p:last-child { font-size: 3rem; }
+.bg-banner-seven-pg.muzli:before { width: 450px; }
+.box-chat-call,
+.box-mihc { padding: 30px 15px; }
+.box-chat-call-circle,
+.box-mihc-circle { height: 120px; width: 120px; }
+.box-chat-call-circle > img,
+.box-mihc-circle > img { height: 50px; }
+.box-chat-call-left { padding-right: 25px; }
+.box-chat-call-body > a { padding: 10px 20px; }
+
+/*------- Contact Us Information Section Ends -------*/
+
+/*------- FAQ Page Starts -------*/
+
+.faq-que-desc { height: 364px; }
+
+/*------- FAQ Page Ends -------*/
+
+/*------- Category View Page Starts -------*/
+
+.bg-category-view-listing,
+.bg-home-wgf-pg { margin-top: 62px; }
+
+/*------- Category View Page Starts -------*/
+
+/*------- Product View Page Starts -------*/
+
+	/*------- Product View Tab Section Starts -------*/
+
+.bg-product-view-brclisting { margin-top: 62px; }
+.product-view-tab-listing > li { font-size: 1.5rem; margin-right: 14px; }
+.add-to-cart-linking > li > a { padding: 10px 20px; }
+
+	/*------- Product View Tab Section Ends -------*/
+
+/*------- Product View Page Ends -------*/
+
+/*------- My Account Overview Page Starts -------*/
+
+	/*------- Navigationbar Menu Section Starts -------*/
+
+.img-logo-anchor > img { width: 64px; }
+.account-menu-listing > li:last-child { border-top: 0; padding: 0; }
+.account-menu-listing > li:nth-last-child(2) { border-top: 1px solid #e0dfe0; margin-bottom: 10px; padding-top: 10px; }
+.account-menu-listing > li:nth-last-child(3) { margin-bottom: 60px; }
+.navigation-account-icon-listing > li > a { display: block; }
+.navigation-account-icon-listing > li > a > img { display: inline-block; height: 40px; width: 40px; }
+
+	/*------- Navigationbar Menu Section Ends -------*/
+
+	/*------- My Account Breadcrumb Section Starts -------*/
+
+.bg-my-acc-breadcrumb-listing,
+.bg-our-story-breadcrumb-listing,
+.bg-cart-breadcrumb-listing { border-top: 1px solid #e0dfe0; margin-top: 62px; }
+
+	/*------- My Account Breadcrumb Section Ends -------*/
+
+	/*------- Account Section Starts -------*/
+
+.box-name-gmail-edit-media-left > img { height: 70px; width: 70px; }
+.box-name-gmail-edit-go-right > a { font-size: 1.5rem; padding: 10px 16px; }
+.account-pro-ne-body > p { font-size: 1.5rem; }
+.add-account-pg-bl { padding-left: 30px; }
+.box-acc-circle { height: 90px; width: 90px; }
+.box-acc-circle > img { height: 35px; }
+
+	/*------- Account Section Ends -------*/
+
+/*------- My Account Overview Page Ends -------*/
+
+/*------- Wishlist Page Starts -------*/
+
+	/*------- Wish List Section Starts -------*/
+
+.wishlist-info-ca > li { display: block; }
+.wishlist-info-ca > li:first-child > a { margin-bottom: 15px; }
+.wishlist-info-ca > li:first-child > a,
+.wishlist-info-ca > li:last-child > a { width: 100%; }
+
+	/*------- Wish List Section Ends -------*/
+
+/*------- Wishlist Page Starts -------*/
+
+/*------- Favourite Page Starts -------*/
+
+		/*------- Favourite Tab Section Starts -------*/
+
+.favourites-va-listing { margin-bottom: 5px; }
+.favourites-va-listing > li > a,
+.favourites-re-listing > li > a { font-size: 1.6rem; }
+.favourites-re-listing { text-align: left; }
+
+		/*------- Favourite Tab Section Ends -------*/
+
+/*------- Favourite Page Ends -------*/
+
+/*------- Strap Page CSS Starts -------*/
+
+.bg-straps-header-banner { margin-top: 62px; }
+.box-strap-finder-content > h3,
+.box-strap-finder-content > p,
+.box-straps-provider-content > h3,
+.box-straps-provider-content > p:nth-child(2) { font-size: 1.8rem; margin-bottom: 5px; }
+.box-strap-finder-content > p,
+.box-straps-provider-content > p { margin-bottom: 10px; width: auto; }
+.watch-type-listing,
+.watch-type-listing > li { display: block; }
+.watch-type-listing > li:first-child { margin-bottom: 15px; }
+.box-strap-finder { padding: 16px 30px; }
+.box-straps-provider { padding: 12px 30px; }
+.box-straps-provider-content > p:nth-child(2) { width: auto; }
+.box-straps-provider-content > p:nth-child(3) { font-size: 1.4rem; }
+.wy-strap-absolute > p { width: auto; }
+
+/*------- Strap Page CSS Ends -------*/
+
+/*------- Our Story Page Starts -------*/
+
+.our-story-blog-post-comment-views-tab { display: block; }
+.osbp-tab { margin-top: 30px; text-align: left; }
+.img-cart-gp { height: 185px; object-fit: cover; }
+
+/*------- Our Story Page Ends -------*/
+
+}
+
+@media only screen and (max-width: 767px) {
+
+	/*------- Common CSS Starts -------*/
+
+.flex-align-center-mob { display: block; }
+.section-heading > h2 { font-size: 1.8rem; }
+
+	/*------- Common CSS Ends -------*/
+
+	/*------- Body and Blur Section CSS Starts -------*/
+
+body.overflow-hidden { overflow-y: hidden; }
+.bg-blur { background-color: #000000a7; bottom: 0; display: none; height: 100%; left: 0; right: 0; position: fixed; top: 0; width: 100%; z-index: 1; }
+.bg-blur.active { display: block; }
+
+	/*------- Body and Blur Section CSS Ends -------*/
+
+	/*------- Modal Section Starts -------*/
+
+.box-panel-modal { width: 300px; }
+.sign-in-with-fb-g > a { font-size: 1.4rem; padding: 10px 15px; }
+.bg-contact-form > p:nth-child(2), 
+.bg-contact-form > p:nth-child(3), 
+.or,
+.checked-signup-query > span,
+.btn-sign-up-in { font-size: 1.4rem; }
+.forgot-pwd-signin-right { margin-bottom: 15px; text-align: left; }
+.btn-sign-up-in { padding: 7px 30px; }
+.asking-que-acc > p { padding-top: 10px; }
+.box-panel-modal-signup { height: 500px; overflow-y: scroll; }
+
+	/*------- Modal Section Ends -------*/
+
+	/*------- Navigationbar Menu Section Starts -------*/
+
+.bg-navigation-menu-home { padding: 10px 15px; position: relative; z-index: 2; }
+.bg-navigation-menu-home-desktop { display: none; }
+.bg-navigation-menu-home-mob { display: block; left: 0; position: fixed; top: 0; width: 100%; z-index: 9999; }
+.img-logo { margin: 0 auto; }
+.img-logo-anchor > img { width: 64px; }
+.header-logo { text-align: center; }
+	
+	/*------- Hamburger Menu CSS Starts -------*/
+
+.burger-menu { background-color: transparent; cursor: pointer; height: 40px; width: 40px; position: relative; }
+.burger-menu span { position: absolute; height: 2px; width: 25px; background-color: #3b414b; top: 50%; left: 50%; transform: translate(-50%,-50%); -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); }
+.burger-menu span:before,
+.burger-menu span:after { content: ""; background-color: #3b414b; height: 2px; width: 25px; position: absolute; top: 10px; transition: 0.5s linear; -webkit-transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; }
+.burger-menu span:before { top: -10px; }
+.burger-menu.active span { background-color: transparent; }
+.burger-menu.active span:before { top: 0; transform: rotate(-45deg); }
+.burger-menu.active span:after { top: 0; transform: rotate(45deg); }
+
+	/*------- Hamburger Menu CSS Ends -------*/
+
+.navigation-menu { background-color: #fff; border-top: 1px solid #eee; display: none; height: 100%; left: 0; position: fixed; top: 60px; width: 100%; z-index: 9999; }
+.menu-listing { text-align: left; }
+.menu-listing > li { display: block; margin: 0 0 10px 0; position: relative; }
+.menu-listing > li:nth-child(5) > a:before {
+	content: "\f078";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+.menu-listing.active > li:nth-child(5) > a:before { content: "\f077"; }
+.menu-listing > li:first-child { margin-top: 10px; }
+.menu-listing > li:nth-last-child(2) { margin-bottom: 30px; }
+.menu-listing > li:last-child { border-top: 1px solid #eee; display: block; padding: 30px 0; }
+.menu-listing > li > a { display: block; padding: 0 15px; }
+.menu-listing-mob > li > a:hover { color: #3b414b; }
+.menu-listing-mob > li > a:hover:after { width: 0; }
+.navigation-signup-signin-listing > li:last-child { display: none; }
+.sub-menu-listing > li { display: block; }
+.sub-menu-listing > li > a { color: #3b414b; display: block; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; padding: 10px 30px 0; }
+.header-search-field-mob { margin-top: 35px; padding: 0 15px; top: 0; }
+
+	/*------- Navigationbar Menu Section Ends -------*/
+
+	/*------- Slider Section Starts -------*/
+
+.bg-slider-home { margin-top: 60px; }
+.home-slider-content { padding: 30px 15px 50px; position: static; width: 100%; }
+.home-slider-content-details { left: 0; position: static; text-align: center; top: 0; transform: none; -webkit-transform: none; -moz-transform: none; -ms-transform: none; -o-transform: none; }
+.home-slider-content-details > p:first-child { font-size: 2.7rem; margin: 0 auto 5px; }
+.home-slider-content-details > p:nth-child(2) { margin-bottom: 15px; }
+.home-slider-content-details > a { padding: 8px 40px; }
+.home-slider .slick-dots { bottom: 15px; left: 50%; transform: translateX(-50%); -webkit-transform: translateX(-50%); -moz-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); }
+.slick-dotted.slick-slider { margin-bottom: 0; }
+.home-slider .slick-dots li button,
+.home-slider .slick-dots li button::before { height: 6px; line-height: 6px; width: 6px; }
+.home-slider .slick-dots li.slick-active button { width: 20px; }
+
+	/*------- Slider Section Ends -------*/
+
+	/*------- Our Story Section Starts -------*/
+
+.bg-our-story-home { padding: 15px 15px 0; }
+.our-story-heading > h2 { display: none; }
+.our-story-heading-mob { display: block; }
+.our-story-heading-mob > h2 { margin-bottom: 15px; }
+.our-story-heading > h2,
+.our-story-head-desc,
+.our-story-relative > img { margin-bottom: 15px; }
+.our-story-head-desc > p { font-size: 1.8rem; }
+.our-story-desc > p { margin-bottom: 15px; text-align: justify; }
+
+	/*------- Our Story Section Ends -------*/
+
+	/*------- Inspired By Life Section Starts -------*/
+
+.bg-inspired-by-life-home { padding: 15px; }
+.inspired-by-life-desktop { display: none; }
+.inspired-by-life-mob { display: block; }
+.no-padding-left { padding-left: 15px; }
+.no-padding-right { padding-right: 15px; }
+.box-inspired-by-life { width: 100%; }
+.img-inspired-by-life { border-radius: 10px 10px 0 0; -webkit-border-radius: 10px 10px 0 0; -moz-border-radius: 10px 10px 0 0; -ms-border-radius: 10px 10px 0 0; -o-border-radius: 10px 10px 0 0; }
+.box-inspired-by-life { border-radius: 0 0 10px 10px; -webkit-border-radius: 0 0 10px 10px; -moz-border-radius: 0 0 10px 10px; -ms-border-radius: 0 0 10px 10px; -o-border-radius: 0 0 10px 10px; height: auto; padding: 15px; }
+.box-inspired-by-life > p:first-child { font-size: 1.8rem; margin: 0 0 5px; }
+.box-inspired-by-life > p:nth-child(2) { margin-bottom: 15px; }
+.box-inspired-by-life > a { padding: 10px 40px; }
+.img-inspired-life-mob { border-radius: 10px 10px 0 0; -webkit-border-radius: 10px 10px 0 0; -moz-border-radius: 10px 10px 0 0; -ms-border-radius: 10px 10px 0 0; -o-border-radius: 10px 10px 0 0; }
+
+	/*------- Inspired By Life Section Ends -------*/
+
+	/*------- Find Your Wy Section Starts -------*/
+
+.bg-find-your-wy-home { padding: 15px; }
+.find-your-wy-heading > p { margin-bottom: 15px; text-align: justify; }
+.box-choose-isa { height: auto; margin-bottom: 15px; }
+.ready-find-wy { text-align: left; }
+.ready-find-wy > p { font-size: 1.8rem; width: auto; }
+
+	/*------- Find Your Wy Section Ends -------*/
+
+	/*------- Why Watch Yourself Section Starts -------*/
+
+.bg-why-watch-yourself-home { padding: 15px; }
+.why-watch-yourself-heading-flex,
+.why-watch-yourself-heading > p { margin-bottom: 15px; }
+.why-watch-yourself-explore { text-align: left; }
+.box-watch-yourself > h4 { font-size: 1.6rem; margin-bottom: 5px; }
+.box-watch-yourself > p { font-size: 1.4rem; text-align: justify; }
+.video-acce-listing { margin-bottom: 15px; }
+.why-watch-yourself-explore { display: none; }
+
+	/*------- Why Watch Yourself Section Ends -------*/
+
+	/*------- SUDE Icon Section Starts -------*/
+
+.bg-sude-icon-home { padding: 15px 15px 0; }
+.img-sude-icon + h4 + p { margin-bottom: 15px; }
+
+	/*------- SUDE Icon Section Ends -------*/
+
+	/*------- Blog Post Section Starts -------*/
+
+.bg-blog-post-home { padding: 15px 15px; }
+.blog-post-heading > h2 { margin-bottom: 15px; }
+.blog-post-head-desc > p { font-size: 1.6rem; text-align: justify; }
+.blog-post-head-desc-explore-more { display: none; }
+.blog-post-watch-explore-mob { display: block; }
+.blog-post-watch-explore-mob > a { border: 2px solid #6F98BE; border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; color: #6f98be; display: block; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; padding: 10px 30px; text-align: center; }
+.blog-post-watch-explore-mob > a:hover { background-color: #6F98BE; color: #fff; }
+.blog-post-watch-explore-mob > a:focus { border: 2px solid #6F98BE; color: #fff; outline: 0; }
+
+	/*------- Blog Post Section Ends -------*/
+
+	/*------- Gift Sets Section Starts -------*/
+
+.bg-gift-sets-home { padding: 0 15px; }
+.gift-set-relative > img { height: 300px; object-fit: cover; }
+.gift-set-absolute { left: 0; padding: 15px; top: 0; }
+.gift-set-absolute > p { font-size: 1.6rem; width: auto; }
+
+	/*------- Gift Sets Section Ends -------*/
+
+	/*------- Instagram Shop Section Starts -------*/
+
+.bg-instagram-shop-home { padding: 15px; }
+.instagram-shop-relative, 
+.instagram-first-shop-relative { margin-bottom: 20px; }
+.instagram-first-shop-relative > img { height: auto; }
+.instagram-first-shop-absolute { left: 0; padding: 20px; top: 0; }
+.instagram-first-shop-absolute > p:first-child,
+.instagram-first-shop-absolute > p:nth-child(2) { font-size: 2rem; }
+.instagram-first-shop-absolute > p:nth-child(2) { font-size: 1.8rem; width: auto; }
+.instagram-shop-view { display: none; }
+.pr-10-mob { padding-right: 10px; }
+.pl-10-mob { padding-left: 10px; }
+
+	/*------- Instagram Shop Section Ends -------*/
+
+	/*------- Footer Section Starts -------*/
+
+.bg-footer-home { padding: 15px 15px 0; }
+.quick-link-listing > li:last-child, 
+.our-story-listing > li:last-child, 
+.help-link-listing > li:last-child { margin-bottom: 15px; }
+.footer-email-listing,
+.footer-email-listing > li { display: block; }
+.footer-email-listing > li:first-child { margin: 0 0 15px 0; }
+.footer-email-listing > li:last-child > input { width: 100%; }
+.form-control-foo-email { width: 100%; }
+.privacy-policy { display: none; }
+
+	/*------- Footer Section Ends -------*/
+
+	/*------- Copyright Section Starts -------*/
+
+.bg-copyright-home { padding: 15px; }
+.copyright-listing { margin-bottom: 15px; }
+.copyright-listing > li > a { font-size: 1.4rem; }
+.social-listing > li { margin-top: 7px; }
+.social-listing > li:nth-last-child(2) { margin-right: 15px; }
+
+	/*------- Copyright Section Ends -------*/
+
+/*------- Inspirations Page Starts -------*/
+
+.bg-home-wgf-pg { margin-top: 60px; padding: 15px; }
+.box-fes-desktop { display: none; }
+.box-fes-mob { display: block; }
+.home-individual-small-heading > p > a { font-size: 1.4rem; }
+.home-individual-small-heading > h1 { font-size: 2rem; }
+.home-individual-small-heading > p { margin-bottom: 5px; }
+.bg-watch-yourself-pg { padding: 15px 15px 0; }
+.watch-yourself-relative { margin-bottom: 15px; }
+.img-wys-success { border-radius: 10px 10px 0 0; -webkit-border-radius: 10px 10px 0 0; -moz-border-radius: 10px 10px 0 0; -ms-border-radius: 10px 10px 0 0; -o-border-radius: 10px 10px 0 0; margin-bottom: 0; }
+.box-watch-yourself-successful { border-radius: 0 0 10px 10px; -webkit-border-radius: 0 0 10px 10px; -moz-border-radius: 0 0 10px 10px; -ms-border-radius: 0 0 10px 10px; -o-border-radius: 0 0 10px 10px; margin-bottom: 15px; padding: 30px; width: 100%; }
+.box-watch-yourself-successful > p:nth-child(2), 
+.box-watch-yourself-successful > p:nth-child(3),
+.box-watch-yourself-successful > p:nth-child(4) { font-size: 2rem; }
+
+/*------- Inspirations Page Ends -------*/
+
+/*------- Gift Sets Page Starts -------*/
+
+.bg-create-a-gift { padding: 15px; }
+.gift-set-button-circle { height: 50px; width: 50px; }
+.gift-set-button-circle:before { height: 70px; width: 70px; }
+.gift-set-button-circle > i { font-size: 2rem; line-height: 50px; }
+.create-gift-set-relative > img { margin-bottom: 15px; }
+.box-create-gift-set-info { left: 50%; padding: 15px; width: 100%; }
+.box-create-gift-set-info > h3 { font-size: 1.8rem; }
+.box-create-gift-set-info > p { font-size: 1.6rem; width: auto; }
+.bg-gift-sets-collections { padding: 0 15px; }
+.gift-set-colle-heading > h3,
+.gift-set-colle-info > p { margin-bottom: 15px; }
+
+/*------- Gift Sets Page Ends -------*/
+
+/*------- Find Your Wy Page Starts -------*/
+
+.bg-find-your-wy-tabs { padding: 15px; }
+.ise-tabs-listing { margin-bottom: 15px; }
+.ise-tabs-listing > li { margin-right: 0; }
+.find-your-wy-pg-slick-slider { padding: 15px 0; }
+.find-your-wy-spe-info { margin-top: 15px; }
+.find-your-wy-spe-info > p { font-size: 2rem; }
+
+/*------- Find Your Wy Page Ends -------*/
+
+/*------- Contact Us Information Section Starts -------*/
+
+.bg-banner-seven-pg { margin-top: 60px; }
+.bg-banner-seven-pg.yellow { background: url(../images/mobile-contact-banner.jpg) no-repeat 100% 100%/cover; padding: 15px; }
+.banner-seven-info > p:first-child { margin-bottom: 5px; }
+.banner-seven-info > p:last-child{ font-size: 2.4rem; text-align: center; }
+.bg-contact-info-pg { padding: 15px; }
+.bg-banner-seven-pg.yellow:before { width: 0; }
+.box-chat-call { margin-bottom: 15px; padding: 15px; }
+.box-chat-call-left { padding-right: 15px; }
+.box-chat-call-circle { height: 100px; width: 100px; }
+.box-chat-call-circle > img { height: 40px; }
+.box-chat-call-heading { margin-bottom: 5px; }
+.box-chat-call-body > p { font-size: 1.4rem; }
+.box-chat-call-body > p:last-of-type { margin-bottom: 15px; }
+.box-chat-call-body > a { font-size: 1.4rem; padding: 10px 10px; }
+.checked-submit-query { margin-bottom: 15px; }
+.bg-more-info-help-center { padding: 15px 15px 0; }
+.bg-more-info-help-center-bt:before { top: -15px; }
+.more-info-help-center > h3 { font-size: 1.8rem; margin-bottom: 15px; }
+.box-mihc-circle { height: 100px; width: 100px; }
+.box-mihc-circle > img { height: 40px; }
+.box-mihc { margin-bottom: 15px; }
+.checked-submit-query-text { top: 5px; }
+.btn-submit-query { width: 100%; }
+
+/*------- Contact Us Information Section Ends -------*/
+
+/*------- Delivery, Sizing Page Starts -------*/
+
+.bg-everything-about-delivery { padding: 15px; }
+.bg-banner-seven-pg.muzli { background: url(../images/mobile-muzli-banner.jpg) no-repeat 100% 100%/cover; padding: 15px; }
+.bg-banner-seven-pg.muzli:before { width: 0; }
+.everything-about-delivery-info > h3 { font-size: 1.8rem; }
+.img-sizing-pg { margin-bottom: 15px; }
+
+/*------- Delivery, Sizing Page Ends -------*/
+
+/*------- FAQ Page Starts -------*/
+
+.bg-faq-info-parts { padding: 15px; }
+.faq-que-desc { height: auto; }
+.faq-que-heading-desc { margin-bottom: 15px; }
+.box-official-store-faq { padding: 15px; }
+.banner-seven-info-desk-faq { display: none; }
+.banner-seven-info-mob { display: block; }
+.banner-seven-info-mob > p:first-child { margin-bottom: 15px; }
+.banner-seven-info-mob > p:first-child > a { color: #fff; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; }
+.banner-seven-info-mob > p:first-child > i { color: #fff; padding: 0 10px; }
+.banner-seven-info-mob > p:last-of-type { color: #fff; font: 2.4rem/1.42857143 "NunitoSans-ExtraBold"; margin-bottom: 15px; text-align: center; }
+.input-group-addon-faq-search { background-color: #fff; border: 0; box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none; -ms-box-shadow: none; -o-box-shadow: none; height: 40px; }
+.input-group-addon-faq-search > i { color: #9b9a9f; font-size: 2.4rem; }
+.form-control-faq-search { border: 0; color: #9b9a9f; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; height: 40px; }
+.form-control-faq-search::placeholder { color: #9b9a9f; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; opacity: 1; }
+.form-control-faq-search:-ms-input-placeholder { color: #9b9a9f; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; }
+.form-control-faq-search::-ms-input-placeholder { color: #9b9a9f; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; }
+.form-control-faq-search:focus { border-color: transparent; box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none; -ms-box-shadow: none; -o-box-shadow: none; outline: 0; }
+
+
+/*------- FAQ Page Ends -------*/
+
+/*------- Category View Page Starts -------*/
+
+	/*------- Category View Listing Section Starts -------*/
+
+.bg-category-view-listing { margin-top: 60px; }
+.bg-category-view-listing { padding: 15px 15px 0; }
+.category-view-listing { margin-bottom: 15px; }
+.category-view-listing > i { padding: 0 5px; }
+.fig-cate-view-circle { height: 40px; width: 40px; }
+.fig-cate-view-circle > i { font-size: 1.8rem; line-height: 40px; }
+.fig-cate-view-circle:before { height: 50px; width: 50px; }
+
+	/*------- Category View Listing Section Ends -------*/
+
+	/*------- Category View Tab Section Starts -------*/
+
+.bg-category-view-tab { padding: 15px 15px 0; }
+.category-view-tab-listing > li { font-size: 1.4rem; padding: 0 0 10px; margin-right: 9px; }
+.add-fav-star-listing { display: none; }
+.bg-category-view-tab-border-bottom:after { width: 91%; }
+.category-view-content { margin-top: 15px; }
+.category-view-comment-listing:first-of-type { margin-top: 15px; }
+.category-view-comment-listing { margin-top: 0; }
+.form-group-comment,
+.heart-submit-listing { margin-bottom: 15px; }
+.cvscl-mob { display: none; }
+.wrist-watch-bb-mob { border-bottom: 0; padding-bottom: 0; }
+.category-view-media-body + p { margin-bottom: 20px; }
+.img-ipcc-one,
+.category-view-intro-info > p:nth-child(2),
+.img-ipcc-two,
+.figure-category-view-product-relative,
+.figure-category-view-product-absolute > p { margin-bottom: 15px; }
+
+	/*------- Category View Tab Section Ends -------*/
+
+	/*------- Other Categories Section Starts -------*/
+
+.bg-other-cate-explore-bb { padding: 15px 15px 0; }
+.other-cate-explore-heading > h3 { font-size: 1.8rem; margin-bottom: 15px; }
+.other-cate-explore-link { display: none; }
+
+	/*------- Other Categories Section Ends -------*/
+
+/*------- Category View Page Ends -------*/
+
+/*------- Product View Page Starts -------*/
+
+	/*------- Product View Listing Section Starts -------*/
+
+.bg-product-view-brclisting { margin-top: 60px; }
+.bg-product-view-brclisting { padding: 15px; }
+.product-view-listing > i { padding: 0 5px; }
+
+	/*------- Product View Listing Section Ends -------*/
+
+	/*------- Video and Image Section Starts -------*/
+
+.bg-video-image-pv { padding: 0 15px 15px; }
+.img-pv-two,
+.img-pv-three { display: none; }
+.bg-wristwatch-pv { padding: 0 15px 15px; }
+.wrist-watch-heading > p { font-size: 1.6rem; }
+
+	/*------- Video and Image Section Ends -------*/
+
+	/*------- Mobile View Section Starts -------*/
+
+.bg-social-add-to-cart-mob { display: block; }
+.product-view-social-comment-listing-mob,
+.add-to-cart-linking-mob { display: none; }
+.category-view-social-comment-listing > li { margin-right: 3px; }
+.add-to-cart-linking > li > a { font-size: 1.4rem; padding: 10px; }
+.add-to-cart-linking > li > a > img { height: 16px; margin-right: 5px; }
+.add-to-cart-linking { text-align: left; }
+.product-view-social-comment-listing { text-align: right; }
+
+	/*------- Mobile View Section Ends -------*/
+	
+	/*------- Product View Tab Section Starts -------*/
+
+.bg-product-view-tab-listing { padding: 15px; }
+.product-view-tab-listing > li { margin-right: 15px; padding: 10px 0; }
+.product-view-tab-listing { margin: 0 auto; overflow-x: scroll; position: relative; white-space: nowrap; width: 90%; }
+.product-view-tab:before {
+	color: #e0dfe0;
+	content: "\f053";
+    font-family: "Font Awesome 5 Free";
+    font-size: 1.6rem;
+    font-weight: 900;
+    left: 10px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.product-view-tab:after {
+	color: #e0dfe0;
+	content: "\f054";
+    font-family: "Font Awesome 5 Free";
+    font-size: 1.6rem;
+    font-weight: 900;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.cvscl-mob,
+.pvsl-remove-mob { display: none; }
+.social-paltform-submit-bb { padding-bottom: 15px; }
+
+	/*------- Product View Tab Section Ends -------*/
+
+/*------- Product View Page Ends -------*/
+
+/*------- My Account Overview Page Starts -------*/
+
+	/*------- Navigationbar Menu Section Starts -------*/
+
+.account-menu-listing > li:last-child { border-top: 0; padding: 0; }
+.account-menu-listing > li:nth-last-child(2) { border-top: 1px solid #e0dfe0; margin-bottom: 10px; padding-top: 10px; }
+.account-menu-listing > li:nth-last-child(3) { margin-bottom: 60px; }
+.navigation-account-icon-listing > li > a { display: block; }
+.navigation-account-icon-listing > li > a > img { display: inline-block; height: 40px; width: 40px; }
+
+	/*------- Navigationbar Menu Section Ends -------*/
+
+	/*------- My Account Breadcrumb Section Starts -------*/
+
+.bg-my-acc-breadcrumb-listing,
+.bg-our-story-breadcrumb-listing,
+.bg-cart-breadcrumb-listing { border-top: 1px solid #e0dfe0; margin-top: 60px; padding: 15px; }
+
+	/*------- My Account Breadcrumb Section Ends -------*/
+
+	/*------- Account Section Starts -------*/
+
+.bg-account-pgs,
+.bg-our-story-pgs { padding: 0 15px 0; }
+.account-pro-ne,
+.sidebar-account-pg { display: none; }
+.add-account-pg-bl { border-left: 0; padding-left: 15px; }
+.box-name-gmail-edit { padding: 30px 15px; }
+.box-name-gmail-edit-media-left > img { height: 50px; width: 50px; }
+.box-name-gmail-edit-media-body > p:nth-child(3) { display: none; }
+.box-name-gmail-edit-go-right { display: none; }
+.box-name-gmail-edit-media-body > p:nth-child(2) { margin-bottom: 0; }
+.box-account-pr-mob { padding-right: 10px; }
+.box-account-pl-mob { padding-left: 10px; }
+.box-accihc { margin-bottom: 20px; padding: 15px; }
+.box-acc-circle { height: 70px; width: 70px; }
+.box-acc-circle > img { height: 30px; }
+.box-acc-circle + p { font-size: 1.2rem; }
+
+	/*------- Account Section Ends -------*/
+
+/*------- My Account Overview Page Ends -------*/
+
+/*------- Profile Details Page Starts -------*/
+
+	/*------- Profile heading and Description Section Starts -------*/
+
+.table-responsive-profile { border: 0; }
+.edit-profile-below { margin-bottom: 15px; }
+.btn-edit-profile { width: 100%; }
+
+	/*------- Profile heading and Description Section Ends -------*/
+
+	/*------- Edit Profile Section Starts -------*/
+
+.form-group-edit-profile-gender { margin-bottom: 30px; }
+.edit-profile-cs { -ms-align-items: center; align-items: center; display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: -o-flex; display: flex; }
+.edit-profile-cs > li { margin-right: 15px; width: 50%; }
+.edit-profile-cs > li:last-child { margin-right: 0; }
+.edit-profile-cs > li:first-child > a,
+.edit-profile-cs > li:last-child > a { width: 100%; }
+
+	/*------- Edit Profile Section Ends -------*/
+
+/*------- Profile Details Page Ends -------*/
+
+/*------- Orders and Returns Page Starts -------*/
+
+	/*------- Orders and Returns Tab Section Starts -------*/
+
+.order-number-or > p,
+.order-details-or > p > a { font-size: 1.4rem; }
+.content-orders-returns,
+.content-favourites { margin-top: 15px; }
+.img-order-returns { margin-bottom: 15px; }
+.order-returns-info > p:nth-child(3) { display: none; }
+.order-returns-info-ca,
+.order-returns-info > p:nth-child(2), 
+.order-returns-info > p:nth-child(3) { margin-bottom: 15px; }
+.order-returns-info > p:nth-child(5) { margin-bottom: 30px; }
+.order-returns-info-ca > a { width: 100%; }
+
+	/*------- Orders and Returns Tab Section Ends -------*/
+
+/*------- Orders and Returns Page Ends -------*/
+
+/*------- Wishlist Page Starts -------*/
+
+	/*------- Wish List Section Starts -------*/
+
+.wishlist-items-heading > h4,
+.img-wishlist { margin-bottom: 15px; }
+.wishlist-info > h4 { margin-bottom: 5px; }
+.wishlist-info-ca { -ms-align-items: center; align-items: center; display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: -o-flex; display: flex; margin-bottom: 15px; }
+.wishlist-info-ca > li { width: 50%; }
+.wishlist-info-ca > li:first-child > a { padding: 10px 7px; }
+.wishlist-info-ca > li:first-child > a,
+.wishlist-info-ca > li:last-child > a { width: 100%; }
+.wishlist-info-ca > li:last-child > a { text-align: right; }
+
+	/*------- Wish List Section Ends -------*/
+
+/*------- Wishlist Page Starts -------*/
+
+/*------- Favourite Page Starts -------*/
+
+	/*------- Favourite Tab Section Starts -------*/
+
+.box-inspirations-tab,
+.box-blog-post-tab { margin-bottom: 15px; }
+.favourites-va-listing > li > a,
+.favourites-re-listing > li > a { font-size: 1.4rem; }
+
+	/*------- Favourite Tab Section Ends -------*/
+
+/*------- Favourite Page Ends -------*/
+
+/*------- Saved Cards Page Starts -------*/
+
+	/*------- Saved Card Heading and Description Section Starts -------*/
+
+.saved-cards-heading > h4, 
+.add-new-cards-heading > h4,
+.box-saved-cards,
+.box-add-new-card-button { margin-bottom: 15px; }
+.form-group-add-card-date-picker { margin-bottom: 30px; }
+.box-add-new-card-button > a { width: 100%; }
+
+	/*------- Saved Card Heading and Description Section Ends -------*/
+
+/*------- Saved Cards Page Ends -------*/
+
+/*------- Saved Addresses Page Starts -------*/
+
+	/*------- Save Addresses Section Starts -------*/
+
+.saved-addresses-heading > h4,
+.add-new-addresses-heading > h4 { margin-bottom: 15px; }
+.box-saved-addresses { height: auto; margin-bottom: 15px; }
+.box-add-new-address-button { margin-bottom: 15px; }
+.box-add-new-address-button > a { width: 100%; }
+.edit-add-new-address-cs { -ms-align-items: center; align-items: center; display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: -o-flex; display: flex; }
+.edit-add-new-address-cs > li { width: 50%; }
+.edit-add-new-address-cs > li:first-child > a,
+.edit-add-new-address-cs > li:last-child > a { width: 100%; }
+
+	/*------- Save Addresses Section Ends -------*/
+
+/*------- Saved Addresses Page Ends -------*/
+
+/*------- Straps Page Starts -------*/
+
+	/*------- Straps Header Banner Section Starts -------*/
+
+.bg-straps-header-banner { margin-top: 60px; padding: 15px; }
+.straps-heading > p { margin-bottom: 5px; }
+.straps-heading > h1 { font-size: 2rem; }
+
+	/*------- Straps Header Banner Section Ends -------*/
+
+	/*------- Strap Finder Section Starts -------*/
+
+.bg-strap-finder { padding: 15px; }
+.strap-finder-relative { margin-bottom: 15px; }
+.box-strap-finder { padding: 15px; }
+.box-strap-finder-content > h3 { font-size: 1.8rem; }
+.box-strap-finder-content > p { font-size: 1.6rem; width: auto; }
+.watch-type-listing { display: block; }
+.watch-type-listing > li { display: block; }
+.watch-type-listing > li:first-child { margin-bottom: 15px; }
+	
+	/*------- Strap Finder Section Ends -------*/
+
+	/*------- Straps Provider Section Starts -------*/
+
+.bg-straps-provider { padding: 15px 15px 0; }
+.box-straps-provider { margin-bottom: 15px; padding: 15px; }
+.box-straps-provider-content > h3 { font-size: 1.8rem; }
+.box-straps-provider-content > p:nth-child(2) { font-size: 1.6rem; width: auto; }
+
+	/*------- Straps Provider Section Ends -------*/
+
+	/*------- Available Strap Section Starts -------*/
+
+.bg-available-strap { padding: 0 15px 0; }
+.available-strap-heading > h4 { margin-bottom: 15px; }
+.wy-strap-absolute { padding: 15px; }
+.wy-strap-absolute > h2 { font-size: 1.8rem; }
+.wy-strap-absolute > p { width: auto; }
+.img-strap-two,
+.img-strap-three,
+.img-strap-four,
+.img-strap-five { margin-bottom: 15px; }
+
+	/*------- Available Strap Section Ends -------*/
+
+	/*------- Mobile Available Strap Section Starts -------*/
+
+.bg-available-strap-mobile-one,
+.bg-available-strap-mobile-two,
+.bg-available-strap-mobile-three { display: block; }
+.bg-available-strap-mobile-two,
+.bg-available-strap-mobile-three { padding: 0 15px 15px; }
+.img-strap-three, 
+.img-strap-four, 
+.img-strap-five, 
+.img-strap-six { display: none; }
+
+	/*------- Mobile Available Strap Section Ends -------*/
+
+/*------- Straps Page Ends -------*/
+
+/*------- Our Story Page Starts -------*/
+
+.sidebar-our-story-pg,
+.our-story-blog-post-similar-post-e { display: none; }
+.img-about-us { margin-bottom: 15px; }
+.about-us-heading-desc > h3,
+.img-our-mission + p,
+.our-story-blog-post-banner > h3, 
+.our-story-blog-post-similar-post-heading > h3,
+.our-story-blog-post-banner > p:nth-child(5),
+.wy-blog-heading > h3,
+.wy-blog-information > h3 { font-size: 1.8rem; margin-bottom: 15px; }
+.img-our-mission + p,
+.our-story-blog-post-banner > p:nth-child(5) { width: 210px; }
+.about-us-heading-desc > p,
+.about-us-heading-desc > h4,
+.img-wy-gallery,
+.img-our-mission,
+.about-us-heading-desc > p:last-child,
+.img-our-story-blog-post,
+.our-story-blog-post-banner > p,
+.our-story-blog-post-comment-views,
+.our-story-blog-post-similar-post-explore-more,
+.img-wy-blog { margin-bottom: 15px; }
+.heart-submit-os-listing > li:last-child > a { font-size: 1.2rem; }
+.heart-submit-listing > li:last-child > a, 
+.heart-submit-os-listing > li:nth-child(2) > a { padding: 10px 25px; }
+.osbp-mob { display: block; margin-top: 15px; text-align: left; }
+.os-pg-button-circle { height: 40px; width: 40px; }
+.os-pg-button-circle:before { height: 60px; width: 60px; }
+.os-pg-button-circle > i { font-size: 1.6rem; line-height: 40px; }
+.wy-blog-listing { -ms-align-items: center; align-items: center; display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: -o-flex; display: flex; }
+.wy-blog-listing > li { width: 50%; }
+.wy-blog-listing > li:first-child > a,
+.wy-blog-listing > li:last-child > a { width: 100%; }
+.wy-blog-listing > li:first-child > a { padding: 10px 20px; }
+.wy-blog-listing > li:last-child > a { font-size: 1.3rem; }
+
+	/*------- Custom Pagination CSS Starts -------*/
+
+#page-navi { margin: 0 0 15px; }
+#page-navi li a { font-size: 1.4rem; height: 30px; line-height: 30px; margin-right: 5px; width: 30px; }
+
+	/*------- Custom Pagination CSS Ends -------*/
+
+/*------- Our Story Page Ends -------*/
+
+/*------- Cart Page Starts -------*/
+
+	/*------- Cart Tab Section Starts -------*/
+
+.bg-cart-tab { padding: 0 15px 15px; }
+.cart-view-content { margin-top: 15px; }
+.img-cart,
+.cart-wristwatch-listing,
+.figure-cart-gp-relative,
+.select-delivery-address-heading > h4,
+.add-new-cart-address,
+.safe-secure { margin-bottom: 15px; }
+.cart-wristwatch-info > p:nth-child(3) { font-size: 2rem; }
+.cart-wristwatch-line { margin: 25px 0 15px; }
+.img-cart-gp { height: 165px; object-fit: cover; }
+.table-responsive-price-details,
+.table-price-details { border: 0; }
+.btn-pay-now { width: 100%; }
+.choose-payment-method-line { margin-top: 10px; }
+.cart-tab-listing > li > span { display: none; }
+.select-payment-card-listing > li:after { display: none; }
+.select-payment-card-listing { margin-bottom: 15px; text-align: center; }
+
+	/*------- Cart Tab Section Ends -------*/
+
+/*------- Cart Page Ends -------*/
+
+}
+
+@media only screen and (min-width: 360px) and (max-width: 767px) {
+
+/*------- My Account Overview Page Starts -------*/
+	
+	/*------- Account Section Starts -------*/
+
+.box-acc-circle + p { font-size: 1.5rem; }
+
+	/*------- Account Section Ends -------*/
+
+/*------- My Account Overview Page Ends -------*/
+
+/*------- Favourite Page Starts -------*/
+
+	/*------- Favourite Tab Section Starts -------*/
+
+.box-inspirations-tab { margin-bottom: 15px; }
+.favourites-va-listing > li > a,
+.favourites-re-listing > li > a,
+.wy-blog-listing > li:last-child > a { font-size: 1.6rem; }
+.heart-submit-os-listing > li:last-child > a { font-size: 1.4rem; }
+
+	/*------- Favourite Tab Section Ends -------*/
+
+/*------- Favourite Page Ends -------*/
+
+}

@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="description" content="" />
+	<meta name="author" content="" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0" />
+	<title>WY - Product View</title>
+	<!-- Favicon Icon -->
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+	<!-- Font Awesome Icons -->
+	<link rel="stylesheet" href="css/all.min.css" type="text/css" />
+	<!-- Bootstrap-3 Minified CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+	<!-- Slick Slider CSS -->
+	<link rel="stylesheet" href="css/slick.min.css" type="text/css" />
+	<link rel="stylesheet" href="css/slick-theme.min.css" type="text/css" />
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="css/style.css" type="text/css" />
+	<!-- Media CSS -->
+	<link rel="stylesheet" href="css/media.css" type="text/css" />
+</head>
+<body>
+	<!-- Sign Up Modal Section Starts -->
+	<div class="box-modal box-modal-1" id="openModal1">
+		<div class="box-panel-modal box-panel-modal-signup">
+			<div class="box-panel-modal-body">
+				<div class="bg-contact-form">
+					<img src="images/signup-sign-logo.png" class="img-responsive img-sign-up-logo" alt="" />
+					<p>Sign up with <span>Facebook</span> or <span>Google</span></p>
+					<p>Or</p>
+					<form>
+						<div class="form-group-modal">
+							<div class="input-group">
+						    <input type="email" class="form-control form-control-modal" placeholder="Email Address">
+						    <div class="input-group-btn">
+						      <button class="btn btn-default btn-form-modal" type="submit">
+						        <i class="fa fa-envelope"></i>
+						      </button>
+						    </div>
+						  </div>
+						</div>
+						<div class="form-group-modal">
+							<div class="input-group">
+						    <input type="text" class="form-control form-control-modal" placeholder="First Name">
+						    <div class="input-group-btn">
+						      <button class="btn btn-default btn-form-modal" type="submit">
+						        <i class="fa fa-user"></i>
+						      </button>
+						    </div>
+						  </div>
+						</div>
+						<div class="form-group-modal">
+							<div class="input-group">
+						    <input type="text" class="form-control form-control-modal" placeholder="Last Name">
+						    <div class="input-group-btn">
+						      <button class="btn btn-default btn-form-modal" type="submit">
+						        <i class="fa fa-user"></i>
+						      </button>
+						    </div>
+						  </div>
+						</div>
+						<div class="form-group-modal">
+							<div class="input-group">
+						    <input type="password" class="form-control form-control-modal" placeholder="Create Password">
+						    <div class="input-group-btn">
+						      <button class="btn btn-default btn-form-modal" type="submit">
+						        <i class="fas fa-lock"></i>
+						      </button>
+						    </div>
+						  </div>
+						</div>
+						<div class="form-group-modal">
+							<div class="input-group">
+						    <input type="password" class="form-control form-control-modal" placeholder="Confirm Password">
+						    <div class="input-group-btn">
+						      <button class="btn btn-default btn-form-modal" type="submit">
+						        <i class="fas fa-lock"></i>
+						      </button>
+						    </div>
+						  </div>
+						</div>
+						<div class="form-group-modal">
+							<label class="checked-submit-query checked-signup-query">
+								<span>By clicking Sign Up, you agree to our <a href="terms-conditions.html">Terms & Conditions</a> and that you have read our <a href="#">Privacy Policy.</a></span>
+							  <input type="checkbox">
+							  <span class="checked-submit-query-text"></span>
+							</label>
+						</div>
+						<div class="form-group-modal">
+							<input type="button" class="btn-sign-up-in" value="Sign Up" />
+						</div>
+					</form>
+					<div class="asking-que-acc">
+						<p>Already have an account? <a href="#openModal2">Sign In</a></p>
+					</div>
+				</div>
+				<div class="top-right-close">
+					<a href="#close" title="close" class="btn-modal-close"><i class="fas fa-times"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Sign Up Modal Section Ends -->
+	<!-- Sign In Modal Section Starts -->
+	<div class="box-modal box-modal-2" id="openModal2">
+		<div class="box-panel-modal">
+			<div class="box-panel-modal-body">
+				<div class="bg-contact-form">
+					<img src="images/signup-sign-logo.png" class="img-responsive img-sign-in-logo" alt="" />
+					<div class="sign-in-with-fb-g">
+						<a href="#"><img src="images/facebook-signin-logo.png" class="img-fb-g-logo" alt="" />Sign in with Facebook</a>
+					</div>
+					<div class="sign-in-with-fb-g">
+						<a href="#"><img src="images/google-signin-logo.png" class="img-fb-g-logo" alt="" />Sign in with Google</a>
+					</div>
+					<p class="or">Or</p>
+					<form>
+						<div class="form-group-modal form-group-modal-signin">
+							<div class="input-group">
+						    <input type="email" class="form-control form-control-modal" placeholder="Email Address">
+						    <div class="input-group-btn">
+						      <button class="btn btn-default btn-form-modal" type="submit">
+						        <i class="fa fa-envelope"></i>
+						      </button>
+						    </div>
+						  </div>
+						</div>
+						<div class="form-group-modal form-group-modal-signin">
+							<div class="input-group">
+						    <input type="password" class="form-control form-control-modal" placeholder="Create Password">
+						    <div class="input-group-btn">
+						      <button class="btn btn-default btn-form-modal" type="submit">
+						        <i class="fas fa-lock"></i>
+						      </button>
+						    </div>
+						  </div>
+						</div>
+						<div class="row">
+							<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+								<div class="form-group-modal form-group-modal-signin">
+									<label class="checked-submit-query checked-signup-query">
+										<span>Remember me</span>
+									  <input type="checkbox">
+									  <span class="checked-submit-query-text"></span>
+									</label>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+								<div class="forgot-pwd-signin-right">
+									<a href="#">Forgot Paasword?</a>
+								</div>
+							</div>
+						</div>
+						<div class="form-group-modal form-group-modal-signin">
+							<input type="button" class="btn-sign-up-in" value="Sign In" />
+						</div>
+					</form>
+					<div class="asking-que-acc">
+						<p>Don't have an account? <a href="#openModal1">Sign Up</a></p>
+					</div>
+				</div>
+				<div class="top-right-close">
+					<a href="#close" title="close" class="btn-modal-close"><i class="fas fa-times"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Sign In Modal Section Ends -->
+	<!-- Navigationbar Menu Desktop Section Starts -->
+	<div class="container-fluid bg-navigation-menu-home bg-navigation-menu-home-desktop">
+		<div class="row">
+			<div class="container">
+				<div class="row flex-align-center">
+					<div class="col-xs-4 col-xs-push-4 col-sm-4 col-sm-push-4 col-md-2 col-md-push-0 col-lg-3 col-lg-push-0">
+						<div class="header-logo">
+							<a href="index.html" class="img-logo-anchor"><img src="images/logo.png" class="img-responsive img-logo" alt="" /></a>
+						</div>
+					</div>
+					<div class="col-xs-4 col-xs-pull-4 col-sm-4 col-sm-pull-4 col-md-7 col-md-pull-0 col-lg-6 col-lg-pull-0">
+						<div class="hamburger-menu">
+							<div class="burger-menu">
+								<span></span>
+							</div>
+						</div>
+						<div class="navigation-menu">
+							<ul class="menu-listing">
+								<li><a href="inspirations.html">Inspirations</a></li>
+								<li><a href="straps.html">Straps</a></li>
+								<li><a href="find-your-wy.html">Find Your Wy</a></li>
+								<li><a href="gift-sets.html">Gift Sets</a></li>
+								<li><a href="our-story.html">Our Story</a></li>
+								<li><a href="#">Search</a>
+									<div class="header-search-field">
+										<input type="text" class="form-control form-search-control" placeholder="Search..." />
+									</div>
+								</li>
+								<li><a href="#openModal1">Sign Up</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-xs-4 col-sm-4 col-md-3 col-lg-3">
+						<div class="navigation-signup-signin text-right">
+							<ul class="navigation-signup-signin-listing">
+								<li><a href="#openModal2">Sign In</a></li>
+								<li><a href="#openModal1">Sign Up</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Navigationbar Menu Desktop Section Ends -->
+	<!-- Navigationbar Menu Mobile Section Starts -->
+	<div class="container-fluid bg-navigation-menu-home bg-navigation-menu-home-mob">
+		<div class="row">
+			<div class="container">
+				<div class="row flex-align-center">
+					<div class="col-xs-4 col-xs-push-4 col-sm-4 col-sm-push-4 col-md-2 col-md-push-0 col-lg-3 col-lg-push-0">
+						<div class="header-logo">
+							<a href="index.html" class="img-logo-anchor"><img src="images/logo-mobile.png" class="img-responsive img-logo" alt="" /></a>
+						</div>
+					</div>
+					<div class="col-xs-4 col-xs-pull-4 col-sm-4 col-sm-pull-4 col-md-7 col-md-pull-0 col-lg-6 col-lg-pull-0">
+						<div class="hamburger-menu">
+							<div class="burger-menu">
+								<span></span>
+							</div>
+						</div>
+						<div class="navigation-menu">
+							<ul class="menu-listing menu-listing-mob">
+								<li><a href="inspirations.html">Inspirations</a></li>
+								<li><a href="straps.html">Straps</a></li>
+								<li><a href="find-your-wy.html">Find Your Wy</a></li>
+								<li><a href="gift-sets.html">Gift Sets</a></li>
+								<li>
+									<a href="#">Our Story</a>
+									<ul class="sub-menu-listing">
+										<li><a href="our-story.html">About us</a></li>
+										<li><a href="wy-blog.html">Wy Blog</a></li>
+										<li><a href="#">More Links</a></li>
+									</ul>
+								</li>
+								<li><a href="#">Search</a>
+									<div class="header-search-field header-search-field-mob">
+										<input type="text" class="form-control form-search-control" placeholder="Search..." />
+									</div>
+								</li>
+								<li><a href="#openModal1">Sign Up</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-xs-4 col-sm-4 col-md-3 col-lg-3">
+						<div class="navigation-signup-signin text-right">
+							<ul class="navigation-signup-signin-listing">
+								<li><a href="#openModal2">Sign In</a></li>
+								<li><a href="#openModal1">Sign Up</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Navigationbar Menu Mobile Section Ends -->
+	<!-- Mobile Blur Section Starts -->
+	<div class="bg-blur"></div>
+	<!-- Mobile Blur Section Ends -->
+	<!-- Product View Listing Section Starts -->
+	<div class="container-fluid bg-product-view-brclisting">
+		<div class="row">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="product-view-listing">
+							<a href="index.html">Home</a>
+							<i class="fas fa-chevron-right"></i>
+							<a href="inspirations.html">Inspirations</a>
+							<i class="fas fa-chevron-right"></i>
+							<a href="category-view.html">Category One</a>
+							<i class="fas fa-chevron-right"></i>
+							<a href="category-view.html">Product 1</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Product View Listing Section Ends -->
+	<!-- Video and Image Section Starts -->
+	<div class="container-fluid bg-video-image-pv">
+		<div class="row">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-8 col-md-8 col-lg-8">
+						<figure class="fig-cate-view-relative">
+							<img src="images/product-view-1.jpg" class="img-responsive img-pv-one" alt="" />
+							<figcaption class="fig-cate-view-absolute">
+								<div class="fig-cate-view-circle">
+									<i class="fas fa-play"></i>
+								</div>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-sm-4 col-md-4 col-lg-4">
+						<div class="row">
+							<div class="col-xs-12">
+								<img src="images/product-view-2.jpg" class="img-responsive img-pv-two" alt="" />
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-12">
+								<img src="images/product-view-2.jpg" class="img-responsive img-pv-three" alt="" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Video and Image Section Ends -->
+	<!-- Wristwatch Section Starts -->
+	<div class="container-fluid bg-wristwatch-pv">
+		<div class="row">
+			<div class="container">
+				<div class="row flex-align-center flex-align-center-mob social-paltform-submit-bb wrist-watch-bb-mob">
+					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+						<div class="wrist-watch-heading">
+							<p>Because It’s Your Time - Wristwatch</p>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+						<ul class="category-view-social-comment-listing product-view-social-comment-listing-mob">
+							<li><p>Share :</p></li>
+							<li><a href="#"><img src="images/facebook.png" class="img-responsive" alt=""></a></li>
+							<li><a href="#"><img src="images/twitter.png" class="img-responsive" alt=""></a></li>
+							<li><a href="#"><img src="images/instagram.png" class="img-responsive" alt=""></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Wristwatch Section Ends -->
+	<!-- Mobile View Section Starts -->
+	<div class="container-fluid bg-social-add-to-cart-mob">
+		<div class="row">
+			<div class="container">
+				<div class="row flex-align-center">
+					<div class="col-xs-6">
+						<ul class="add-to-cart-linking">
+							<li><a href="#"><img src="images/add-to-cart.png" alt="" /> Add to cart</a></li>
+						</ul>
+					</div>
+					<div class="col-xs-6">
+						<ul class="category-view-social-comment-listing product-view-social-comment-listing">
+							<li><p>Share :</p></li>
+							<li><a href="#"><img src="images/facebook.png" class="img-responsive" alt=""></a></li>
+							<li><a href="#"><img src="images/twitter.png" class="img-responsive" alt=""></a></li>
+							<li><a href="#"><img src="images/instagram.png" class="img-responsive" alt=""></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Mobile View Section Ends -->
+	<!-- Product View Tab Section Starts -->
+	<div class="container-fluid bg-product-view-tab-listing">
+		<div class="row">
+			<div class="container bg-category-view-tab-border-bottom">
+				<div class="row flex-align-center flex-align-center-mob">
+					<div class="col-sm-9 col-md-9 col-lg-9">
+						<div class="product-view-tab">
+							<ul class="product-view-tab-listing">
+								<li class="active" id="product-view-tab-one">Details</li>
+								<li id="product-view-tab-two">Specification</li>
+								<li id="product-view-tab-three">Reviews & Comments</li>
+								<li id="product-view-tab-four">Cause</li>
+								<li id="product-view-tab-five">More Accessories</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-3 col-md-3 col-lg-3">
+						<ul class="add-to-cart-linking add-to-cart-linking-mob">
+							<li><a href="#"><img src="images/add-to-cart.png" alt="" /> Add to cart</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="container">
+				<div class="content category-view-content">
+					<div id="product-view-tab-one-content-box" class="hides active">
+						<div class="row">
+							<div class="col-sm-6 col-md-6 col-lg-6">
+								<div class="category-view-intro-info">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero impedit reprehenderit temporibus cupiditate nam voluptatem culpa id quibusdam voluptatum. Quae sint mollitia consectetur eaque, id rerum! Dolorum exercitationem, ad quo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et deserunt nobis debitis aperiam dolorum ut corporis sunt, eos pariatur dolores temporibus vitae necessitatibus similique maiores, maxime sint nulla incidunt, distinctio?</p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero impedit reprehenderit temporibus cupiditate nam voluptatem culpa id quibusdam voluptatum. Quae sint mollitia consectetur eaque, id rerum! Dolorum exercitationem, ad quo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et deserunt nobis debitis aperiam dolorum ut corporis sunt, eos pariatur dolores temporibus vitae necessitatibus similique maiores, maxime sint nulla incidunt, distinctio?</p>
+								</div>
+							</div>
+							<div class="col-sm-6 col-md-6 col-lg-6">
+								<img src="images/category-view-2.jpg" class="img-responsive img-ipcc-one" alt="" />
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-12">
+								<div class="wyb-info">
+									<p>Watch Yourself Because It's Your Time</p>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-6 col-md-6 col-lg-6">
+								<div class="category-view-intro-info">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero impedit reprehenderit temporibus cupiditate nam voluptatem culpa id quibusdam voluptatum. Quae sint mollitia consectetur eaque, id rerum! Dolorum exercitationem, ad quo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et deserunt nobis debitis aperiam dolorum ut corporis sunt, eos pariatur dolores temporibus vitae necessitatibus similique maiores, maxime sint nulla incidunt, distinctio?</p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero impedit reprehenderit temporibus cupiditate nam voluptatem culpa id quibusdam voluptatum. Quae sint mollitia consectetur eaque, id rerum! Dolorum exercitationem, ad quo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et deserunt nobis debitis aperiam dolorum ut corporis sunt, eos pariatur dolores temporibus vitae necessitatibus similique maiores, maxime sint nulla incidunt, distinctio?</p>
+								</div>
+							</div>
+							<div class="col-sm-6 col-md-6 col-lg-6">
+								<img src="images/category-view-3.jpg" class="img-responsive img-ipcc-two" alt="" />
+							</div>
+						</div>
+					</div>
+					<div id="product-view-tab-two-content-box" class="hides">
+						<div class="row">
+							<div class="col-sm-6 col-md-6 col-lg-6">
+								<div class="category-view-intro-info">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero impedit reprehenderit temporibus cupiditate nam voluptatem culpa id quibusdam voluptatum. Quae sint mollitia consectetur eaque, id rerum! Dolorum exercitationem, ad quo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et deserunt nobis debitis aperiam dolorum ut corporis sunt, eos pariatur dolores temporibus vitae necessitatibus similique maiores, maxime sint nulla incidunt, distinctio?</p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero impedit reprehenderit temporibus cupiditate nam voluptatem culpa id quibusdam voluptatum. Quae sint mollitia consectetur eaque, id rerum! Dolorum exercitationem, ad quo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et deserunt nobis debitis aperiam dolorum ut corporis sunt, eos pariatur dolores temporibus vitae necessitatibus similique maiores, maxime sint nulla incidunt, distinctio?</p>
+								</div>
+							</div>
+							<div class="col-sm-6 col-md-6 col-lg-6">
+								<img src="images/category-view-2.jpg" class="img-responsive img-ipcc-one" alt="" />
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-12">
+								<div class="wyb-info">
+									<p>Watch Yourself Because It's Your Time</p>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-6 col-md-6 col-lg-6">
+								<div class="category-view-intro-info">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero impedit reprehenderit temporibus cupiditate nam voluptatem culpa id quibusdam voluptatum. Quae sint mollitia consectetur eaque, id rerum! Dolorum exercitationem, ad quo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et deserunt nobis debitis aperiam dolorum ut corporis sunt, eos pariatur dolores temporibus vitae necessitatibus similique maiores, maxime sint nulla incidunt, distinctio?</p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero impedit reprehenderit temporibus cupiditate nam voluptatem culpa id quibusdam voluptatum. Quae sint mollitia consectetur eaque, id rerum! Dolorum exercitationem, ad quo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et deserunt nobis debitis aperiam dolorum ut corporis sunt, eos pariatur dolores temporibus vitae necessitatibus similique maiores, maxime sint nulla incidunt, distinctio?</p>
+								</div>
+							</div>
+							<div class="col-sm-6 col-md-6 col-lg-6">
+								<img src="images/category-view-3.jpg" class="img-responsive img-ipcc-two" alt="" />
+							</div>
+						</div>
+					</div>
+					<div id="product-view-tab-three-content-box" class="hides">
+						<div class="row">
+							<div class="col-xs-12">
+								<div class="form-group-comment">
+									<textarea class="form-control form-control-cv-cmnt" placeholder="Write your comment here..."></textarea>
+								</div>
+							</div>
+						</div>
+						<div class="row flex-align-center flex-align-center-mob social-paltform-submit-bb">
+							<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+								<ul class="heart-submit-listing">
+									<li><a href="#"></a></li>
+									<li><a href="#">Submit</a></li>
+								</ul>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+								<ul class="category-view-social-comment-listing pvsl-remove-mob">
+									<li><p>Share :</p></li>
+									<li><a href="#"><img src="images/facebook.png" class="img-responsive" alt="" /></a></li>
+									<li><a href="#"><img src="images/twitter.png" class="img-responsive" alt="" /></a></li>
+									<li><a href="#"><img src="images/instagram.png" class="img-responsive" alt="" /></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-12">
+								<div class="category-view-comment-listing">
+									<div class="media category-view-media">
+									  <div class="media-left category-view-media-left">
+									    <img src="images/category-view-comment-1.png" class="media-object" alt="" />
+									  </div>
+									  <div class="media-body category-view-media-body">
+									    <h4 class="media-heading">Annette Obrien</h4>
+									    <p>21 Jun 2019</p>
+									  </div>
+									  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia aliquid, blanditiis autem pariatur dolorum hic, iusto iste sequi deleniti possimus non delectus accusamus necessitatibus molestiae, nihil, quidem maxime. Iste, nulla! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero debitis tempore quis quibusdam. Tempora nihil delectus aperiam ea autem laudantium veniam sit, inventore eligendi, quam suscipit voluptate velit, a corporis.</p>
+									  <ul class="heart-submit-listing">
+											<li><a href="#"></a></li>
+											<li><a href="#">Submit</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="category-view-comment-listing">
+									<div class="media category-view-media">
+									  <div class="media-left category-view-media-left">
+									    <img src="images/category-view-comment-2.png" class="media-object" alt="" />
+									  </div>
+									  <div class="media-body category-view-media-body">
+									    <h4 class="media-heading">Alexis Callahan</h4>
+									    <p>21 Jun 2019</p>
+									  </div>
+									  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia aliquid, blanditiis autem pariatur dolorum hic, iusto iste sequi deleniti possimus non delectus accusamus necessitatibus molestiae, nihil, quidem maxime. Iste, nulla! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero debitis tempore quis quibusdam. Tempora nihil delectus aperiam ea autem laudantium veniam sit, inventore eligendi, quam suscipit voluptate velit, a corporis.</p>
+									  <ul class="heart-submit-listing">
+											<li><a href="#"></a></li>
+											<li><a href="#">Submit</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="category-view-comment-listing">
+									<div class="media category-view-media">
+									  <div class="media-left category-view-media-left">
+									    <img src="images/category-view-comment-3.png" class="media-object" alt="" />
+									  </div>
+									  <div class="media-body category-view-media-body">
+									    <h4 class="media-heading">Angela Messer</h4>
+									    <p>21 Jun 2019</p>
+									  </div>
+									  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia aliquid, blanditiis autem pariatur dolorum hic, iusto iste sequi deleniti possimus non delectus accusamus necessitatibus molestiae, nihil, quidem maxime. Iste, nulla! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero debitis tempore quis quibusdam. Tempora nihil delectus aperiam ea autem laudantium veniam sit, inventore eligendi, quam suscipit voluptate velit, a corporis.</p>
+									  <ul class="heart-submit-listing">
+											<li><a href="#"></a></li>
+											<li><a href="#">Submit</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="category-view-comment-listing">
+									<div class="media category-view-media">
+									  <div class="media-left category-view-media-left">
+									    <img src="images/category-view-comment-4.png" class="media-object" alt="" />
+									  </div>
+									  <div class="media-body category-view-media-body">
+									    <h4 class="media-heading">Alfredo Dodson</h4>
+									    <p>21 Jun 2019</p>
+									  </div>
+									  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia aliquid, blanditiis autem pariatur dolorum hic, iusto iste sequi deleniti possimus non delectus accusamus necessitatibus molestiae, nihil, quidem maxime. Iste, nulla! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero debitis tempore quis quibusdam. Tempora nihil delectus aperiam ea autem laudantium veniam sit, inventore eligendi, quam suscipit voluptate velit, a corporis.</p>
+									  <ul class="heart-submit-listing">
+											<li><a href="#"></a></li>
+											<li><a href="#">Submit</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="product-view-tab-four-content-box" class="hides">
+						<div class="row">
+							<div class="col-sm-6 col-md-6 col-lg-6">
+								<div class="category-view-intro-info">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero impedit reprehenderit temporibus cupiditate nam voluptatem culpa id quibusdam voluptatum. Quae sint mollitia consectetur eaque, id rerum! Dolorum exercitationem, ad quo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et deserunt nobis debitis aperiam dolorum ut corporis sunt, eos pariatur dolores temporibus vitae necessitatibus similique maiores, maxime sint nulla incidunt, distinctio?</p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero impedit reprehenderit temporibus cupiditate nam voluptatem culpa id quibusdam voluptatum. Quae sint mollitia consectetur eaque, id rerum! Dolorum exercitationem, ad quo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et deserunt nobis debitis aperiam dolorum ut corporis sunt, eos pariatur dolores temporibus vitae necessitatibus similique maiores, maxime sint nulla incidunt, distinctio?</p>
+								</div>
+							</div>
+							<div class="col-sm-6 col-md-6 col-lg-6">
+								<img src="images/category-view-2.jpg" class="img-responsive img-ipcc-one" alt="" />
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-12">
+								<div class="wyb-info">
+									<p>Watch Yourself Because It's Your Time</p>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-6 col-md-6 col-lg-6">
+								<div class="category-view-intro-info">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero impedit reprehenderit temporibus cupiditate nam voluptatem culpa id quibusdam voluptatum. Quae sint mollitia consectetur eaque, id rerum! Dolorum exercitationem, ad quo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et deserunt nobis debitis aperiam dolorum ut corporis sunt, eos pariatur dolores temporibus vitae necessitatibus similique maiores, maxime sint nulla incidunt, distinctio?</p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero impedit reprehenderit temporibus cupiditate nam voluptatem culpa id quibusdam voluptatum. Quae sint mollitia consectetur eaque, id rerum! Dolorum exercitationem, ad quo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et deserunt nobis debitis aperiam dolorum ut corporis sunt, eos pariatur dolores temporibus vitae necessitatibus similique maiores, maxime sint nulla incidunt, distinctio?</p>
+								</div>
+							</div>
+							<div class="col-sm-6 col-md-6 col-lg-6">
+								<img src="images/category-view-3.jpg" class="img-responsive img-ipcc-two" alt="" />
+							</div>
+						</div>
+					</div>
+					<div id="product-view-tab-five-content-box" class="hides">
+						<div class="row">
+							<div class="product-view-slick-slider-one">
+								<div>
+									<figure class="figure-category-view-product-relative">
+										<img src="images/category-view-product-1.jpg" class="img-responsive img-category-product" alt="" />
+										<figcaption class="figure-category-view-product-absolute">
+											<h4>Product 1</h4>
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem corporis nulla distinctio temporibus.</p>
+										</figcaption>
+									</figure>
+								</div>
+								<div>
+									<figure class="figure-category-view-product-relative">
+										<img src="images/category-view-product-2.jpg" class="img-responsive img-category-product" alt="" />
+										<figcaption class="figure-category-view-product-absolute">
+											<h4>Product 2</h4>
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem corporis nulla distinctio temporibus.</p>
+										</figcaption>
+									</figure>
+								</div>
+								<div>
+									<figure class="figure-category-view-product-relative">
+										<img src="images/category-view-product-3.jpg" class="img-responsive img-category-product" alt="" />
+										<figcaption class="figure-category-view-product-absolute">
+											<h4>Product 3</h4>
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem corporis nulla distinctio temporibus.</p>
+										</figcaption>
+									</figure>
+								</div>
+								<div>
+									<figure class="figure-category-view-product-relative">
+										<img src="images/category-view-product-4.jpg" class="img-responsive img-category-product" alt="" />
+										<figcaption class="figure-category-view-product-absolute">
+											<h4>Product 4</h4>
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem corporis nulla distinctio temporibus.</p>
+										</figcaption>
+									</figure>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="product-view-slick-slider-two">
+								<div>
+									<figure class="figure-category-view-product-relative">
+										<img src="images/category-view-product-5.jpg" class="img-responsive img-category-product" alt="" />
+										<figcaption class="figure-category-view-product-absolute">
+											<h4>Product 5</h4>
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem corporis nulla distinctio temporibus.</p>
+										</figcaption>
+									</figure>
+								</div>
+								<div>
+									<figure class="figure-category-view-product-relative">
+										<img src="images/category-view-product-6.jpg" class="img-responsive img-category-product" alt="" />
+										<figcaption class="figure-category-view-product-absolute">
+											<h4>Product 6</h4>
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem corporis nulla distinctio temporibus.</p>
+										</figcaption>
+									</figure>
+								</div>
+								<div>
+									<figure class="figure-category-view-product-relative">
+										<img src="images/category-view-product-7.jpg" class="img-responsive img-category-product" alt="" />
+										<figcaption class="figure-category-view-product-absolute">
+											<h4>Product 7</h4>
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem corporis nulla distinctio temporibus.</p>
+										</figcaption>
+									</figure>
+								</div>
+								<div>
+									<figure class="figure-category-view-product-relative">
+										<img src="images/category-view-product-8.jpg" class="img-responsive img-category-product" alt="" />
+										<figcaption class="figure-category-view-product-absolute">
+											<h4>Product 8</h4>
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem corporis nulla distinctio temporibus.</p>
+										</figcaption>
+									</figure>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Product View Tab Section Ends -->
+	<!-- Similar Products Section Starts -->
+	<div class="container-fluid bg-similar-product-pv">
+		<div class="row">
+			<div class="container bg-similar-product-bt">
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="similar-product-pv-heading">
+							<h3>Similar Products</h3>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="similar-product-slick-slider">
+						<div>
+							<figure class="figure-category-view-product-relative">
+								<img src="images/category-view-product-1.jpg" class="img-responsive img-category-product" alt="" />
+								<figcaption class="figure-category-view-product-absolute">
+									<h4>Product 1</h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem corporis nulla distinctio temporibus.</p>
+									<a href="#">Because life is beautiful <i class="fas fa-chevron-right"></i></a>
+								</figcaption>
+							</figure>
+						</div>
+						<div>
+							<figure class="figure-category-view-product-relative">
+								<img src="images/category-view-product-2.jpg" class="img-responsive img-category-product" alt="" />
+								<figcaption class="figure-category-view-product-absolute">
+									<h4>Product 2</h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem corporis nulla distinctio temporibus.</p>
+									<a href="#">Because life is beautiful <i class="fas fa-chevron-right"></i></a>
+								</figcaption>
+							</figure>
+						</div>
+						<div>
+							<figure class="figure-category-view-product-relative">
+								<img src="images/category-view-product-3.jpg" class="img-responsive img-category-product" alt="" />
+								<figcaption class="figure-category-view-product-absolute">
+									<h4>Product 3</h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem corporis nulla distinctio temporibus.</p>
+									<a href="#">Because life is beautiful <i class="fas fa-chevron-right"></i></a>
+								</figcaption>
+							</figure>
+						</div>
+						<div>
+							<figure class="figure-category-view-product-relative">
+								<img src="images/category-view-product-4.jpg" class="img-responsive img-category-product" alt="" />
+								<figcaption class="figure-category-view-product-absolute">
+									<h4>Product 4</h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem corporis nulla distinctio temporibus.</p>
+									<a href="#">Because life is beautiful <i class="fas fa-chevron-right"></i></a>
+								</figcaption>
+							</figure>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Similar Products Section Ends -->
+	<!-- Other Categories Section Starts -->
+	<div class="container-fluid bg-other-cate-explore">
+		<div class="row">
+			<div class="container bg-other-cate-explore-bb">
+				<div class="row">
+					<div class="col-sm-9 col-md-9 col-lg-9">
+						<div class="other-cate-explore-heading">
+							<h3>Other categories to explore</h3>
+						</div>
+					</div>
+					<div class="col-sm-3 col-md-3 col-lg-3">
+						<div class="other-cate-explore-link text-right">
+							<a href="#">Explore more <i class="fas fa-chevron-right"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-4 col-md-4 col-lg-4">
+						<figure class="watch-yourself-relative">
+							<img src="images/inspiration-pg-1.jpg" class="img-responsive" alt="">
+							<div class="add-fav-absolute">
+								<p><i class="far fa-star"></i> Add to Favorites</p>
+							</div>
+							<figcaption class="watch-yourself-absolute">
+								<h4>Because You are Special</h4>
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the</p>
+								<p><a href="category-view.html">Video (1)</a><span>|</span><a href="category-view.html">Accessories (2)</a></p>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-sm-4 col-md-4 col-lg-4">
+						<figure class="watch-yourself-relative">
+							<img src="images/inspiration-pg-2.jpg" class="img-responsive" alt="">
+							<div class="add-fav-absolute">
+								<p><i class="far fa-star"></i> Add to Favorites</p>
+							</div>
+							<figcaption class="watch-yourself-absolute">
+								<h4>Because life is beautiful</h4>
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the</p>
+								<p><a href="category-view.html">Video (2)</a><span>|</span><a href="category-view.html">Accessories (3)</a></p>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-sm-4 col-md-4 col-lg-4">
+						<figure class="watch-yourself-relative">
+							<img src="images/inspiration-pg-3.jpg" class="img-responsive" alt="">
+							<div class="add-fav-absolute">
+								<p><i class="far fa-star"></i> Add to Favorites</p>
+							</div>
+							<figcaption class="watch-yourself-absolute">
+								<h4>Because you got one life</h4>
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the</p>
+								<p><a href="category-view.html">Video (2)</a><span>|</span><a href="category-view.html">Accessories (3)</a></p>
+							</figcaption>
+						</figure>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Other Categories Section Ends -->
+	<!-- Footer Section Starts -->
+	<div class="container-fluid bg-footer-home">
+		<div class="row">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-5 col-sm-push-7 col-md-6 col-md-push-6 col-lg-6 col-lg-push-6">
+						<div class="footer-heading">
+							<h4>Stay Updated</h4>
+							<p>Provide your email below and we’ll keep you updated about new content, collections, and surprises.</p>
+							<ul class="footer-email-listing">
+								<li><input type="text" class="form-control form-control-foo-email" placeholder="Enter your email"></li>
+								<li><input type="button" class="btn-submit" value="Subscribe"></li>
+							</ul>
+							<p class="privacy-policy">Learn how we treat your data in our <a href="#">Privacy Policy</a></p>
+						</div>
+					</div><div class="col-xs-6 col-sm-3 col-sm-pull-5 col-md-2 col-md-pull-6 col-lg-2 col-lg-pull-6">
+						<div class="footer-heading">
+							<h4>Quick Links</h4>
+							<ul class="quick-link-listing">
+								<li><a href="find-your-wy.html">Find Your Wy</a></li>
+								<li><a href="gift-sets.html">Gift Sets</a></li>
+								<li><a href="#">Straps Finder</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-xs-6 col-sm-2 col-sm-pull-5 col-md-2 col-md-pull-6 col-lg-2 col-lg-pull-6">
+						<div class="footer-heading">
+							<h4>Our Story</h4>
+							<ul class="our-story-listing">
+								<li><a href="#">About Us</a></li>
+								<li><a href="#">Wy Blog</a></li>
+								<li><a href="#">Wy Gallery</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-2 col-sm-pull-5 col-md-2 col-md-pull-6 col-lg-2 col-lg-pull-6">
+						<div class="footer-heading">
+							<h4>Help</h4>
+							<ul class="help-link-listing">
+								<li><a href="#">Help Center</a></li>
+								<li><a href="contact.html">Contact Us</a></li>
+								<li><a href="faq.html">FAQs</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Footer Section Starts -->
+	<!-- Copyright Section Starts -->
+	<div class="container-fluid bg-copyright-home">
+		<div class="row">
+			<div class="container">
+				<div class="row flex-align-center flex-align-center-mob">
+					<div class="col-xs-12 col-sm-7 col-md-8 col-lg-8">
+						<ul class="copyright-listing">
+							<li><a href="#">Wy ©2019 All rights reserved <span>|</span></a></li>
+							<li><a href="terms-conditions.html">Terms & Conditions <span>|</span></a></li>
+							<li><a href="#">Privacy Policy</a></li>
+						</ul>
+					</div>
+					<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+						<div class="copyright-social-lang text-right">
+							<ul class="social-listing">
+								<li><a href="#"><img src="images/facebook.png" class="img-responsive" alt=""></a></li>
+								<li><a href="#"><img src="images/twitter.png" class="img-responsive" alt=""></a></li>
+								<li><a href="#"><img src="images/youtube.png" class="img-responsive" alt=""></a></li>
+								<li><a href="#"><img src="images/instagram.png" class="img-responsive" alt=""></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-xs-6 col-sm-2 col-md-2 col-lg-2">
+						<div class="copyright-social-lang text-right">
+							<ul class="lang-drop-right">
+								<li>
+									<select class="form-control form-control-multi-lang">
+										<option value="">English</option>
+										<option value="">English</option>
+										<option value="">English</option>
+										<option value="">English</option>
+									</select>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Copyright Section Ends -->
+	<!-- jQuery Library -->
+	<script src="js/jquery.min.js"></script>
+	<!-- Bootstrap JS -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Slick Slider JS -->
+	<script src="js/slick.min.js"></script>
+	<script src="js/slick-slider-custom.js"></script>
+	<!-- Main JS -->
+	<script src="js/main.js"></script>
+</body>
+</html>
