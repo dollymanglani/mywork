@@ -1,0 +1,259 @@
+@media only screen and (min-width: 1200px) {
+
+	/*------- Navigationbar Menu Section Starts -------*/
+
+	.navigation-menu { display: block !important; }
+
+	/*------- Navigationbar Menu Section Ends -------*/	
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+	/*------- Navigationbar Menu Section Starts -------*/
+
+	.navigation-menu { display: block !important; }
+	.navigation-signup-signin-listing > li > a { padding: 10px 20px; }
+	.menu-listing > li { margin-right: 10px; }
+	.sub-menu-listing { display: none; }
+
+	/*------- Navi.place-rightgationbar Menu Section Ends -------*/
+
+}
+
+@media only screen and (max-width: 991px) {
+	.class-ad-box{
+		margin-top: 30px;
+	}
+	.place-right{
+		display: inline-block;
+		margin-top: 8px;
+	}
+	ul.footer-social {
+		padding-top: 15px;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	.flex-align-center{ display: block; }
+	/*------- Hamburger Menu CSS Starts -------*/
+
+	.burger-menu { background-color: transparent; cursor: pointer; height: 40px; width: 40px; position: relative; }
+	.burger-menu span { position: absolute; height: 2px; width: 25px; background-color: #3b414b; top: 50%; left: 50%; transform: translate(-50%,-50%); -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); }
+	.burger-menu span:before,
+	.burger-menu span:after { content: ""; background-color: #3b414b; height: 2px; width: 25px; position: absolute; top: 10px; transition: 0.5s linear; -webkit-transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; }
+	.burger-menu span:before { top: -10px; }
+	.burger-menu.active span { background-color: transparent; }
+	.burger-menu.active span:before { top: 0; transform: rotate(-45deg); }
+	.burger-menu.active span:after { top: 0; transform: rotate(45deg); }
+
+	/*------- Hamburger Menu CSS Ends -------*/
+
+	.navigation-menu { background-color: #fff; border-top: 1px solid #eee; display: none; height: 100%; left: 0; position: fixed; top: 102px; width: 100%; z-index: 9999; }
+	.menu-listing { text-align: left; }
+	.menu-listing > li { display: block; margin: 0 0 10px 0; position: relative; }
+	.menu-listing > li:first-child { margin-top: 10px; }
+	/*.menu-listing > li:nth-last-child(2) { margin-bottom: 30px; }*/
+	/*.menu-listing > li:last-child { border-top: 1px solid #eee; display: block; padding: 30px 0; }*/
+	.menu-listing > li > a { display: block; padding: 0 15px; }
+	.navigation-signup-signin-listing > li:last-child { display: none; }
+	.navigation-signup-signin-listing > li:first-child > a { padding: 10px 12px; }
+	.menu-listing > li:nth-child(5) > a:before {
+		content: "\f078";
+		font-family: "Font Awesome 5 Free";
+		font-weight: 900;
+		position: absolute;
+		right: 15px;
+		top: 50%;
+		transform: translateY(-50%);
+		-webkit-transform: translateY(-50%);
+		-moz-transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+		-o-transform: translateY(-50%);
+	}
+	.menu-listing.active > li:nth-child(5) > a:before { content: "\f077"; }
+	.menu-listing-mob > li > a:hover { color: #3b414b; }
+	.menu-listing-mob > li > a:hover:after { width: 0; }
+	.sub-menu-listing > li { display: block; }
+	.sub-menu-listing > li > a { color: #3b414b; display: block; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; padding: 10px 30px 0; }
+	.header-search-field-mob { margin-top: 35px; padding: 0 15px; top: 0; }
+
+	/*------- Navigationbar Menu Section Ends -------*/
+	/*footerCSS Starts here*/
+	.footer-headings{
+		padding-top: 20px;
+	}
+	.info-links {
+		padding-left: 0px;
+	}
+
+
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+	/*------- Body and Blur Section CSS Starts -------*/
+
+	body.overflow-hidden { overflow-y: hidden; }
+	.bg-blur { background-color: #000000a7; bottom: 0; display: none; height: 100%; left: 0; right: 0; position: fixed; top: 0; width: 100%; z-index: 1; }
+	.bg-blur.active { display: block; }
+
+	/*------- Body and Blur Section CSS Ends -------*/
+
+	/*------- Navigationbar Menu Section Starts -------*/
+
+	.bg-navigation-menu-home { padding: 10px 15px; position: relative; z-index: 2; }s
+	.img-logo { margin: 0 auto; }
+	.header-logo { text-align: center; }
+	
+	/*------- Hamburger Menu CSS Starts -------*/
+
+	.burger-menu { background-color: transparent; cursor: pointer; height: 40px; width: 40px; position: relative; }
+	.burger-menu span { position: absolute; height: 2px; width: 25px; background-color: #3b414b; top: 50%; left: 50%; transform: translate(-50%,-50%); -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); }
+	.burger-menu span:before,
+	.burger-menu span:after { content: ""; background-color: #3b414b; height: 2px; width: 25px; position: absolute; top: 10px; transition: 0.5s linear; -webkit-transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; }
+	.burger-menu span:before { top: -10px; }
+	.burger-menu.active span { background-color: transparent; }
+	.burger-menu.active span:before { top: 0; transform: rotate(-45deg); }
+	.burger-menu.active span:after { top: 0; transform: rotate(45deg); }
+
+	/*------- Hamburger Menu CSS Ends -------*/
+
+	.navigation-menu { background-color: #fff; border-top: 1px solid #eee; display: none; height: 100%; left: 0; position: fixed; top: 102px; width: 100%; z-index: 9999; }
+	.menu-listing { text-align: left; }
+	.menu-listing > li { display: block; margin: 0 0 10px 0; position: relative; }
+	.menu-listing > li:first-child { margin-top: 10px; }
+	/*.menu-listing > li:nth-last-child(2) { margin-bottom: 30px; }*/
+	/*.menu-listing > li:last-child { border-top: 1px solid #eee; display: block; padding: 30px 0; }*/
+	.menu-listing > li > a { display: block; padding: 0 15px; }
+	.navigation-signup-signin-listing > li:last-child { display: none; }
+	.navigation-signup-signin-listing > li:first-child > a { padding: 10px 12px; }
+	.menu-listing > li:nth-child(5) > a:before {
+		content: "\f078";
+		font-family: "Font Awesome 5 Free";
+		font-weight: 900;
+		position: absolute;
+		right: 15px;
+		top: 50%;
+		transform: translateY(-50%);
+		-webkit-transform: translateY(-50%);
+		-moz-transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+		-o-transform: translateY(-50%);
+	}
+	.menu-listing.active > li:nth-child(5) > a:before { content: "\f077"; }
+	.menu-listing-mob > li > a:hover { color: #3b414b; }
+	.menu-listing-mob > li > a:hover:after { width: 0; }
+	.sub-menu-listing > li { display: block; }
+	.sub-menu-listing > li > a { color: #3b414b; display: block; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; padding: 10px 30px 0; }
+	.header-search-field-mob { margin-top: 35px; padding: 0 15px; top: 0; }
+
+	/*------- Navigationbar Menu Section Ends -------*/
+
+
+	@media only screen and (max-width: 767px) {
+
+		/*------- Common CSS Starts -------*/
+
+		.flex-align-center{ display: block; }
+		.section-heading > h2 { font-size: 1.8rem; }
+
+		/*------- Common CSS Ends -------*/
+
+		/*------- Body and Blur Section CSS Starts -------*/
+
+		body.overflow-hidden { overflow-y: hidden; }
+		.bg-blur { background-color: #000000a7; bottom: 0; display: none; height: 100%; left: 0; right: 0; position: fixed; top: 0; width: 100%; z-index: 1; }
+		.bg-blur.active { display: block; }
+
+		/*------- Body and Blur Section CSS Ends -------*/
+
+		/*------- Body and Blur Section CSS Starts -------*/
+
+		body.overflow-hidden { overflow-y: hidden; }
+		.bg-blur { background-color: #000000a7; bottom: 0; display: none; height: 100%; left: 0; right: 0; position: fixed; top: 0; width: 100%; z-index: 1; }
+		.bg-blur.active { display: block; }
+
+		/*------- Body and Blur Section CSS Ends -------*/
+
+		/*------- Navigationbar Menu Section Starts -------*/
+
+		.bg-navigation-menu-home { padding: 10px 15px; position: relative; z-index: 2; }s
+		.img-logo { margin: 0 auto; }
+		.header-logo { text-align: center; }
+		/*------- Hamburger Menu CSS Starts -------*/
+
+		.burger-menu { background-color: transparent; cursor: pointer; height: 40px; width: 40px; position: relative; }
+		.burger-menu span { position: absolute; height: 2px; width: 25px; background-color: #3b414b; top: 50%; left: 50%; transform: translate(-50%,-50%); -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); }
+		.burger-menu span:before,
+		.burger-menu span:after { content: ""; background-color: #3b414b; height: 2px; width: 25px; position: absolute; top: 10px; transition: 0.5s linear; -webkit-transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; }
+		.burger-menu span:before { top: -10px; }
+		.burger-menu.active span { background-color: transparent; }
+		.burger-menu.active span:before { top: 0; transform: rotate(-45deg); }
+		.burger-menu.active span:after { top: 0; transform: rotate(45deg); }
+
+		/*------- Hamburger Menu CSS Ends -------*/
+
+		.navigation-menu { background-color: #fff; border-top: 1px solid #eee; display: none; height: 100%; left: 0; position: fixed; top: 102px; width: 100%; z-index: 9999; }
+		.menu-listing { text-align: left; }
+		.menu-listing > li { display: block; margin: 0 0 10px 0; position: relative; }
+		.menu-listing > li:first-child { margin-top: 10px; }
+		/*.menu-listing > li:nth-last-child(2) { margin-bottom: 30px; }*/
+		/*.menu-listing > li:last-child { border-top: 1px solid #eee; display: block; padding: 30px 0; }*/
+		.menu-listing > li > a { display: block; padding: 0 15px; }
+		.navigation-signup-signin-listing > li:last-child { display: none; }
+		.navigation-signup-signin-listing > li:first-child > a { padding: 10px 12px; }
+		.menu-listing > li:nth-child(5) > a:before {
+			content: "\f078";
+			font-family: "Font Awesome 5 Free";
+			font-weight: 900;
+			position: absolute;
+			right: 15px;
+			top: 50%;
+			transform: translateY(-50%);
+			-webkit-transform: translateY(-50%);
+			-moz-transform: translateY(-50%);
+			-ms-transform: translateY(-50%);
+			-o-transform: translateY(-50%);
+		}
+		.menu-listing.active > li:nth-child(5) > a:before { content: "\f077"; }
+		.menu-listing-mob > li > a:hover { color: #3b414b; }
+		.menu-listing-mob > li > a:hover:after { width: 0; }
+		.sub-menu-listing > li { display: block; }
+		.sub-menu-listing > li > a { color: #3b414b; display: block; font: 1.6rem/1.42857143 "NunitoSans-SemiBold"; padding: 10px 30px 0; }
+		.header-search-field-mob { margin-top: 35px; padding: 0 15px; top: 0; }
+		.mySlides h4 {
+			margin-top: 10px!important;
+		}
+
+		.prev-btn {
+			left: -10px;
+		}
+	}
+
+	
+}
+
+/*------- Navigationbar Menu Section Ends -------*/
+
+
+@media only screen and (max-width: 600px) {
+
+	.place-right {
+		display: inline-block;
+		margin-top: 0!important; 
+		padding: 5px!important;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.pop-up-icons li {
+		padding-left: 4px;
+	}
+}
+
+
+
+
